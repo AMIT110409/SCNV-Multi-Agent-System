@@ -1,0 +1,302 @@
+[
+    {
+        "source": "6f89e3650f420c9e43a96150f83c8347",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.9083936197711787
+    },
+    {
+        "source": "6f89e3650f420c9e43a96150f83c8347",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.8864033230968336
+    },
+    {
+        "source": "6f89e3650f420c9e43a96150f83c8347",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.7275256608287426
+    },
+    {
+        "source": "6f89e3650f420c9e43a96150f83c8347",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.541731345743889
+    },
+    {
+        "source": "6f89e3650f420c9e43a96150f83c8347",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.7144485053830125
+    },
+    {
+        "source": "23fc4cba066f390a8cc729c7592b6ee8",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.6235513733430538
+    },
+    {
+        "source": "23fc4cba066f390a8cc729c7592b6ee8",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.536414444659324
+    },
+    {
+        "source": "23fc4cba066f390a8cc729c7592b6ee8",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.5558318999320865
+    },
+    {
+        "source": "23fc4cba066f390a8cc729c7592b6ee8",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.594198808135799
+    },
+    {
+        "source": "23fc4cba066f390a8cc729c7592b6ee8",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.9414685002921566
+    },
+    {
+        "source": "234833147b97bb6aed53a8f4f1c7a7d8",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.5501217082861887
+    },
+    {
+        "source": "234833147b97bb6aed53a8f4f1c7a7d8",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.7210527346026293
+    },
+    {
+        "source": "234833147b97bb6aed53a8f4f1c7a7d8",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.786845615495481
+    },
+    {
+        "source": "234833147b97bb6aed53a8f4f1c7a7d8",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.625623129572102
+    },
+    {
+        "source": "234833147b97bb6aed53a8f4f1c7a7d8",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.5214508326695292
+    },
+    {
+        "source": "c84dc869ccb1a54ba5e529be5e80891b",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.66037987050527
+    },
+    {
+        "source": "c84dc869ccb1a54ba5e529be5e80891b",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.7093088308468829
+    },
+    {
+        "source": "c84dc869ccb1a54ba5e529be5e80891b",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.7760893809062348
+    },
+    {
+        "source": "c84dc869ccb1a54ba5e529be5e80891b",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.6509926483379429
+    },
+    {
+        "source": "c84dc869ccb1a54ba5e529be5e80891b",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.9257551213264557
+    },
+    {
+        "source": "0cc4b4c9258a2939da96f3397d64fdc6",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.4460171251654578
+    },
+    {
+        "source": "0cc4b4c9258a2939da96f3397d64fdc6",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.5457846803682656
+    },
+    {
+        "source": "0cc4b4c9258a2939da96f3397d64fdc6",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.6154438331716992
+    },
+    {
+        "source": "0cc4b4c9258a2939da96f3397d64fdc6",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.8104096914681759
+    },
+    {
+        "source": "0cc4b4c9258a2939da96f3397d64fdc6",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.44001198070115055
+    },
+    {
+        "source": "a7614c0d18c91a8888aaf72b126db7c8",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.7918426865325281
+    },
+    {
+        "source": "a7614c0d18c91a8888aaf72b126db7c8",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.6279696727851798
+    },
+    {
+        "source": "a7614c0d18c91a8888aaf72b126db7c8",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.8202994860122295
+    },
+    {
+        "source": "a7614c0d18c91a8888aaf72b126db7c8",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.4355898898216438
+    },
+    {
+        "source": "a7614c0d18c91a8888aaf72b126db7c8",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.7356732369835666
+    },
+    {
+        "source": "38181d991caac98be8fb2ecb8bd0f166",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.5616084825604934
+    },
+    {
+        "source": "38181d991caac98be8fb2ecb8bd0f166",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.5803082202368084
+    },
+    {
+        "source": "38181d991caac98be8fb2ecb8bd0f166",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.5575817169542006
+    },
+    {
+        "source": "38181d991caac98be8fb2ecb8bd0f166",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.48813170628590286
+    },
+    {
+        "source": "38181d991caac98be8fb2ecb8bd0f166",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.6828930574488845
+    },
+    {
+        "source": "94faac771d1be826d56fc308e94d62a3",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.8850025614671588
+    },
+    {
+        "source": "94faac771d1be826d56fc308e94d62a3",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.4850891028356387
+    },
+    {
+        "source": "94faac771d1be826d56fc308e94d62a3",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.8625766251300699
+    },
+    {
+        "source": "94faac771d1be826d56fc308e94d62a3",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.4660621432952053
+    },
+    {
+        "source": "94faac771d1be826d56fc308e94d62a3",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.947990990364172
+    },
+    {
+        "source": "7c533a97adc2dcbf2aa53bf887ede70a",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.7070843484533837
+    },
+    {
+        "source": "7c533a97adc2dcbf2aa53bf887ede70a",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.7658916580835631
+    },
+    {
+        "source": "7c533a97adc2dcbf2aa53bf887ede70a",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.8872409953156981
+    },
+    {
+        "source": "7c533a97adc2dcbf2aa53bf887ede70a",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.7766197986609464
+    },
+    {
+        "source": "7c533a97adc2dcbf2aa53bf887ede70a",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.5003997175448553
+    },
+    {
+        "source": "e727fa59ddefcefb5d39501167623132",
+        "destination": "f097aa53acd0d0ce83a88ca9c40524e7e0fa36ef487a3f9017293a7b34a373ff",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.5988532110916331
+    },
+    {
+        "source": "e727fa59ddefcefb5d39501167623132",
+        "destination": "6b184705a35ed473f008379ce512cb6acb87620f3a55f2ba766dadd821485e8b",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.515140354945812
+    },
+    {
+        "source": "e727fa59ddefcefb5d39501167623132",
+        "destination": "298021497f2940083a0a4576b451631a163bca05b5a2e031a0cb4d10db702c90",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.6255636609941535
+    },
+    {
+        "source": "e727fa59ddefcefb5d39501167623132",
+        "destination": "c702b9bd890d42c4fc56cf4fb903c4674eae498a0a24db3517deeb7201beb851",
+        "is_strategic_lane": false,
+        "capacity_utilization": 0.44741469903578596
+    },
+    {
+        "source": "e727fa59ddefcefb5d39501167623132",
+        "destination": "4c12a1724a7e4f4f1a6387a9bb51b27bfe49eecc8eb5867a594ee430c1111e6b",
+        "is_strategic_lane": true,
+        "capacity_utilization": 0.47190667168937817
+    }
+]

@@ -1,0 +1,1092 @@
+[
+    {
+        "plant_id": "08f38e0434442128fab5ead6217ca759",
+        "country": "SG",
+        "region": "SG"
+    },
+    {
+        "plant_id": "22b1f2e0983160db6f7bb9f62f4dbb39",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "40685b1b7030af626bdf8f8bdd115b9c",
+        "country": "HK",
+        "region": "NT"
+    },
+    {
+        "plant_id": "57df43f2b383566d9bf9857ae48f7af2",
+        "country": "MX",
+        "region": "MEX"
+    },
+    {
+        "plant_id": "65fc9fb4897a89789352e211ca2d398f",
+        "country": "JP",
+        "region": "24"
+    },
+    {
+        "plant_id": "757b92f9df075806581855d8c0b4420a",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "a7150cd6f6610c6d28cf13c1b06c6f15",
+        "country": "US",
+        "region": "WV"
+    },
+    {
+        "plant_id": "ad1b64b4c61c854b59537ae70af890fc",
+        "country": "BR",
+        "region": "SP"
+    },
+    {
+        "plant_id": "b096577e264d1ebd6b41041f392eec23",
+        "country": "US",
+        "region": "TX"
+    },
+    {
+        "plant_id": "c3fe9109a6ba3de6eca12ec3c7959639",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "dda04f9d634145a9c68d5dfe53b21272",
+        "country": "DE",
+        "region": "15"
+    },
+    {
+        "plant_id": "f35a2bc72dfdc2aae569a0c7370bd7f5",
+        "country": "US",
+        "region": "NJ"
+    },
+    {
+        "plant_id": "0137daf1d0891ba3e3e04da7970454cb",
+        "country": "US",
+        "region": "NC"
+    },
+    {
+        "plant_id": "09e953304a1a26e324e370bd38524075",
+        "country": "TR",
+        "region": "41"
+    },
+    {
+        "plant_id": "0b7e926154c1274e8b602ff0d7c133d7",
+        "country": "US",
+        "region": "TX"
+    },
+    {
+        "plant_id": "0f855422bfd001709fada100edf5c16c",
+        "country": "IN",
+        "region": "06"
+    },
+    {
+        "plant_id": "1faedda3889f4a23c211a191c8608fca",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "3011c01d859a84008e348f9c727ac68d",
+        "country": "BE",
+        "region": "01"
+    },
+    {
+        "plant_id": "31c97cbb941d3e92d0e6f9925e9bc4d7",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "358aee4cc897452c00244351e4d91f69",
+        "country": "US",
+        "region": "IN"
+    },
+    {
+        "plant_id": "64a08e5f1e6c39faeb90108c430eb120",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "7805b793230668c469b7d9c94379e28b",
+        "country": "BR",
+        "region": "SP"
+    },
+    {
+        "plant_id": "7884a9652e94555c70f96b6be63be216",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "80d606b525e27ea1a3c55515eeadee1a",
+        "country": "SK",
+        "region": "01"
+    },
+    {
+        "plant_id": "88fee0421317424e4469f33a48f50cb0",
+        "country": "US",
+        "region": "MI"
+    },
+    {
+        "plant_id": "92f54963fc39a9d87c2253186808ea61",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "9b1aea7a7a05e99b835b00dfa4d07ca6",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "a7614c0d18c91a8888aaf72b126db7c8",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "b06f50d1f89bd8b2a0fb771c1a69c2b0",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "c315f0320b7cd4ec85756fac52d78076",
+        "country": "IN",
+        "region": "22"
+    },
+    {
+        "plant_id": "cd72420bd2942ae01fd42473702b0be7",
+        "country": "BE",
+        "region": "01"
+    },
+    {
+        "plant_id": "cdcb2f5c7b071143529ef7f2705dfbc4",
+        "country": "IN",
+        "region": "33"
+    },
+    {
+        "plant_id": "da2e7b6a3a439421dd792a59a461bd2e",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "1680e9fa7b4dd5d62ece800239bb53bd",
+        "country": "US",
+        "region": "GA"
+    },
+    {
+        "plant_id": "1b6db505c7505676666f584216674d0d",
+        "country": "US",
+        "region": "IL"
+    },
+    {
+        "plant_id": "2065ec74ca093a9a1ddaa8015a8bdccb",
+        "country": "US",
+        "region": "PA"
+    },
+    {
+        "plant_id": "2fa6efecd89d8b5949389c86bc1cd0a2",
+        "country": "nan",
+        "region": "nan"
+    },
+    {
+        "plant_id": "33267e5dc58fad346e92471c43fcccdc",
+        "country": "IN",
+        "region": "07"
+    },
+    {
+        "plant_id": "362387494f6be6613daea643a7706a42",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "403ea2e851b9ab04a996beab4a480a30",
+        "country": "JP",
+        "region": "29"
+    },
+    {
+        "plant_id": "4e0223a87610176ef0d24ef6d2dcde3a",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "70e23465c7d0b9b3868ecaae6d20efc2",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "78f7d96ea21ccae89a7b581295f34135",
+        "country": "IN",
+        "region": "22"
+    },
+    {
+        "plant_id": "7aee26c309def8c5a2a076eb250b8f36",
+        "country": "JP",
+        "region": "13"
+    },
+    {
+        "plant_id": "825f9cd5f0390bc77c1fed3c94885c87",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "883acd43c77567e1c3baced84ccf6ed7",
+        "country": "nan",
+        "region": "nan"
+    },
+    {
+        "plant_id": "92bf5e6240737e0326ea59846a83e076",
+        "country": "JP",
+        "region": "11"
+    },
+    {
+        "plant_id": "94faac771d1be826d56fc308e94d62a3",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "9813b270ed0288e7c0388f0fd4ec68f5",
+        "country": "US",
+        "region": "MI"
+    },
+    {
+        "plant_id": "b2ea5e977c5fc1ccfa74171a9723dd61",
+        "country": "TW",
+        "region": "TPE"
+    },
+    {
+        "plant_id": "b33d3f4d8402dab9a7bd1c4c3318a36b",
+        "country": "DE",
+        "region": "02"
+    },
+    {
+        "plant_id": "bb96a0a077da82f3bd506595b30826a6",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "c0e90532fb42ac6de18e25e95db73047",
+        "country": "GB",
+        "region": "nan"
+    },
+    {
+        "plant_id": "e6acf4b0f69f6f6e60e9a815938aa1ff",
+        "country": "BE",
+        "region": "05"
+    },
+    {
+        "plant_id": "e727fa59ddefcefb5d39501167623132",
+        "country": "US",
+        "region": "VA"
+    },
+    {
+        "plant_id": "ed57844fa5e051809ead5aa7e3e1d555",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "f21e255f89e0f258accbe4e984eef486",
+        "country": "MX",
+        "region": "SLP"
+    },
+    {
+        "plant_id": "f9601a3ce10e4ed6ea85d0d2e4f5f1dd",
+        "country": "US",
+        "region": "NC"
+    },
+    {
+        "plant_id": "fb084549ea6fd59b3c6831e3026ac5e1",
+        "country": "nan",
+        "region": "nan"
+    },
+    {
+        "plant_id": "02670f291968eaa0d5feef02cb27163f",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "142d1b05842fd88c5393a885e099a095",
+        "country": "DE",
+        "region": "nan"
+    },
+    {
+        "plant_id": "1cd138d0499a68f4bb72bee04bbec2d7",
+        "country": "JP",
+        "region": "13"
+    },
+    {
+        "plant_id": "32b991e5d77ad140559ffb95522992d0",
+        "country": "US",
+        "region": "IN"
+    },
+    {
+        "plant_id": "350bebac1bc960d5c28e38009d3e308e",
+        "country": "nan",
+        "region": "nan"
+    },
+    {
+        "plant_id": "3edcb7da862a1c46b48964322e70d44d",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "4cbf4c576415baba066d2fd1b3b7ce97",
+        "country": "nan",
+        "region": "nan"
+    },
+    {
+        "plant_id": "5e751896e527c862bf67251a474b3819",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "6f6bb3ed4df10bb920f615b5d8baadc1",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "8cf807de8a4f88c0a911a11d54aea186",
+        "country": "ES",
+        "region": "nan"
+    },
+    {
+        "plant_id": "9e8fc5b5108f8e2459fa4db5b95924f1",
+        "country": "GB",
+        "region": "CA"
+    },
+    {
+        "plant_id": "a6d259bfbfa2062843ef543e21d7ec8e",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "b99d295dd1b495116c5be7a758c8ade1",
+        "country": "BE",
+        "region": "nan"
+    },
+    {
+        "plant_id": "f24eeb1f2cddd2254e6b9e8641109b4f",
+        "country": "US",
+        "region": "PA"
+    },
+    {
+        "plant_id": "f2692f6a5d17bcc17f445d0237c53b1c",
+        "country": "DE",
+        "region": "07"
+    },
+    {
+        "plant_id": "fa2e8c4385712f9a1d24c363a2cbe5b8",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "2e7ceec8361275c4e31fee5fe422740b",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "33c9d790544ad2ad4cfa64713ec69616",
+        "country": "FR",
+        "region": "69"
+    },
+    {
+        "plant_id": "4a1590df1d5968d41b855005bb8b67bf",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "8279e2cffce183dc1491acdd217369a5",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "831caa1b600f852b7844499430ecac17",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "8f125da0b3432ed853c0b6f7ee5aaa6b",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "bbeb0c1b1fd44e392c7ce2fdbd137e87",
+        "country": "JP",
+        "region": "09"
+    },
+    {
+        "plant_id": "cdd96eedd7f695f4d61802f8105ba2b0",
+        "country": "JP",
+        "region": "28"
+    },
+    {
+        "plant_id": "da58fe74426f3fe13c6ff3f6c88df0b6",
+        "country": "US",
+        "region": "CA"
+    },
+    {
+        "plant_id": "df0e09d6f25a15a815563df9827f48fa",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "f2e43fa3400d826df4195a9ac70dca62",
+        "country": "CA",
+        "region": "QC"
+    },
+    {
+        "plant_id": "fc9fd271f36896138b8e3e0ed02d5205",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "fd4f21f2556dad0ea8b7a5c04eabebda",
+        "country": "JP",
+        "region": "23"
+    },
+    {
+        "plant_id": "ff2cc3b8c7caeaa068f2abbc234583f5",
+        "country": "JP",
+        "region": "09"
+    },
+    {
+        "plant_id": "234833147b97bb6aed53a8f4f1c7a7d8",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "25bbdcd06c32d477f7fa1c3e4a91b032",
+        "country": "BR",
+        "region": "SP"
+    },
+    {
+        "plant_id": "35a015cdf62855b47a130ce61232acd7",
+        "country": "IN",
+        "region": "07"
+    },
+    {
+        "plant_id": "494e5c2ac9d3e74696028680b2580206",
+        "country": "US",
+        "region": "NC"
+    },
+    {
+        "plant_id": "5410f15c2a6e22a8d5d5f6b28d040d74",
+        "country": "IN",
+        "region": "06"
+    },
+    {
+        "plant_id": "6d3bd6f4dd3c2b669d253612936eac63",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "ad47a008a2f806aa6eb1b53852cd8b37",
+        "country": "JP",
+        "region": "25"
+    },
+    {
+        "plant_id": "ae587cfeea5ac21a8f1c1ea51027fef0",
+        "country": "JP",
+        "region": "14"
+    },
+    {
+        "plant_id": "ae7b9c79591b17f8656c2b826ca4efb9",
+        "country": "GB",
+        "region": "OX"
+    },
+    {
+        "plant_id": "cc2da80ea93990510435bbfb6e0d2120",
+        "country": "nan",
+        "region": "nan"
+    },
+    {
+        "plant_id": "ce3d8d256cfc18a5aebf62856aae9cc1",
+        "country": "US",
+        "region": "SC"
+    },
+    {
+        "plant_id": "ce758408f6ef98d7c7a7b786eca7b3a8",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "d8b1684965a5e5e40ed35ebd2b98110d",
+        "country": "IN",
+        "region": "06"
+    },
+    {
+        "plant_id": "f12f2b34a0c3174269c19e21c07dee68",
+        "country": "US",
+        "region": "GA"
+    },
+    {
+        "plant_id": "f1f0404e7e34dfa7441d9e5301828743",
+        "country": "IN",
+        "region": "06"
+    },
+    {
+        "plant_id": "f3d814ccb97a176b464af904adde589d",
+        "country": "US",
+        "region": "NC"
+    },
+    {
+        "plant_id": "fc192b0c0d270dbf41870a63a8c76c2f",
+        "country": "TW",
+        "region": "KSH"
+    },
+    {
+        "plant_id": "0ea79370ee214603f0a116f5e7b345f1",
+        "country": "nan",
+        "region": "nan"
+    },
+    {
+        "plant_id": "3411163f6d82708a02ecd50491fd74a0",
+        "country": "US",
+        "region": "NJ"
+    },
+    {
+        "plant_id": "361440528766bbaaaa1901845cf4152b",
+        "country": "HK",
+        "region": "NT"
+    },
+    {
+        "plant_id": "421b3ac5c24ee992edd6087611c60dbb",
+        "country": "SG",
+        "region": "SG"
+    },
+    {
+        "plant_id": "453fadbd8a1a3af50a9df4df899537b5",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "5a45828dead8c065099cb653a2185df1",
+        "country": "IN",
+        "region": "07"
+    },
+    {
+        "plant_id": "6244b2ba957c48bc64582cf2bcec3d04",
+        "country": "JP",
+        "region": "40"
+    },
+    {
+        "plant_id": "6f89e3650f420c9e43a96150f83c8347",
+        "country": "NL",
+        "region": "nan"
+    },
+    {
+        "plant_id": "7c533a97adc2dcbf2aa53bf887ede70a",
+        "country": "BE",
+        "region": "01"
+    },
+    {
+        "plant_id": "81c2f886f91e18fe16d6f4e865877cb6",
+        "country": "CN",
+        "region": "190"
+    },
+    {
+        "plant_id": "94e6f3f45bf4405e82cc7497c4b7700b",
+        "country": "MX",
+        "region": "NL"
+    },
+    {
+        "plant_id": "a84d94bff96867736e94ced8c4614251",
+        "country": "DE",
+        "region": "08"
+    },
+    {
+        "plant_id": "bd70364a8fcba02366697df66f50b4d4",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "d1f47c0c789172d40c5310bb1a7cf668",
+        "country": "FR",
+        "region": "76"
+    },
+    {
+        "plant_id": "dbab2adc8f9d078009ee3fa810bea142",
+        "country": "BE",
+        "region": "06"
+    },
+    {
+        "plant_id": "e112532ce9d0b0d333dfa33a9047d66c",
+        "country": "BE",
+        "region": "01"
+    },
+    {
+        "plant_id": "070dbb6024b5ef93784428afc71f2146",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "0c215f194276000be6a6df6528067151",
+        "country": "US",
+        "region": "IN"
+    },
+    {
+        "plant_id": "0cc4b4c9258a2939da96f3397d64fdc6",
+        "country": "BE",
+        "region": "01"
+    },
+    {
+        "plant_id": "0d7363894acdee742caf7fe4e97c4d49",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "0e900ad84f63618452210ab8baae0218",
+        "country": "US",
+        "region": "MI"
+    },
+    {
+        "plant_id": "1563641bb8238e482a1455c21ab61446",
+        "country": "US",
+        "region": "PA"
+    },
+    {
+        "plant_id": "1a4457def84ea52c95dc6361ac226ed4",
+        "country": "NL",
+        "region": "12"
+    },
+    {
+        "plant_id": "217e342fc01668b10cb1188d40d3370e",
+        "country": "CA",
+        "region": "MB"
+    },
+    {
+        "plant_id": "2bc8ae25856bc2a6a1333d1331a3b7a6",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "2e74c2cf88f68a68c84e9509abc7ea56",
+        "country": "HK",
+        "region": "NT"
+    },
+    {
+        "plant_id": "4ea6a546c19499318091a9df40a13181",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "7c7d20b2e4bad95dc302069792986638",
+        "country": "KR",
+        "region": "13"
+    },
+    {
+        "plant_id": "80e56b247f95cf1396ab485b8c22b031",
+        "country": "IT",
+        "region": "nan"
+    },
+    {
+        "plant_id": "908a6f6a6c131a850ecb0e3f11b08189",
+        "country": "US",
+        "region": "IN"
+    },
+    {
+        "plant_id": "977fc4bedb23e3b910e4ce85d8b4b21a",
+        "country": "CN",
+        "region": "020"
+    },
+    {
+        "plant_id": "978fce5bcc4eccc88ad48ce3914124a2",
+        "country": "NL",
+        "region": "01"
+    },
+    {
+        "plant_id": "9998a6b8f528d7a1d2001b2c8528165a",
+        "country": "PL",
+        "region": "01"
+    },
+    {
+        "plant_id": "b1300291698eadedb559786c809cc592",
+        "country": "JP",
+        "region": "09"
+    },
+    {
+        "plant_id": "b628386c9b92481fab68fbf284bd6a64",
+        "country": "JP",
+        "region": "23"
+    },
+    {
+        "plant_id": "b7f1f29db7c23648f2bb8d6a8ee0469b",
+        "country": "IN",
+        "region": "06"
+    },
+    {
+        "plant_id": "de594ef5c314372edec29b93cab9d72e",
+        "country": "JP",
+        "region": "13"
+    },
+    {
+        "plant_id": "e0853e9e673d7e813328a39daa7b7799",
+        "country": "US",
+        "region": "NJ"
+    },
+    {
+        "plant_id": "e389cd23230c472a1975102f6f5cc91d",
+        "country": "FR",
+        "region": "69"
+    },
+    {
+        "plant_id": "f1d36c68b175d7e3d8cbb6e0c6a90249",
+        "country": "BE",
+        "region": "01"
+    },
+    {
+        "plant_id": "f565bb9efccaf6986443db0bf01018bc",
+        "country": "JP",
+        "region": "23"
+    },
+    {
+        "plant_id": "03fa2f7502f5f6b9169e67d17cbf51bb",
+        "country": "CN",
+        "region": "020"
+    },
+    {
+        "plant_id": "220c77af02f8ad8561b150d93000ddff",
+        "country": "CN",
+        "region": "020"
+    },
+    {
+        "plant_id": "49e68363ef4bb806e33f16de0060b882",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "4bbdcc0e821637155ac4217bdab70d2e",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "51fb6e4c78fe5b073a92404841ebe19e",
+        "country": "BE",
+        "region": "08"
+    },
+    {
+        "plant_id": "5a99158e0c52f9e7d290906c9d08268d",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "a2bab1b5ff2eb146587f809adda2469b",
+        "country": "CN",
+        "region": "130"
+    },
+    {
+        "plant_id": "a7789ef88d599b8df86bbee632b2994d",
+        "country": "US",
+        "region": "CA"
+    },
+    {
+        "plant_id": "b4ac2b673d2c8a2990a939e38af35297",
+        "country": "GB",
+        "region": "nan"
+    },
+    {
+        "plant_id": "cbc44b43a7868cb36de1a38afe3dfcad",
+        "country": "US",
+        "region": "SC"
+    },
+    {
+        "plant_id": "f6be002f3df29a836d4abd56593bfea7",
+        "country": "DE",
+        "region": "01"
+    },
+    {
+        "plant_id": "f8da71e562ff44a2bc7edf3578c593da",
+        "country": "US",
+        "region": "MI"
+    },
+    {
+        "plant_id": "fe033ac9dc33e109c9cc81a80ebc5e77",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "026a39ae63343c68b5223a95f3e17616",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "06fe1c234519f6812fc4c1baae25d6af",
+        "country": "US",
+        "region": "GA"
+    },
+    {
+        "plant_id": "0738069b244a1c43c83112b735140a16",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "0d7477ddf376ac1f4e6e1d2ab7b1d380",
+        "country": "US",
+        "region": "CO"
+    },
+    {
+        "plant_id": "1102a326d5f7c9e04fc3c89d0ede88c9",
+        "country": "US",
+        "region": "NY"
+    },
+    {
+        "plant_id": "23fc4cba066f390a8cc729c7592b6ee8",
+        "country": "IN",
+        "region": "05"
+    },
+    {
+        "plant_id": "283085d30e10513624c8cece7993f4de",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "3b9d59a9c95bfd994cd9192352c24841",
+        "country": "US",
+        "region": "PA"
+    },
+    {
+        "plant_id": "48c3ec5c3a93a9e294a8a6392ccedeb4",
+        "country": "BE",
+        "region": "01"
+    },
+    {
+        "plant_id": "4ebccfb3e317c7789f04f7a558df4537",
+        "country": "NL",
+        "region": "01"
+    },
+    {
+        "plant_id": "62056c8ba21be5679cb279322a2f553e",
+        "country": "US",
+        "region": "PA"
+    },
+    {
+        "plant_id": "656504efa5880fd606f2851cfd6acff4",
+        "country": "US",
+        "region": "TX"
+    },
+    {
+        "plant_id": "6fbe5217549a45af667df8755cece31e",
+        "country": "IT",
+        "region": "MI"
+    },
+    {
+        "plant_id": "743c41a921516b04afde48bb48e28ce6",
+        "country": "SE",
+        "region": "006"
+    },
+    {
+        "plant_id": "9407c826d8e3c07ad37cb2d13d1cb641",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "a7a3d70c6d17a73140918996d03c014f",
+        "country": "JP",
+        "region": "40"
+    },
+    {
+        "plant_id": "b1c00bcd4b5183705c134b3365f8c45e",
+        "country": "IN",
+        "region": "13"
+    },
+    {
+        "plant_id": "b6f751d6b4c29c3f497bbca28702cae2",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "c91da50eb7a03406ecf39ef38cc30f4a",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "ce99faad2f1839bb616a42ee8ed37e88",
+        "country": "MX",
+        "region": "QRO"
+    },
+    {
+        "plant_id": "d47844673f2db74d78da8687d794523d",
+        "country": "JP",
+        "region": "40"
+    },
+    {
+        "plant_id": "d8e1344e27a5b08cdfd5d027d9b8d6de",
+        "country": "JP",
+        "region": "29"
+    },
+    {
+        "plant_id": "fc479c5146ffffb88f6d1ecf28d94f3d",
+        "country": "NL",
+        "region": "nan"
+    },
+    {
+        "plant_id": "030e65da2b1c944090548d36b244b28d",
+        "country": "TW",
+        "region": "KSH"
+    },
+    {
+        "plant_id": "18bb68e2b38e4a8ce7cf4f6b2625768c",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "1b1431024a2bc4593de5e7899eea1397",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "30aaf34d6afd4b11cc3b3ac4704c7908",
+        "country": "DE",
+        "region": "09"
+    },
+    {
+        "plant_id": "3babd94224255b13e94f2d5bead26640",
+        "country": "BR",
+        "region": "SP"
+    },
+    {
+        "plant_id": "50abc3e730e36b387ca8e02c26dc0a22",
+        "country": "NL",
+        "region": "01"
+    },
+    {
+        "plant_id": "531db99cb00833bcd414459069dc7387",
+        "country": "IN",
+        "region": "33"
+    },
+    {
+        "plant_id": "60243f9b1ac2dba11ff8131c8f4431e0",
+        "country": "TW",
+        "region": "KSH"
+    },
+    {
+        "plant_id": "7876acb66640bad41f1e1371ef30c180",
+        "country": "BE",
+        "region": "05"
+    },
+    {
+        "plant_id": "7f7c351ee977c765aa8cd5c7020bc38f",
+        "country": "CN",
+        "region": "100"
+    },
+    {
+        "plant_id": "852c44ddce7e0c7e4c64d86147300831",
+        "country": "IE",
+        "region": "nan"
+    },
+    {
+        "plant_id": "87682805257e619d49b8e0dfdc14affa",
+        "country": "NL",
+        "region": "06"
+    },
+    {
+        "plant_id": "881969ac94d1762fd7d0063e4e0dab37",
+        "country": "IN",
+        "region": "22"
+    },
+    {
+        "plant_id": "8fb9942185975c6e0b2992587fd0d981",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "93ca746c3824c6174c2da28db36f71f1",
+        "country": "US",
+        "region": "PA"
+    },
+    {
+        "plant_id": "b4a721cfb62f5d19ec61575114d8a2d1",
+        "country": "JP",
+        "region": "02"
+    },
+    {
+        "plant_id": "e4b24d0984851a4c7f2f4c60d294fc30",
+        "country": "BE",
+        "region": "04"
+    },
+    {
+        "plant_id": "eb0ecdb070a1a0ac46de0cd733d39cf3",
+        "country": "BE",
+        "region": "05"
+    },
+    {
+        "plant_id": "ee62ea6672c72a7bf3b061680208d3c2",
+        "country": "BE",
+        "region": "05"
+    },
+    {
+        "plant_id": "fb89fd138b104dcf8e2077ad2a23954d",
+        "country": "BE",
+        "region": "05"
+    },
+    {
+        "plant_id": "058d6f2fbe951a5a56d96b1f1a6bca1c",
+        "country": "JP",
+        "region": "46"
+    },
+    {
+        "plant_id": "38181d991caac98be8fb2ecb8bd0f166",
+        "country": "US",
+        "region": "IN"
+    },
+    {
+        "plant_id": "47279f4d7c670367a5a7bd11cee54b6f",
+        "country": "MX",
+        "region": "PUE"
+    },
+    {
+        "plant_id": "4a5876b450b45371f6cfe5047ac8cd45",
+        "country": "JP",
+        "region": "40"
+    },
+    {
+        "plant_id": "65f2a94c8c2d56d5b43a1a3d9d811102",
+        "country": "CN",
+        "region": "020"
+    },
+    {
+        "plant_id": "85353d3b2f39b9c9b5ee3576578c04b7",
+        "country": "NL",
+        "region": "01"
+    },
+    {
+        "plant_id": "be7878443cfac258324c25d3df1c2ab7",
+        "country": "DE",
+        "region": "15"
+    },
+    {
+        "plant_id": "c84dc869ccb1a54ba5e529be5e80891b",
+        "country": "nan",
+        "region": "nan"
+    },
+    {
+        "plant_id": "da2aa151dc9fe6161f1db5f283a18bbd",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "e0688d13958a19e087e123148555e4b4",
+        "country": "US",
+        "region": "NC"
+    },
+    {
+        "plant_id": "e1934230e977ab7ed57e5ece5f9da5ca",
+        "country": "DE",
+        "region": "05"
+    },
+    {
+        "plant_id": "e262fc33134b844566d347fce8c92a19",
+        "country": "BE",
+        "region": "01"
+    },
+    {
+        "plant_id": "eb06b9db06012a7a4179b8f3cb5384d3",
+        "country": "US",
+        "region": "MI"
+    },
+    {
+        "plant_id": "f3c51d4bfaf65ac76bab085f8b6fe1ae",
+        "country": "BE",
+        "region": "08"
+    },
+    {
+        "plant_id": "f7f75abb4f12120f5b94a0e284dd7df2",
+        "country": "BE",
+        "region": "01"
+    }
+]

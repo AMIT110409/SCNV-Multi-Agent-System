@@ -1,0 +1,46 @@
+# Environments
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secret files
+.env
+.env.*
+backend/.env
+backend/.env.*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large Data Sets & Objects
+dist/
+build/
+*.exe
+data/raw_tables/
+docs/*.xlsx
+*.csv
+*.xlsx
+*.log
+
+# Project Specific
+backend/scnv_agent.db
+out.log
+validation_report.txt
+validation_report_sto.txt
+extract.txt
+parsed_doc.txt
+data_summary.txt

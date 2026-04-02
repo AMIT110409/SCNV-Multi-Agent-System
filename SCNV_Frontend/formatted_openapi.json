@@ -1,0 +1,937 @@
+{
+    "openapi":  "3.1.0",
+    "info":  {
+                 "title":  "Pharma RAG Platform API",
+                 "version":  "0.1.0"
+             },
+    "paths":  {
+                  "/api/auth/register":  {
+                                             "post":  {
+                                                          "tags":  [
+                                                                       "auth"
+                                                                   ],
+                                                          "summary":  "Register",
+                                                          "operationId":  "register_api_auth_register_post",
+                                                          "requestBody":  {
+                                                                              "content":  {
+                                                                                              "application/json":  {
+                                                                                                                       "schema":  {
+                                                                                                                                      "$ref":  "#/components/schemas/UserCreate"
+                                                                                                                                  }
+                                                                                                                   }
+                                                                                          },
+                                                                              "required":  true
+                                                                          },
+                                                          "responses":  {
+                                                                            "201":  {
+                                                                                        "description":  "Successful Response",
+                                                                                        "content":  {
+                                                                                                        "application/json":  {
+                                                                                                                                 "schema":  {
+
+                                                                                                                                            }
+                                                                                                                             }
+                                                                                                    }
+                                                                                    },
+                                                                            "422":  {
+                                                                                        "description":  "Validation Error",
+                                                                                        "content":  {
+                                                                                                        "application/json":  {
+                                                                                                                                 "schema":  {
+                                                                                                                                                "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                            }
+                                                                                                                             }
+                                                                                                    }
+                                                                                    }
+                                                                        }
+                                                      }
+                                         },
+                  "/api/auth/login":  {
+                                          "post":  {
+                                                       "tags":  [
+                                                                    "auth"
+                                                                ],
+                                                       "summary":  "Login",
+                                                       "operationId":  "login_api_auth_login_post",
+                                                       "requestBody":  {
+                                                                           "content":  {
+                                                                                           "application/x-www-form-urlencoded":  {
+                                                                                                                                     "schema":  {
+                                                                                                                                                    "$ref":  "#/components/schemas/Body_login_api_auth_login_post"
+                                                                                                                                                }
+                                                                                                                                 }
+                                                                                       },
+                                                                           "required":  true
+                                                                       },
+                                                       "responses":  {
+                                                                         "200":  {
+                                                                                     "description":  "Successful Response",
+                                                                                     "content":  {
+                                                                                                     "application/json":  {
+                                                                                                                              "schema":  {
+                                                                                                                                             "$ref":  "#/components/schemas/Token"
+                                                                                                                                         }
+                                                                                                                          }
+                                                                                                 }
+                                                                                 },
+                                                                         "422":  {
+                                                                                     "description":  "Validation Error",
+                                                                                     "content":  {
+                                                                                                     "application/json":  {
+                                                                                                                              "schema":  {
+                                                                                                                                             "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                         }
+                                                                                                                          }
+                                                                                                 }
+                                                                                 }
+                                                                     }
+                                                   }
+                                      },
+                  "/api/chat/":  {
+                                     "post":  {
+                                                  "tags":  [
+                                                               "Chat"
+                                                           ],
+                                                  "summary":  "Chat With Agent",
+                                                  "operationId":  "chat_with_agent_api_chat__post",
+                                                  "requestBody":  {
+                                                                      "content":  {
+                                                                                      "application/json":  {
+                                                                                                               "schema":  {
+                                                                                                                              "$ref":  "#/components/schemas/ChatRequest"
+                                                                                                                          }
+                                                                                                           }
+                                                                                  },
+                                                                      "required":  true
+                                                                  },
+                                                  "responses":  {
+                                                                    "200":  {
+                                                                                "description":  "Successful Response",
+                                                                                "content":  {
+                                                                                                "application/json":  {
+                                                                                                                         "schema":  {
+                                                                                                                                        "$ref":  "#/components/schemas/ChatResponse"
+                                                                                                                                    }
+                                                                                                                     }
+                                                                                            }
+                                                                            },
+                                                                    "422":  {
+                                                                                "description":  "Validation Error",
+                                                                                "content":  {
+                                                                                                "application/json":  {
+                                                                                                                         "schema":  {
+                                                                                                                                        "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                    }
+                                                                                                                     }
+                                                                                            }
+                                                                            }
+                                                                },
+                                                  "security":  [
+                                                                   {
+                                                                       "OAuth2PasswordBearer":  [
+
+                                                                                                ]
+                                                                   }
+                                                               ]
+                                              }
+                                 },
+                  "/api/chat/stream":  {
+                                           "post":  {
+                                                        "tags":  [
+                                                                     "Chat"
+                                                                 ],
+                                                        "summary":  "Chat With Agent Stream",
+                                                        "operationId":  "chat_with_agent_stream_api_chat_stream_post",
+                                                        "requestBody":  {
+                                                                            "content":  {
+                                                                                            "application/json":  {
+                                                                                                                     "schema":  {
+                                                                                                                                    "$ref":  "#/components/schemas/ChatRequest"
+                                                                                                                                }
+                                                                                                                 }
+                                                                                        },
+                                                                            "required":  true
+                                                                        },
+                                                        "responses":  {
+                                                                          "200":  {
+                                                                                      "description":  "Successful Response",
+                                                                                      "content":  {
+                                                                                                      "application/json":  {
+                                                                                                                               "schema":  {
+
+                                                                                                                                          }
+                                                                                                                           }
+                                                                                                  }
+                                                                                  },
+                                                                          "422":  {
+                                                                                      "description":  "Validation Error",
+                                                                                      "content":  {
+                                                                                                      "application/json":  {
+                                                                                                                               "schema":  {
+                                                                                                                                              "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                          }
+                                                                                                                           }
+                                                                                                  }
+                                                                                  }
+                                                                      },
+                                                        "security":  [
+                                                                         {
+                                                                             "OAuth2PasswordBearer":  [
+
+                                                                                                      ]
+                                                                         }
+                                                                     ]
+                                                    }
+                                       },
+                  "/api/documents/upload":  {
+                                                "post":  {
+                                                             "tags":  [
+                                                                          "Documents"
+                                                                      ],
+                                                             "summary":  "Upload Document",
+                                                             "operationId":  "upload_document_api_documents_upload_post",
+                                                             "requestBody":  {
+                                                                                 "content":  {
+                                                                                                 "multipart/form-data":  {
+                                                                                                                             "schema":  {
+                                                                                                                                            "$ref":  "#/components/schemas/Body_upload_document_api_documents_upload_post"
+                                                                                                                                        }
+                                                                                                                         }
+                                                                                             },
+                                                                                 "required":  true
+                                                                             },
+                                                             "responses":  {
+                                                                               "200":  {
+                                                                                           "description":  "Successful Response",
+                                                                                           "content":  {
+                                                                                                           "application/json":  {
+                                                                                                                                    "schema":  {
+
+                                                                                                                                               }
+                                                                                                                                }
+                                                                                                       }
+                                                                                       },
+                                                                               "422":  {
+                                                                                           "description":  "Validation Error",
+                                                                                           "content":  {
+                                                                                                           "application/json":  {
+                                                                                                                                    "schema":  {
+                                                                                                                                                   "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                               }
+                                                                                                                                }
+                                                                                                       }
+                                                                                       }
+                                                                           },
+                                                             "security":  [
+                                                                              {
+                                                                                  "OAuth2PasswordBearer":  [
+
+                                                                                                           ]
+                                                                              }
+                                                                          ]
+                                                         }
+                                            },
+                  "/api/documents/":  {
+                                          "get":  {
+                                                      "tags":  [
+                                                                   "Documents"
+                                                               ],
+                                                      "summary":  "List Documents",
+                                                      "description":  "List all uploaded documents.",
+                                                      "operationId":  "list_documents_api_documents__get",
+                                                      "responses":  {
+                                                                        "200":  {
+                                                                                    "description":  "Successful Response",
+                                                                                    "content":  {
+                                                                                                    "application/json":  {
+                                                                                                                             "schema":  {
+
+                                                                                                                                        }
+                                                                                                                         }
+                                                                                                }
+                                                                                }
+                                                                    }
+                                                  }
+                                      },
+                  "/api/documents/view/{filename}":  {
+                                                         "get":  {
+                                                                     "tags":  [
+                                                                                  "Documents"
+                                                                              ],
+                                                                     "summary":  "View Document",
+                                                                     "description":  "Serve an uploaded document for viewing.",
+                                                                     "operationId":  "view_document_api_documents_view__filename__get",
+                                                                     "parameters":  [
+                                                                                        {
+                                                                                            "name":  "filename",
+                                                                                            "in":  "path",
+                                                                                            "required":  true,
+                                                                                            "schema":  {
+                                                                                                           "type":  "string",
+                                                                                                           "title":  "Filename"
+                                                                                                       }
+                                                                                        }
+                                                                                    ],
+                                                                     "responses":  {
+                                                                                       "200":  {
+                                                                                                   "description":  "Successful Response",
+                                                                                                   "content":  {
+                                                                                                                   "application/json":  {
+                                                                                                                                            "schema":  {
+
+                                                                                                                                                       }
+                                                                                                                                        }
+                                                                                                               }
+                                                                                               },
+                                                                                       "422":  {
+                                                                                                   "description":  "Validation Error",
+                                                                                                   "content":  {
+                                                                                                                   "application/json":  {
+                                                                                                                                            "schema":  {
+                                                                                                                                                           "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                                       }
+                                                                                                                                        }
+                                                                                                               }
+                                                                                               }
+                                                                                   }
+                                                                 }
+                                                     },
+                  "/api/history/sessions":  {
+                                                "get":  {
+                                                            "tags":  [
+                                                                         "Chat History"
+                                                                     ],
+                                                            "summary":  "Api List Sessions",
+                                                            "description":  "List all saved chat sessions (max 5, newest first).",
+                                                            "operationId":  "api_list_sessions_api_history_sessions_get",
+                                                            "responses":  {
+                                                                              "200":  {
+                                                                                          "description":  "Successful Response",
+                                                                                          "content":  {
+                                                                                                          "application/json":  {
+                                                                                                                                   "schema":  {
+
+                                                                                                                                              }
+                                                                                                                               }
+                                                                                                      }
+                                                                                      }
+                                                                          }
+                                                        },
+                                                "post":  {
+                                                             "tags":  [
+                                                                          "Chat History"
+                                                                      ],
+                                                             "summary":  "Api Save Session",
+                                                             "description":  "Save or update a chat session.",
+                                                             "operationId":  "api_save_session_api_history_sessions_post",
+                                                             "requestBody":  {
+                                                                                 "content":  {
+                                                                                                 "application/json":  {
+                                                                                                                          "schema":  {
+                                                                                                                                         "$ref":  "#/components/schemas/SaveSessionPayload"
+                                                                                                                                     }
+                                                                                                                      }
+                                                                                             },
+                                                                                 "required":  true
+                                                                             },
+                                                             "responses":  {
+                                                                               "200":  {
+                                                                                           "description":  "Successful Response",
+                                                                                           "content":  {
+                                                                                                           "application/json":  {
+                                                                                                                                    "schema":  {
+
+                                                                                                                                               }
+                                                                                                                                }
+                                                                                                       }
+                                                                                       },
+                                                                               "422":  {
+                                                                                           "description":  "Validation Error",
+                                                                                           "content":  {
+                                                                                                           "application/json":  {
+                                                                                                                                    "schema":  {
+                                                                                                                                                   "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                               }
+                                                                                                                                }
+                                                                                                       }
+                                                                                       }
+                                                                           }
+                                                         }
+                                            },
+                  "/api/history/sessions/{session_id}":  {
+                                                             "get":  {
+                                                                         "tags":  [
+                                                                                      "Chat History"
+                                                                                  ],
+                                                                         "summary":  "Api Get Session",
+                                                                         "description":  "Get a full chat session by ID, including all messages.",
+                                                                         "operationId":  "api_get_session_api_history_sessions__session_id__get",
+                                                                         "parameters":  [
+                                                                                            {
+                                                                                                "name":  "session_id",
+                                                                                                "in":  "path",
+                                                                                                "required":  true,
+                                                                                                "schema":  {
+                                                                                                               "type":  "string",
+                                                                                                               "title":  "Session Id"
+                                                                                                           }
+                                                                                            }
+                                                                                        ],
+                                                                         "responses":  {
+                                                                                           "200":  {
+                                                                                                       "description":  "Successful Response",
+                                                                                                       "content":  {
+                                                                                                                       "application/json":  {
+                                                                                                                                                "schema":  {
+
+                                                                                                                                                           }
+                                                                                                                                            }
+                                                                                                                   }
+                                                                                                   },
+                                                                                           "422":  {
+                                                                                                       "description":  "Validation Error",
+                                                                                                       "content":  {
+                                                                                                                       "application/json":  {
+                                                                                                                                                "schema":  {
+                                                                                                                                                               "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                                           }
+                                                                                                                                            }
+                                                                                                                   }
+                                                                                                   }
+                                                                                       }
+                                                                     },
+                                                             "delete":  {
+                                                                            "tags":  [
+                                                                                         "Chat History"
+                                                                                     ],
+                                                                            "summary":  "Api Delete Session",
+                                                                            "description":  "Delete a session by ID.",
+                                                                            "operationId":  "api_delete_session_api_history_sessions__session_id__delete",
+                                                                            "parameters":  [
+                                                                                               {
+                                                                                                   "name":  "session_id",
+                                                                                                   "in":  "path",
+                                                                                                   "required":  true,
+                                                                                                   "schema":  {
+                                                                                                                  "type":  "string",
+                                                                                                                  "title":  "Session Id"
+                                                                                                              }
+                                                                                               }
+                                                                                           ],
+                                                                            "responses":  {
+                                                                                              "200":  {
+                                                                                                          "description":  "Successful Response",
+                                                                                                          "content":  {
+                                                                                                                          "application/json":  {
+                                                                                                                                                   "schema":  {
+
+                                                                                                                                                              }
+                                                                                                                                               }
+                                                                                                                      }
+                                                                                                      },
+                                                                                              "422":  {
+                                                                                                          "description":  "Validation Error",
+                                                                                                          "content":  {
+                                                                                                                          "application/json":  {
+                                                                                                                                                   "schema":  {
+                                                                                                                                                                  "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                                              }
+                                                                                                                                               }
+                                                                                                                      }
+                                                                                                      }
+                                                                                          }
+                                                                        }
+                                                         },
+                  "/api/history/sessions/new":  {
+                                                    "post":  {
+                                                                 "tags":  [
+                                                                              "Chat History"
+                                                                          ],
+                                                                 "summary":  "Api Create Session",
+                                                                 "description":  "Create a brand-new empty session.",
+                                                                 "operationId":  "api_create_session_api_history_sessions_new_post",
+                                                                 "responses":  {
+                                                                                   "200":  {
+                                                                                               "description":  "Successful Response",
+                                                                                               "content":  {
+                                                                                                               "application/json":  {
+                                                                                                                                        "schema":  {
+
+                                                                                                                                                   }
+                                                                                                                                    }
+                                                                                                           }
+                                                                                           }
+                                                                               }
+                                                             }
+                                                },
+                  "/api/feedback/":  {
+                                         "post":  {
+                                                      "tags":  [
+                                                                   "Feedback"
+                                                               ],
+                                                      "summary":  "Submit Feedback",
+                                                      "description":  "Endpoint to capture thumbs up/down feedback for a response.\nIn a real system, this would write to a database. For now, it logs it.",
+                                                      "operationId":  "submit_feedback_api_feedback__post",
+                                                      "requestBody":  {
+                                                                          "content":  {
+                                                                                          "application/json":  {
+                                                                                                                   "schema":  {
+                                                                                                                                  "$ref":  "#/components/schemas/FeedbackRequest"
+                                                                                                                              }
+                                                                                                               }
+                                                                                      },
+                                                                          "required":  true
+                                                                      },
+                                                      "responses":  {
+                                                                        "200":  {
+                                                                                    "description":  "Successful Response",
+                                                                                    "content":  {
+                                                                                                    "application/json":  {
+                                                                                                                             "schema":  {
+
+                                                                                                                                        }
+                                                                                                                         }
+                                                                                                }
+                                                                                },
+                                                                        "422":  {
+                                                                                    "description":  "Validation Error",
+                                                                                    "content":  {
+                                                                                                    "application/json":  {
+                                                                                                                             "schema":  {
+                                                                                                                                            "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                        }
+                                                                                                                         }
+                                                                                                }
+                                                                                }
+                                                                    }
+                                                  }
+                                     },
+                  "/":  {
+                            "get":  {
+                                        "summary":  "Read Root",
+                                        "operationId":  "read_root__get",
+                                        "responses":  {
+                                                          "200":  {
+                                                                      "description":  "Successful Response",
+                                                                      "content":  {
+                                                                                      "application/json":  {
+                                                                                                               "schema":  {
+
+                                                                                                                          }
+                                                                                                           }
+                                                                                  }
+                                                                  }
+                                                      }
+                                    }
+                        },
+                  "/health":  {
+                                  "get":  {
+                                              "summary":  "Health Check",
+                                              "operationId":  "health_check_health_get",
+                                              "responses":  {
+                                                                "200":  {
+                                                                            "description":  "Successful Response",
+                                                                            "content":  {
+                                                                                            "application/json":  {
+                                                                                                                     "schema":  {
+
+                                                                                                                                }
+                                                                                                                 }
+                                                                                        }
+                                                                        }
+                                                            }
+                                          }
+                              },
+                  "/static/{file_path}":  {
+                                              "get":  {
+                                                          "summary":  "Serve Static",
+                                                          "description":  "Serve static files (PDF.js viewer, etc.) from backend/static/ directory.",
+                                                          "operationId":  "serve_static_static__file_path__get",
+                                                          "parameters":  [
+                                                                             {
+                                                                                 "name":  "file_path",
+                                                                                 "in":  "path",
+                                                                                 "required":  true,
+                                                                                 "schema":  {
+                                                                                                "type":  "string",
+                                                                                                "title":  "File Path"
+                                                                                            }
+                                                                             }
+                                                                         ],
+                                                          "responses":  {
+                                                                            "200":  {
+                                                                                        "description":  "Successful Response",
+                                                                                        "content":  {
+                                                                                                        "application/json":  {
+                                                                                                                                 "schema":  {
+
+                                                                                                                                            }
+                                                                                                                             }
+                                                                                                    }
+                                                                                    },
+                                                                            "422":  {
+                                                                                        "description":  "Validation Error",
+                                                                                        "content":  {
+                                                                                                        "application/json":  {
+                                                                                                                                 "schema":  {
+                                                                                                                                                "$ref":  "#/components/schemas/HTTPValidationError"
+                                                                                                                                            }
+                                                                                                                             }
+                                                                                                    }
+                                                                                    }
+                                                                        }
+                                                      }
+                                          }
+              },
+    "components":  {
+                       "schemas":  {
+                                       "Body_login_api_auth_login_post":  {
+                                                                              "properties":  {
+                                                                                                 "grant_type":  {
+                                                                                                                    "anyOf":  [
+                                                                                                                                  {
+                                                                                                                                      "type":  "string",
+                                                                                                                                      "pattern":  "^password$"
+                                                                                                                                  },
+                                                                                                                                  {
+                                                                                                                                      "type":  "null"
+                                                                                                                                  }
+                                                                                                                              ],
+                                                                                                                    "title":  "Grant Type"
+                                                                                                                },
+                                                                                                 "username":  {
+                                                                                                                  "type":  "string",
+                                                                                                                  "title":  "Username"
+                                                                                                              },
+                                                                                                 "password":  {
+                                                                                                                  "type":  "string",
+                                                                                                                  "format":  "password",
+                                                                                                                  "title":  "Password"
+                                                                                                              },
+                                                                                                 "scope":  {
+                                                                                                               "type":  "string",
+                                                                                                               "title":  "Scope",
+                                                                                                               "default":  ""
+                                                                                                           },
+                                                                                                 "client_id":  {
+                                                                                                                   "anyOf":  [
+                                                                                                                                 {
+                                                                                                                                     "type":  "string"
+                                                                                                                                 },
+                                                                                                                                 {
+                                                                                                                                     "type":  "null"
+                                                                                                                                 }
+                                                                                                                             ],
+                                                                                                                   "title":  "Client Id"
+                                                                                                               },
+                                                                                                 "client_secret":  {
+                                                                                                                       "anyOf":  [
+                                                                                                                                     {
+                                                                                                                                         "type":  "string"
+                                                                                                                                     },
+                                                                                                                                     {
+                                                                                                                                         "type":  "null"
+                                                                                                                                     }
+                                                                                                                                 ],
+                                                                                                                       "format":  "password",
+                                                                                                                       "title":  "Client Secret"
+                                                                                                                   }
+                                                                                             },
+                                                                              "type":  "object",
+                                                                              "required":  [
+                                                                                               "username",
+                                                                                               "password"
+                                                                                           ],
+                                                                              "title":  "Body_login_api_auth_login_post"
+                                                                          },
+                                       "Body_upload_document_api_documents_upload_post":  {
+                                                                                              "properties":  {
+                                                                                                                 "file":  {
+                                                                                                                              "type":  "string",
+                                                                                                                              "contentMediaType":  "application/octet-stream",
+                                                                                                                              "title":  "File"
+                                                                                                                          }
+                                                                                                             },
+                                                                                              "type":  "object",
+                                                                                              "required":  [
+                                                                                                               "file"
+                                                                                                           ],
+                                                                                              "title":  "Body_upload_document_api_documents_upload_post"
+                                                                                          },
+                                       "ChatRequest":  {
+                                                           "properties":  {
+                                                                              "message":  {
+                                                                                              "type":  "string",
+                                                                                              "title":  "Message"
+                                                                                          },
+                                                                              "session_id":  {
+                                                                                                 "anyOf":  [
+                                                                                                               {
+                                                                                                                   "type":  "string"
+                                                                                                               },
+                                                                                                               {
+                                                                                                                   "type":  "null"
+                                                                                                               }
+                                                                                                           ],
+                                                                                                 "title":  "Session Id"
+                                                                                             }
+                                                                          },
+                                                           "type":  "object",
+                                                           "required":  [
+                                                                            "message"
+                                                                        ],
+                                                           "title":  "ChatRequest"
+                                                       },
+                                       "ChatResponse":  {
+                                                            "properties":  {
+                                                                               "answer":  {
+                                                                                              "type":  "string",
+                                                                                              "title":  "Answer"
+                                                                                          },
+                                                                               "sources":  {
+                                                                                               "items":  {
+                                                                                                             "$ref":  "#/components/schemas/Citation"
+                                                                                                         },
+                                                                                               "type":  "array",
+                                                                                               "title":  "Sources"
+                                                                                           }
+                                                                           },
+                                                            "type":  "object",
+                                                            "required":  [
+                                                                             "answer"
+                                                                         ],
+                                                            "title":  "ChatResponse"
+                                                        },
+                                       "Citation":  {
+                                                        "properties":  {
+                                                                           "source":  {
+                                                                                          "type":  "string",
+                                                                                          "title":  "Source"
+                                                                                      },
+                                                                           "page":  {
+                                                                                        "type":  "integer",
+                                                                                        "title":  "Page"
+                                                                                    },
+                                                                           "text_snippet":  {
+                                                                                                "type":  "string",
+                                                                                                "title":  "Text Snippet"
+                                                                                            },
+                                                                           "ref_id":  {
+                                                                                          "type":  "integer",
+                                                                                          "title":  "Ref Id",
+                                                                                          "default":  0
+                                                                                      }
+                                                                       },
+                                                        "type":  "object",
+                                                        "required":  [
+                                                                         "source",
+                                                                         "page",
+                                                                         "text_snippet"
+                                                                     ],
+                                                        "title":  "Citation"
+                                                    },
+                                       "FeedbackRequest":  {
+                                                               "properties":  {
+                                                                                  "message_id":  {
+                                                                                                     "type":  "string",
+                                                                                                     "title":  "Message Id"
+                                                                                                 },
+                                                                                  "is_positive":  {
+                                                                                                      "type":  "boolean",
+                                                                                                      "title":  "Is Positive"
+                                                                                                  },
+                                                                                  "comments":  {
+                                                                                                   "anyOf":  [
+                                                                                                                 {
+                                                                                                                     "type":  "string"
+                                                                                                                 },
+                                                                                                                 {
+                                                                                                                     "type":  "null"
+                                                                                                                 }
+                                                                                                             ],
+                                                                                                   "title":  "Comments"
+                                                                                               }
+                                                                              },
+                                                               "type":  "object",
+                                                               "required":  [
+                                                                                "message_id",
+                                                                                "is_positive"
+                                                                            ],
+                                                               "title":  "FeedbackRequest"
+                                                           },
+                                       "HTTPValidationError":  {
+                                                                   "properties":  {
+                                                                                      "detail":  {
+                                                                                                     "items":  {
+                                                                                                                   "$ref":  "#/components/schemas/ValidationError"
+                                                                                                               },
+                                                                                                     "type":  "array",
+                                                                                                     "title":  "Detail"
+                                                                                                 }
+                                                                                  },
+                                                                   "type":  "object",
+                                                                   "title":  "HTTPValidationError"
+                                                               },
+                                       "MessagePayload":  {
+                                                              "properties":  {
+                                                                                 "role":  {
+                                                                                              "type":  "string",
+                                                                                              "title":  "Role"
+                                                                                          },
+                                                                                 "content":  {
+                                                                                                 "type":  "string",
+                                                                                                 "title":  "Content"
+                                                                                             },
+                                                                                 "sources":  {
+                                                                                                 "anyOf":  [
+                                                                                                               {
+                                                                                                                   "items":  {
+
+                                                                                                                             },
+                                                                                                                   "type":  "array"
+                                                                                                               },
+                                                                                                               {
+                                                                                                                   "type":  "null"
+                                                                                                               }
+                                                                                                           ],
+                                                                                                 "title":  "Sources",
+                                                                                                 "default":  [
+
+                                                                                                             ]
+                                                                                             }
+                                                                             },
+                                                              "type":  "object",
+                                                              "required":  [
+                                                                               "role",
+                                                                               "content"
+                                                                           ],
+                                                              "title":  "MessagePayload"
+                                                          },
+                                       "SaveSessionPayload":  {
+                                                                  "properties":  {
+                                                                                     "session_id":  {
+                                                                                                        "type":  "string",
+                                                                                                        "title":  "Session Id"
+                                                                                                    },
+                                                                                     "title":  {
+                                                                                                   "type":  "string",
+                                                                                                   "title":  "Title"
+                                                                                               },
+                                                                                     "messages":  {
+                                                                                                      "items":  {
+                                                                                                                    "$ref":  "#/components/schemas/MessagePayload"
+                                                                                                                },
+                                                                                                      "type":  "array",
+                                                                                                      "title":  "Messages"
+                                                                                                  }
+                                                                                 },
+                                                                  "type":  "object",
+                                                                  "required":  [
+                                                                                   "session_id",
+                                                                                   "title",
+                                                                                   "messages"
+                                                                               ],
+                                                                  "title":  "SaveSessionPayload"
+                                                              },
+                                       "Token":  {
+                                                     "properties":  {
+                                                                        "access_token":  {
+                                                                                             "type":  "string",
+                                                                                             "title":  "Access Token"
+                                                                                         },
+                                                                        "token_type":  {
+                                                                                           "type":  "string",
+                                                                                           "title":  "Token Type"
+                                                                                       },
+                                                                        "role":  {
+                                                                                     "type":  "string",
+                                                                                     "title":  "Role"
+                                                                                 }
+                                                                    },
+                                                     "type":  "object",
+                                                     "required":  [
+                                                                      "access_token",
+                                                                      "token_type",
+                                                                      "role"
+                                                                  ],
+                                                     "title":  "Token"
+                                                 },
+                                       "UserCreate":  {
+                                                          "properties":  {
+                                                                             "email":  {
+                                                                                           "type":  "string",
+                                                                                           "title":  "Email"
+                                                                                       },
+                                                                             "password":  {
+                                                                                              "type":  "string",
+                                                                                              "title":  "Password"
+                                                                                          },
+                                                                             "role":  {
+                                                                                          "type":  "string",
+                                                                                          "title":  "Role",
+                                                                                          "default":  "User"
+                                                                                      }
+                                                                         },
+                                                          "type":  "object",
+                                                          "required":  [
+                                                                           "email",
+                                                                           "password"
+                                                                       ],
+                                                          "title":  "UserCreate"
+                                                      },
+                                       "ValidationError":  {
+                                                               "properties":  {
+                                                                                  "loc":  {
+                                                                                              "items":  {
+                                                                                                            "anyOf":  [
+                                                                                                                          {
+                                                                                                                              "type":  "string"
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                              "type":  "integer"
+                                                                                                                          }
+                                                                                                                      ]
+                                                                                                        },
+                                                                                              "type":  "array",
+                                                                                              "title":  "Location"
+                                                                                          },
+                                                                                  "msg":  {
+                                                                                              "type":  "string",
+                                                                                              "title":  "Message"
+                                                                                          },
+                                                                                  "type":  {
+                                                                                               "type":  "string",
+                                                                                               "title":  "Error Type"
+                                                                                           },
+                                                                                  "input":  {
+                                                                                                "title":  "Input"
+                                                                                            },
+                                                                                  "ctx":  {
+                                                                                              "type":  "object",
+                                                                                              "title":  "Context"
+                                                                                          }
+                                                                              },
+                                                               "type":  "object",
+                                                               "required":  [
+                                                                                "loc",
+                                                                                "msg",
+                                                                                "type"
+                                                                            ],
+                                                               "title":  "ValidationError"
+                                                           }
+                                   },
+                       "securitySchemes":  {
+                                               "OAuth2PasswordBearer":  {
+                                                                            "type":  "oauth2",
+                                                                            "flows":  {
+                                                                                          "password":  {
+                                                                                                           "scopes":  {
+
+                                                                                                                      },
+                                                                                                           "tokenUrl":  "/api/auth/login"
+                                                                                                       }
+                                                                                      }
+                                                                        }
+                                           }
+                   }
+}

@@ -1,0 +1,1964 @@
+[
+    {
+        "WERKS": "08F3",
+        "plant_id": "08f38e0434442128fab5ead6217ca759",
+        "LAND1": "SG",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 86999.0,
+        "CURRENT_OCCUPANCY_PCT": 47.42
+    },
+    {
+        "WERKS": "22B1",
+        "plant_id": "22b1f2e0983160db6f7bb9f62f4dbb39",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 87697.62,
+        "CURRENT_OCCUPANCY_PCT": 67.81
+    },
+    {
+        "WERKS": "4068",
+        "plant_id": "40685b1b7030af626bdf8f8bdd115b9c",
+        "LAND1": "HK",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 53420.15,
+        "CURRENT_OCCUPANCY_PCT": 56.91
+    },
+    {
+        "WERKS": "57DF",
+        "plant_id": "57df43f2b383566d9bf9857ae48f7af2",
+        "LAND1": "MX",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 53217.69,
+        "CURRENT_OCCUPANCY_PCT": 60.23
+    },
+    {
+        "WERKS": "65FC",
+        "plant_id": "65fc9fb4897a89789352e211ca2d398f",
+        "LAND1": "JP",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 128156.71,
+        "CURRENT_OCCUPANCY_PCT": 69.64
+    },
+    {
+        "WERKS": "757B",
+        "plant_id": "757b92f9df075806581855d8c0b4420a",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 130489.39,
+        "CURRENT_OCCUPANCY_PCT": 57.37
+    },
+    {
+        "WERKS": "A715",
+        "plant_id": "a7150cd6f6610c6d28cf13c1b06c6f15",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 113966.06,
+        "CURRENT_OCCUPANCY_PCT": 71.58
+    },
+    {
+        "WERKS": "AD1B",
+        "plant_id": "ad1b64b4c61c854b59537ae70af890fc",
+        "LAND1": "BR",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 82939.43,
+        "CURRENT_OCCUPANCY_PCT": 79.05
+    },
+    {
+        "WERKS": "B096",
+        "plant_id": "b096577e264d1ebd6b41041f392eec23",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 112037.18,
+        "CURRENT_OCCUPANCY_PCT": 74.9
+    },
+    {
+        "WERKS": "C3FE",
+        "plant_id": "c3fe9109a6ba3de6eca12ec3c7959639",
+        "LAND1": "DE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 120797.87,
+        "CURRENT_OCCUPANCY_PCT": 92.39
+    },
+    {
+        "WERKS": "DDA0",
+        "plant_id": "dda04f9d634145a9c68d5dfe53b21272",
+        "LAND1": "DE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 158036.43,
+        "CURRENT_OCCUPANCY_PCT": 44.69
+    },
+    {
+        "WERKS": "F35A",
+        "plant_id": "f35a2bc72dfdc2aae569a0c7370bd7f5",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 105014.65,
+        "CURRENT_OCCUPANCY_PCT": 55.58
+    },
+    {
+        "WERKS": "0137",
+        "plant_id": "0137daf1d0891ba3e3e04da7970454cb",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 110560.13,
+        "CURRENT_OCCUPANCY_PCT": 60.39
+    },
+    {
+        "WERKS": "09E9",
+        "plant_id": "09e953304a1a26e324e370bd38524075",
+        "LAND1": "TR",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 80970.14,
+        "CURRENT_OCCUPANCY_PCT": 63.87
+    },
+    {
+        "WERKS": "0B7E",
+        "plant_id": "0b7e926154c1274e8b602ff0d7c133d7",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 73352.68,
+        "CURRENT_OCCUPANCY_PCT": 68.62
+    },
+    {
+        "WERKS": "0F85",
+        "plant_id": "0f855422bfd001709fada100edf5c16c",
+        "LAND1": "IN",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 87087.34,
+        "CURRENT_OCCUPANCY_PCT": 46.62
+    },
+    {
+        "WERKS": "1FAE",
+        "plant_id": "1faedda3889f4a23c211a191c8608fca",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 191875.58,
+        "CURRENT_OCCUPANCY_PCT": 88.8
+    },
+    {
+        "WERKS": "3011",
+        "plant_id": "3011c01d859a84008e348f9c727ac68d",
+        "LAND1": "BE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 117909.7,
+        "CURRENT_OCCUPANCY_PCT": 85.13
+    },
+    {
+        "WERKS": "31C9",
+        "plant_id": "31c97cbb941d3e92d0e6f9925e9bc4d7",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 181716.04,
+        "CURRENT_OCCUPANCY_PCT": 40.75
+    },
+    {
+        "WERKS": "358A",
+        "plant_id": "358aee4cc897452c00244351e4d91f69",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 72907.81,
+        "CURRENT_OCCUPANCY_PCT": 44.9
+    },
+    {
+        "WERKS": "64A0",
+        "plant_id": "64a08e5f1e6c39faeb90108c430eb120",
+        "LAND1": "IN",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 83327.27,
+        "CURRENT_OCCUPANCY_PCT": 80.15
+    },
+    {
+        "WERKS": "7805",
+        "plant_id": "7805b793230668c469b7d9c94379e28b",
+        "LAND1": "BR",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 56968.5,
+        "CURRENT_OCCUPANCY_PCT": 77.03
+    },
+    {
+        "WERKS": "7884",
+        "plant_id": "7884a9652e94555c70f96b6be63be216",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 159420.24,
+        "CURRENT_OCCUPANCY_PCT": 71.63
+    },
+    {
+        "WERKS": "80D6",
+        "plant_id": "80d606b525e27ea1a3c55515eeadee1a",
+        "LAND1": "SK",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 72590.67,
+        "CURRENT_OCCUPANCY_PCT": 64.14
+    },
+    {
+        "WERKS": "88FE",
+        "plant_id": "88fee0421317424e4469f33a48f50cb0",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 78041.82,
+        "CURRENT_OCCUPANCY_PCT": 55.89
+    },
+    {
+        "WERKS": "92F5",
+        "plant_id": "92f54963fc39a9d87c2253186808ea61",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 73143.55,
+        "CURRENT_OCCUPANCY_PCT": 80.82
+    },
+    {
+        "WERKS": "9B1A",
+        "plant_id": "9b1aea7a7a05e99b835b00dfa4d07ca6",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 170193.83,
+        "CURRENT_OCCUPANCY_PCT": 69.96
+    },
+    {
+        "WERKS": "A761",
+        "plant_id": "a7614c0d18c91a8888aaf72b126db7c8",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 155240.87,
+        "CURRENT_OCCUPANCY_PCT": 76.35
+    },
+    {
+        "WERKS": "B06F",
+        "plant_id": "b06f50d1f89bd8b2a0fb771c1a69c2b0",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 172109.16,
+        "CURRENT_OCCUPANCY_PCT": 42.24
+    },
+    {
+        "WERKS": "C315",
+        "plant_id": "c315f0320b7cd4ec85756fac52d78076",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 138765.53,
+        "CURRENT_OCCUPANCY_PCT": 49.62
+    },
+    {
+        "WERKS": "CD72",
+        "plant_id": "cd72420bd2942ae01fd42473702b0be7",
+        "LAND1": "BE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 139417.75,
+        "CURRENT_OCCUPANCY_PCT": 84.91
+    },
+    {
+        "WERKS": "CDCB",
+        "plant_id": "cdcb2f5c7b071143529ef7f2705dfbc4",
+        "LAND1": "IN",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 77371.66,
+        "CURRENT_OCCUPANCY_PCT": 49.53
+    },
+    {
+        "WERKS": "DA2E",
+        "plant_id": "da2e7b6a3a439421dd792a59a461bd2e",
+        "LAND1": "DE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 160543.68,
+        "CURRENT_OCCUPANCY_PCT": 61.5
+    },
+    {
+        "WERKS": "1680",
+        "plant_id": "1680e9fa7b4dd5d62ece800239bb53bd",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 120721.59,
+        "CURRENT_OCCUPANCY_PCT": 88.76
+    },
+    {
+        "WERKS": "1B6D",
+        "plant_id": "1b6db505c7505676666f584216674d0d",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 101673.19,
+        "CURRENT_OCCUPANCY_PCT": 73.72
+    },
+    {
+        "WERKS": "2065",
+        "plant_id": "2065ec74ca093a9a1ddaa8015a8bdccb",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 112265.01,
+        "CURRENT_OCCUPANCY_PCT": 77.64
+    },
+    {
+        "WERKS": "2FA6",
+        "plant_id": "2fa6efecd89d8b5949389c86bc1cd0a2",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 149914.88,
+        "CURRENT_OCCUPANCY_PCT": 56.31
+    },
+    {
+        "WERKS": "3326",
+        "plant_id": "33267e5dc58fad346e92471c43fcccdc",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 170779.65,
+        "CURRENT_OCCUPANCY_PCT": 51.36
+    },
+    {
+        "WERKS": "3623",
+        "plant_id": "362387494f6be6613daea643a7706a42",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 75231.7,
+        "CURRENT_OCCUPANCY_PCT": 42.47
+    },
+    {
+        "WERKS": "403E",
+        "plant_id": "403ea2e851b9ab04a996beab4a480a30",
+        "LAND1": "JP",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 55090.6,
+        "CURRENT_OCCUPANCY_PCT": 74.67
+    },
+    {
+        "WERKS": "4E02",
+        "plant_id": "4e0223a87610176ef0d24ef6d2dcde3a",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 135108.97,
+        "CURRENT_OCCUPANCY_PCT": 82.57
+    },
+    {
+        "WERKS": "70E2",
+        "plant_id": "70e23465c7d0b9b3868ecaae6d20efc2",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 107407.41,
+        "CURRENT_OCCUPANCY_PCT": 45.15
+    },
+    {
+        "WERKS": "78F7",
+        "plant_id": "78f7d96ea21ccae89a7b581295f34135",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 179840.83,
+        "CURRENT_OCCUPANCY_PCT": 40.68
+    },
+    {
+        "WERKS": "7AEE",
+        "plant_id": "7aee26c309def8c5a2a076eb250b8f36",
+        "LAND1": "JP",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 171830.43,
+        "CURRENT_OCCUPANCY_PCT": 44.39
+    },
+    {
+        "WERKS": "825F",
+        "plant_id": "825f9cd5f0390bc77c1fed3c94885c87",
+        "LAND1": "CN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 79406.33,
+        "CURRENT_OCCUPANCY_PCT": 87.69
+    },
+    {
+        "WERKS": "883A",
+        "plant_id": "883acd43c77567e1c3baced84ccf6ed7",
+        "LAND1": "BE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 138204.54,
+        "CURRENT_OCCUPANCY_PCT": 78.73
+    },
+    {
+        "WERKS": "92BF",
+        "plant_id": "92bf5e6240737e0326ea59846a83e076",
+        "LAND1": "JP",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 100186.92,
+        "CURRENT_OCCUPANCY_PCT": 58.3
+    },
+    {
+        "WERKS": "94FA",
+        "plant_id": "94faac771d1be826d56fc308e94d62a3",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 76829.4,
+        "CURRENT_OCCUPANCY_PCT": 82.52
+    },
+    {
+        "WERKS": "9813",
+        "plant_id": "9813b270ed0288e7c0388f0fd4ec68f5",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 117930.48,
+        "CURRENT_OCCUPANCY_PCT": 53.94
+    },
+    {
+        "WERKS": "B2EA",
+        "plant_id": "b2ea5e977c5fc1ccfa74171a9723dd61",
+        "LAND1": "TW",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 56066.6,
+        "CURRENT_OCCUPANCY_PCT": 56.5
+    },
+    {
+        "WERKS": "B33D",
+        "plant_id": "b33d3f4d8402dab9a7bd1c4c3318a36b",
+        "LAND1": "DE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 87311.47,
+        "CURRENT_OCCUPANCY_PCT": 71.2
+    },
+    {
+        "WERKS": "BB96",
+        "plant_id": "bb96a0a077da82f3bd506595b30826a6",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 182719.38,
+        "CURRENT_OCCUPANCY_PCT": 88.92
+    },
+    {
+        "WERKS": "C0E9",
+        "plant_id": "c0e90532fb42ac6de18e25e95db73047",
+        "LAND1": "GB",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 136062.0,
+        "CURRENT_OCCUPANCY_PCT": 76.26
+    },
+    {
+        "WERKS": "E6AC",
+        "plant_id": "e6acf4b0f69f6f6e60e9a815938aa1ff",
+        "LAND1": "BE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 135519.09,
+        "CURRENT_OCCUPANCY_PCT": 69.28
+    },
+    {
+        "WERKS": "E727",
+        "plant_id": "e727fa59ddefcefb5d39501167623132",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 157943.97,
+        "CURRENT_OCCUPANCY_PCT": 51.42
+    },
+    {
+        "WERKS": "ED57",
+        "plant_id": "ed57844fa5e051809ead5aa7e3e1d555",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 156089.92,
+        "CURRENT_OCCUPANCY_PCT": 77.7
+    },
+    {
+        "WERKS": "F21E",
+        "plant_id": "f21e255f89e0f258accbe4e984eef486",
+        "LAND1": "MX",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 123592.67,
+        "CURRENT_OCCUPANCY_PCT": 79.57
+    },
+    {
+        "WERKS": "F960",
+        "plant_id": "f9601a3ce10e4ed6ea85d0d2e4f5f1dd",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 130673.25,
+        "CURRENT_OCCUPANCY_PCT": 84.1
+    },
+    {
+        "WERKS": "FB08",
+        "plant_id": "fb084549ea6fd59b3c6831e3026ac5e1",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 70208.76,
+        "CURRENT_OCCUPANCY_PCT": 69.21
+    },
+    {
+        "WERKS": "0267",
+        "plant_id": "02670f291968eaa0d5feef02cb27163f",
+        "LAND1": "CN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 142318.23,
+        "CURRENT_OCCUPANCY_PCT": 74.5
+    },
+    {
+        "WERKS": "142D",
+        "plant_id": "142d1b05842fd88c5393a885e099a095",
+        "LAND1": "DE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 150570.14,
+        "CURRENT_OCCUPANCY_PCT": 80.02
+    },
+    {
+        "WERKS": "1CD1",
+        "plant_id": "1cd138d0499a68f4bb72bee04bbec2d7",
+        "LAND1": "JP",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 121592.2,
+        "CURRENT_OCCUPANCY_PCT": 50.24
+    },
+    {
+        "WERKS": "32B9",
+        "plant_id": "32b991e5d77ad140559ffb95522992d0",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 111096.49,
+        "CURRENT_OCCUPANCY_PCT": 71.42
+    },
+    {
+        "WERKS": "350B",
+        "plant_id": "350bebac1bc960d5c28e38009d3e308e",
+        "LAND1": "GB",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 101603.26,
+        "CURRENT_OCCUPANCY_PCT": 91.6
+    },
+    {
+        "WERKS": "3EDC",
+        "plant_id": "3edcb7da862a1c46b48964322e70d44d",
+        "LAND1": "CN",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 182319.08,
+        "CURRENT_OCCUPANCY_PCT": 81.27
+    },
+    {
+        "WERKS": "4CBF",
+        "plant_id": "4cbf4c576415baba066d2fd1b3b7ce97",
+        "LAND1": "FR",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 185068.31,
+        "CURRENT_OCCUPANCY_PCT": 67.5
+    },
+    {
+        "WERKS": "5E75",
+        "plant_id": "5e751896e527c862bf67251a474b3819",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 195700.85,
+        "CURRENT_OCCUPANCY_PCT": 69.62
+    },
+    {
+        "WERKS": "6F6B",
+        "plant_id": "6f6bb3ed4df10bb920f615b5d8baadc1",
+        "LAND1": "CN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 70213.79,
+        "CURRENT_OCCUPANCY_PCT": 55.55
+    },
+    {
+        "WERKS": "8CF8",
+        "plant_id": "8cf807de8a4f88c0a911a11d54aea186",
+        "LAND1": "ES",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 105641.58,
+        "CURRENT_OCCUPANCY_PCT": 46.9
+    },
+    {
+        "WERKS": "9E8F",
+        "plant_id": "9e8fc5b5108f8e2459fa4db5b95924f1",
+        "LAND1": "GB",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 99926.81,
+        "CURRENT_OCCUPANCY_PCT": 50.46
+    },
+    {
+        "WERKS": "A6D2",
+        "plant_id": "a6d259bfbfa2062843ef543e21d7ec8e",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 156327.73,
+        "CURRENT_OCCUPANCY_PCT": 80.45
+    },
+    {
+        "WERKS": "B99D",
+        "plant_id": "b99d295dd1b495116c5be7a758c8ade1",
+        "LAND1": "BE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 107561.62,
+        "CURRENT_OCCUPANCY_PCT": 49.51
+    },
+    {
+        "WERKS": "F24E",
+        "plant_id": "f24eeb1f2cddd2254e6b9e8641109b4f",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 74278.95,
+        "CURRENT_OCCUPANCY_PCT": 90.24
+    },
+    {
+        "WERKS": "F269",
+        "plant_id": "f2692f6a5d17bcc17f445d0237c53b1c",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 70217.32,
+        "CURRENT_OCCUPANCY_PCT": 58.82
+    },
+    {
+        "WERKS": "FA2E",
+        "plant_id": "fa2e8c4385712f9a1d24c363a2cbe5b8",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 121835.75,
+        "CURRENT_OCCUPANCY_PCT": 79.84
+    },
+    {
+        "WERKS": "2E7C",
+        "plant_id": "2e7ceec8361275c4e31fee5fe422740b",
+        "LAND1": "CN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 109202.18,
+        "CURRENT_OCCUPANCY_PCT": 51.16
+    },
+    {
+        "WERKS": "33C9",
+        "plant_id": "33c9d790544ad2ad4cfa64713ec69616",
+        "LAND1": "FR",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 69474.61,
+        "CURRENT_OCCUPANCY_PCT": 57.34
+    },
+    {
+        "WERKS": "4A15",
+        "plant_id": "4a1590df1d5968d41b855005bb8b67bf",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 155024.5,
+        "CURRENT_OCCUPANCY_PCT": 62.92
+    },
+    {
+        "WERKS": "8279",
+        "plant_id": "8279e2cffce183dc1491acdd217369a5",
+        "LAND1": "DE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 194803.01,
+        "CURRENT_OCCUPANCY_PCT": 56.62
+    },
+    {
+        "WERKS": "831C",
+        "plant_id": "831caa1b600f852b7844499430ecac17",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 144665.9,
+        "CURRENT_OCCUPANCY_PCT": 94.71
+    },
+    {
+        "WERKS": "8F12",
+        "plant_id": "8f125da0b3432ed853c0b6f7ee5aaa6b",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 66982.79,
+        "CURRENT_OCCUPANCY_PCT": 85.04
+    },
+    {
+        "WERKS": "BBEB",
+        "plant_id": "bbeb0c1b1fd44e392c7ce2fdbd137e87",
+        "LAND1": "JP",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 71954.27,
+        "CURRENT_OCCUPANCY_PCT": 83.89
+    },
+    {
+        "WERKS": "CDD9",
+        "plant_id": "cdd96eedd7f695f4d61802f8105ba2b0",
+        "LAND1": "JP",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 146090.92,
+        "CURRENT_OCCUPANCY_PCT": 77.74
+    },
+    {
+        "WERKS": "DA58",
+        "plant_id": "da58fe74426f3fe13c6ff3f6c88df0b6",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 96341.91,
+        "CURRENT_OCCUPANCY_PCT": 67.88
+    },
+    {
+        "WERKS": "DF0E",
+        "plant_id": "df0e09d6f25a15a815563df9827f48fa",
+        "LAND1": "CN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 116268.98,
+        "CURRENT_OCCUPANCY_PCT": 82.71
+    },
+    {
+        "WERKS": "F2E4",
+        "plant_id": "f2e43fa3400d826df4195a9ac70dca62",
+        "LAND1": "CA",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 177237.62,
+        "CURRENT_OCCUPANCY_PCT": 94.81
+    },
+    {
+        "WERKS": "FC9F",
+        "plant_id": "fc9fd271f36896138b8e3e0ed02d5205",
+        "LAND1": "DE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 72828.35,
+        "CURRENT_OCCUPANCY_PCT": 70.38
+    },
+    {
+        "WERKS": "FD4F",
+        "plant_id": "fd4f21f2556dad0ea8b7a5c04eabebda",
+        "LAND1": "JP",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 195530.36,
+        "CURRENT_OCCUPANCY_PCT": 41.32
+    },
+    {
+        "WERKS": "FF2C",
+        "plant_id": "ff2cc3b8c7caeaa068f2abbc234583f5",
+        "LAND1": "JP",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 80465.47,
+        "CURRENT_OCCUPANCY_PCT": 45.7
+    },
+    {
+        "WERKS": "2348",
+        "plant_id": "234833147b97bb6aed53a8f4f1c7a7d8",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 72371.14,
+        "CURRENT_OCCUPANCY_PCT": 66.82
+    },
+    {
+        "WERKS": "25BB",
+        "plant_id": "25bbdcd06c32d477f7fa1c3e4a91b032",
+        "LAND1": "BR",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 106787.02,
+        "CURRENT_OCCUPANCY_PCT": 72.96
+    },
+    {
+        "WERKS": "35A0",
+        "plant_id": "35a015cdf62855b47a130ce61232acd7",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 92360.85,
+        "CURRENT_OCCUPANCY_PCT": 77.7
+    },
+    {
+        "WERKS": "494E",
+        "plant_id": "494e5c2ac9d3e74696028680b2580206",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 148464.28,
+        "CURRENT_OCCUPANCY_PCT": 59.94
+    },
+    {
+        "WERKS": "5410",
+        "plant_id": "5410f15c2a6e22a8d5d5f6b28d040d74",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 139278.61,
+        "CURRENT_OCCUPANCY_PCT": 43.11
+    },
+    {
+        "WERKS": "6D3B",
+        "plant_id": "6d3bd6f4dd3c2b669d253612936eac63",
+        "LAND1": "DE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 82644.1,
+        "CURRENT_OCCUPANCY_PCT": 87.58
+    },
+    {
+        "WERKS": "AD47",
+        "plant_id": "ad47a008a2f806aa6eb1b53852cd8b37",
+        "LAND1": "JP",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 182723.11,
+        "CURRENT_OCCUPANCY_PCT": 71.34
+    },
+    {
+        "WERKS": "AE58",
+        "plant_id": "ae587cfeea5ac21a8f1c1ea51027fef0",
+        "LAND1": "JP",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 157477.28,
+        "CURRENT_OCCUPANCY_PCT": 77.76
+    },
+    {
+        "WERKS": "AE7B",
+        "plant_id": "ae7b9c79591b17f8656c2b826ca4efb9",
+        "LAND1": "GB",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 198933.67,
+        "CURRENT_OCCUPANCY_PCT": 67.05
+    },
+    {
+        "WERKS": "CC2D",
+        "plant_id": "cc2da80ea93990510435bbfb6e0d2120",
+        "LAND1": "GB",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 126249.09,
+        "CURRENT_OCCUPANCY_PCT": 75.51
+    },
+    {
+        "WERKS": "CE3D",
+        "plant_id": "ce3d8d256cfc18a5aebf62856aae9cc1",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 173341.52,
+        "CURRENT_OCCUPANCY_PCT": 68.65
+    },
+    {
+        "WERKS": "CE75",
+        "plant_id": "ce758408f6ef98d7c7a7b786eca7b3a8",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 81876.0,
+        "CURRENT_OCCUPANCY_PCT": 74.7
+    },
+    {
+        "WERKS": "D8B1",
+        "plant_id": "d8b1684965a5e5e40ed35ebd2b98110d",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 196641.99,
+        "CURRENT_OCCUPANCY_PCT": 71.37
+    },
+    {
+        "WERKS": "F12F",
+        "plant_id": "f12f2b34a0c3174269c19e21c07dee68",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 58061.21,
+        "CURRENT_OCCUPANCY_PCT": 40.87
+    },
+    {
+        "WERKS": "F1F0",
+        "plant_id": "f1f0404e7e34dfa7441d9e5301828743",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 153953.66,
+        "CURRENT_OCCUPANCY_PCT": 58.18
+    },
+    {
+        "WERKS": "F3D8",
+        "plant_id": "f3d814ccb97a176b464af904adde589d",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 78281.08,
+        "CURRENT_OCCUPANCY_PCT": 89.95
+    },
+    {
+        "WERKS": "FC19",
+        "plant_id": "fc192b0c0d270dbf41870a63a8c76c2f",
+        "LAND1": "TW",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 63056.58,
+        "CURRENT_OCCUPANCY_PCT": 47.65
+    },
+    {
+        "WERKS": "0EA7",
+        "plant_id": "0ea79370ee214603f0a116f5e7b345f1",
+        "LAND1": "FR",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 195681.87,
+        "CURRENT_OCCUPANCY_PCT": 61.75
+    },
+    {
+        "WERKS": "3411",
+        "plant_id": "3411163f6d82708a02ecd50491fd74a0",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 126151.78,
+        "CURRENT_OCCUPANCY_PCT": 44.24
+    },
+    {
+        "WERKS": "3614",
+        "plant_id": "361440528766bbaaaa1901845cf4152b",
+        "LAND1": "HK",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 89399.71,
+        "CURRENT_OCCUPANCY_PCT": 78.36
+    },
+    {
+        "WERKS": "421B",
+        "plant_id": "421b3ac5c24ee992edd6087611c60dbb",
+        "LAND1": "SG",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 73193.65,
+        "CURRENT_OCCUPANCY_PCT": 81.26
+    },
+    {
+        "WERKS": "453F",
+        "plant_id": "453fadbd8a1a3af50a9df4df899537b5",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 55498.32,
+        "CURRENT_OCCUPANCY_PCT": 72.22
+    },
+    {
+        "WERKS": "5A45",
+        "plant_id": "5a45828dead8c065099cb653a2185df1",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 119185.1,
+        "CURRENT_OCCUPANCY_PCT": 80.02
+    },
+    {
+        "WERKS": "6244",
+        "plant_id": "6244b2ba957c48bc64582cf2bcec3d04",
+        "LAND1": "JP",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 124842.87,
+        "CURRENT_OCCUPANCY_PCT": 89.24
+    },
+    {
+        "WERKS": "6F89",
+        "plant_id": "6f89e3650f420c9e43a96150f83c8347",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 123643.27,
+        "CURRENT_OCCUPANCY_PCT": 91.39
+    },
+    {
+        "WERKS": "7C53",
+        "plant_id": "7c533a97adc2dcbf2aa53bf887ede70a",
+        "LAND1": "BE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 135599.17,
+        "CURRENT_OCCUPANCY_PCT": 71.16
+    },
+    {
+        "WERKS": "81C2",
+        "plant_id": "81c2f886f91e18fe16d6f4e865877cb6",
+        "LAND1": "CN",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 157947.74,
+        "CURRENT_OCCUPANCY_PCT": 60.75
+    },
+    {
+        "WERKS": "94E6",
+        "plant_id": "94e6f3f45bf4405e82cc7497c4b7700b",
+        "LAND1": "MX",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 166687.04,
+        "CURRENT_OCCUPANCY_PCT": 62.08
+    },
+    {
+        "WERKS": "A84D",
+        "plant_id": "a84d94bff96867736e94ced8c4614251",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 122610.85,
+        "CURRENT_OCCUPANCY_PCT": 43.77
+    },
+    {
+        "WERKS": "BD70",
+        "plant_id": "bd70364a8fcba02366697df66f50b4d4",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 142038.68,
+        "CURRENT_OCCUPANCY_PCT": 65.03
+    },
+    {
+        "WERKS": "D1F4",
+        "plant_id": "d1f47c0c789172d40c5310bb1a7cf668",
+        "LAND1": "FR",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 112117.76,
+        "CURRENT_OCCUPANCY_PCT": 57.12
+    },
+    {
+        "WERKS": "DBAB",
+        "plant_id": "dbab2adc8f9d078009ee3fa810bea142",
+        "LAND1": "BE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 94418.8,
+        "CURRENT_OCCUPANCY_PCT": 53.1
+    },
+    {
+        "WERKS": "E112",
+        "plant_id": "e112532ce9d0b0d333dfa33a9047d66c",
+        "LAND1": "BE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 87737.13,
+        "CURRENT_OCCUPANCY_PCT": 90.41
+    },
+    {
+        "WERKS": "070D",
+        "plant_id": "070dbb6024b5ef93784428afc71f2146",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 92266.58,
+        "CURRENT_OCCUPANCY_PCT": 67.01
+    },
+    {
+        "WERKS": "0C21",
+        "plant_id": "0c215f194276000be6a6df6528067151",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 186850.43,
+        "CURRENT_OCCUPANCY_PCT": 72.92
+    },
+    {
+        "WERKS": "0CC4",
+        "plant_id": "0cc4b4c9258a2939da96f3397d64fdc6",
+        "LAND1": "BE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 155018.18,
+        "CURRENT_OCCUPANCY_PCT": 86.24
+    },
+    {
+        "WERKS": "0D73",
+        "plant_id": "0d7363894acdee742caf7fe4e97c4d49",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 198729.12,
+        "CURRENT_OCCUPANCY_PCT": 91.8
+    },
+    {
+        "WERKS": "0E90",
+        "plant_id": "0e900ad84f63618452210ab8baae0218",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 186473.66,
+        "CURRENT_OCCUPANCY_PCT": 54.41
+    },
+    {
+        "WERKS": "1563",
+        "plant_id": "1563641bb8238e482a1455c21ab61446",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 132159.76,
+        "CURRENT_OCCUPANCY_PCT": 60.27
+    },
+    {
+        "WERKS": "1A44",
+        "plant_id": "1a4457def84ea52c95dc6361ac226ed4",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 86197.54,
+        "CURRENT_OCCUPANCY_PCT": 50.31
+    },
+    {
+        "WERKS": "217E",
+        "plant_id": "217e342fc01668b10cb1188d40d3370e",
+        "LAND1": "CA",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 128096.1,
+        "CURRENT_OCCUPANCY_PCT": 49.99
+    },
+    {
+        "WERKS": "2BC8",
+        "plant_id": "2bc8ae25856bc2a6a1333d1331a3b7a6",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 121840.44,
+        "CURRENT_OCCUPANCY_PCT": 45.26
+    },
+    {
+        "WERKS": "2E74",
+        "plant_id": "2e74c2cf88f68a68c84e9509abc7ea56",
+        "LAND1": "HK",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 166232.06,
+        "CURRENT_OCCUPANCY_PCT": 43.31
+    },
+    {
+        "WERKS": "4EA6",
+        "plant_id": "4ea6a546c19499318091a9df40a13181",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 71463.83,
+        "CURRENT_OCCUPANCY_PCT": 92.77
+    },
+    {
+        "WERKS": "7C7D",
+        "plant_id": "7c7d20b2e4bad95dc302069792986638",
+        "LAND1": "KR",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 122675.73,
+        "CURRENT_OCCUPANCY_PCT": 56.27
+    },
+    {
+        "WERKS": "80E5",
+        "plant_id": "80e56b247f95cf1396ab485b8c22b031",
+        "LAND1": "IT",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 198463.73,
+        "CURRENT_OCCUPANCY_PCT": 66.97
+    },
+    {
+        "WERKS": "908A",
+        "plant_id": "908a6f6a6c131a850ecb0e3f11b08189",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 134297.03,
+        "CURRENT_OCCUPANCY_PCT": 41.84
+    },
+    {
+        "WERKS": "977F",
+        "plant_id": "977fc4bedb23e3b910e4ce85d8b4b21a",
+        "LAND1": "CN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 145054.0,
+        "CURRENT_OCCUPANCY_PCT": 66.22
+    },
+    {
+        "WERKS": "978F",
+        "plant_id": "978fce5bcc4eccc88ad48ce3914124a2",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 171116.23,
+        "CURRENT_OCCUPANCY_PCT": 78.55
+    },
+    {
+        "WERKS": "9998",
+        "plant_id": "9998a6b8f528d7a1d2001b2c8528165a",
+        "LAND1": "PL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 148327.68,
+        "CURRENT_OCCUPANCY_PCT": 58.03
+    },
+    {
+        "WERKS": "B130",
+        "plant_id": "b1300291698eadedb559786c809cc592",
+        "LAND1": "JP",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 151354.25,
+        "CURRENT_OCCUPANCY_PCT": 86.58
+    },
+    {
+        "WERKS": "B628",
+        "plant_id": "b628386c9b92481fab68fbf284bd6a64",
+        "LAND1": "JP",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 74794.76,
+        "CURRENT_OCCUPANCY_PCT": 43.09
+    },
+    {
+        "WERKS": "B7F1",
+        "plant_id": "b7f1f29db7c23648f2bb8d6a8ee0469b",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 129014.25,
+        "CURRENT_OCCUPANCY_PCT": 73.78
+    },
+    {
+        "WERKS": "DE59",
+        "plant_id": "de594ef5c314372edec29b93cab9d72e",
+        "LAND1": "JP",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 185759.82,
+        "CURRENT_OCCUPANCY_PCT": 69.73
+    },
+    {
+        "WERKS": "E085",
+        "plant_id": "e0853e9e673d7e813328a39daa7b7799",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 145388.45,
+        "CURRENT_OCCUPANCY_PCT": 74.25
+    },
+    {
+        "WERKS": "E389",
+        "plant_id": "e389cd23230c472a1975102f6f5cc91d",
+        "LAND1": "FR",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 73540.44,
+        "CURRENT_OCCUPANCY_PCT": 81.48
+    },
+    {
+        "WERKS": "F1D3",
+        "plant_id": "f1d36c68b175d7e3d8cbb6e0c6a90249",
+        "LAND1": "BE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 128560.43,
+        "CURRENT_OCCUPANCY_PCT": 40.2
+    },
+    {
+        "WERKS": "F565",
+        "plant_id": "f565bb9efccaf6986443db0bf01018bc",
+        "LAND1": "JP",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 87836.83,
+        "CURRENT_OCCUPANCY_PCT": 53.21
+    },
+    {
+        "WERKS": "03FA",
+        "plant_id": "03fa2f7502f5f6b9169e67d17cbf51bb",
+        "LAND1": "CN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 101233.22,
+        "CURRENT_OCCUPANCY_PCT": 77.73
+    },
+    {
+        "WERKS": "220C",
+        "plant_id": "220c77af02f8ad8561b150d93000ddff",
+        "LAND1": "CN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 156649.11,
+        "CURRENT_OCCUPANCY_PCT": 76.2
+    },
+    {
+        "WERKS": "49E6",
+        "plant_id": "49e68363ef4bb806e33f16de0060b882",
+        "LAND1": "CN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 73886.94,
+        "CURRENT_OCCUPANCY_PCT": 79.34
+    },
+    {
+        "WERKS": "4BBD",
+        "plant_id": "4bbdcc0e821637155ac4217bdab70d2e",
+        "LAND1": "IN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 169174.51,
+        "CURRENT_OCCUPANCY_PCT": 68.49
+    },
+    {
+        "WERKS": "51FB",
+        "plant_id": "51fb6e4c78fe5b073a92404841ebe19e",
+        "LAND1": "BE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 122381.24,
+        "CURRENT_OCCUPANCY_PCT": 90.66
+    },
+    {
+        "WERKS": "5A99",
+        "plant_id": "5a99158e0c52f9e7d290906c9d08268d",
+        "LAND1": "CN",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 197642.02,
+        "CURRENT_OCCUPANCY_PCT": 80.23
+    },
+    {
+        "WERKS": "A2BA",
+        "plant_id": "a2bab1b5ff2eb146587f809adda2469b",
+        "LAND1": "CN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 71807.89,
+        "CURRENT_OCCUPANCY_PCT": 89.74
+    },
+    {
+        "WERKS": "A778",
+        "plant_id": "a7789ef88d599b8df86bbee632b2994d",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 80098.09,
+        "CURRENT_OCCUPANCY_PCT": 62.32
+    },
+    {
+        "WERKS": "B4AC",
+        "plant_id": "b4ac2b673d2c8a2990a939e38af35297",
+        "LAND1": "GB",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 73704.58,
+        "CURRENT_OCCUPANCY_PCT": 69.01
+    },
+    {
+        "WERKS": "CBC4",
+        "plant_id": "cbc44b43a7868cb36de1a38afe3dfcad",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 141219.22,
+        "CURRENT_OCCUPANCY_PCT": 49.85
+    },
+    {
+        "WERKS": "F6BE",
+        "plant_id": "f6be002f3df29a836d4abd56593bfea7",
+        "LAND1": "DE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 183424.15,
+        "CURRENT_OCCUPANCY_PCT": 70.54
+    },
+    {
+        "WERKS": "F8DA",
+        "plant_id": "f8da71e562ff44a2bc7edf3578c593da",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 100744.43,
+        "CURRENT_OCCUPANCY_PCT": 62.71
+    },
+    {
+        "WERKS": "FE03",
+        "plant_id": "fe033ac9dc33e109c9cc81a80ebc5e77",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 108422.1,
+        "CURRENT_OCCUPANCY_PCT": 52.7
+    },
+    {
+        "WERKS": "026A",
+        "plant_id": "026a39ae63343c68b5223a95f3e17616",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 103952.98,
+        "CURRENT_OCCUPANCY_PCT": 94.09
+    },
+    {
+        "WERKS": "06FE",
+        "plant_id": "06fe1c234519f6812fc4c1baae25d6af",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 130463.84,
+        "CURRENT_OCCUPANCY_PCT": 80.42
+    },
+    {
+        "WERKS": "0738",
+        "plant_id": "0738069b244a1c43c83112b735140a16",
+        "LAND1": "DE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 66255.13,
+        "CURRENT_OCCUPANCY_PCT": 92.46
+    },
+    {
+        "WERKS": "0D74",
+        "plant_id": "0d7477ddf376ac1f4e6e1d2ab7b1d380",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 123589.84,
+        "CURRENT_OCCUPANCY_PCT": 43.82
+    },
+    {
+        "WERKS": "1102",
+        "plant_id": "1102a326d5f7c9e04fc3c89d0ede88c9",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 170486.09,
+        "CURRENT_OCCUPANCY_PCT": 91.27
+    },
+    {
+        "WERKS": "23FC",
+        "plant_id": "23fc4cba066f390a8cc729c7592b6ee8",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 168369.84,
+        "CURRENT_OCCUPANCY_PCT": 66.71
+    },
+    {
+        "WERKS": "2830",
+        "plant_id": "283085d30e10513624c8cece7993f4de",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 66853.7,
+        "CURRENT_OCCUPANCY_PCT": 47.66
+    },
+    {
+        "WERKS": "3B9D",
+        "plant_id": "3b9d59a9c95bfd994cd9192352c24841",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 54874.43,
+        "CURRENT_OCCUPANCY_PCT": 87.65
+    },
+    {
+        "WERKS": "48C3",
+        "plant_id": "48c3ec5c3a93a9e294a8a6392ccedeb4",
+        "LAND1": "BE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 143905.3,
+        "CURRENT_OCCUPANCY_PCT": 94.14
+    },
+    {
+        "WERKS": "4EBC",
+        "plant_id": "4ebccfb3e317c7789f04f7a558df4537",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 50946.22,
+        "CURRENT_OCCUPANCY_PCT": 66.25
+    },
+    {
+        "WERKS": "6205",
+        "plant_id": "62056c8ba21be5679cb279322a2f553e",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 155749.99,
+        "CURRENT_OCCUPANCY_PCT": 63.24
+    },
+    {
+        "WERKS": "6565",
+        "plant_id": "656504efa5880fd606f2851cfd6acff4",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 96155.77,
+        "CURRENT_OCCUPANCY_PCT": 70.32
+    },
+    {
+        "WERKS": "6FBE",
+        "plant_id": "6fbe5217549a45af667df8755cece31e",
+        "LAND1": "IT",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 59133.83,
+        "CURRENT_OCCUPANCY_PCT": 45.89
+    },
+    {
+        "WERKS": "743C",
+        "plant_id": "743c41a921516b04afde48bb48e28ce6",
+        "LAND1": "SE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 87700.92,
+        "CURRENT_OCCUPANCY_PCT": 76.37
+    },
+    {
+        "WERKS": "9407",
+        "plant_id": "9407c826d8e3c07ad37cb2d13d1cb641",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 176076.91,
+        "CURRENT_OCCUPANCY_PCT": 57.91
+    },
+    {
+        "WERKS": "A7A3",
+        "plant_id": "a7a3d70c6d17a73140918996d03c014f",
+        "LAND1": "JP",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 182781.93,
+        "CURRENT_OCCUPANCY_PCT": 49.9
+    },
+    {
+        "WERKS": "B1C0",
+        "plant_id": "b1c00bcd4b5183705c134b3365f8c45e",
+        "LAND1": "IN",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 120776.52,
+        "CURRENT_OCCUPANCY_PCT": 81.88
+    },
+    {
+        "WERKS": "B6F7",
+        "plant_id": "b6f751d6b4c29c3f497bbca28702cae2",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 92549.13,
+        "CURRENT_OCCUPANCY_PCT": 54.02
+    },
+    {
+        "WERKS": "C91D",
+        "plant_id": "c91da50eb7a03406ecf39ef38cc30f4a",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 106647.86,
+        "CURRENT_OCCUPANCY_PCT": 83.41
+    },
+    {
+        "WERKS": "CE99",
+        "plant_id": "ce99faad2f1839bb616a42ee8ed37e88",
+        "LAND1": "MX",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 191569.91,
+        "CURRENT_OCCUPANCY_PCT": 43.16
+    },
+    {
+        "WERKS": "D478",
+        "plant_id": "d47844673f2db74d78da8687d794523d",
+        "LAND1": "JP",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 175891.7,
+        "CURRENT_OCCUPANCY_PCT": 62.06
+    },
+    {
+        "WERKS": "D8E1",
+        "plant_id": "d8e1344e27a5b08cdfd5d027d9b8d6de",
+        "LAND1": "JP",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 112743.64,
+        "CURRENT_OCCUPANCY_PCT": 66.28
+    },
+    {
+        "WERKS": "FC47",
+        "plant_id": "fc479c5146ffffb88f6d1ecf28d94f3d",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 104200.11,
+        "CURRENT_OCCUPANCY_PCT": 73.01
+    },
+    {
+        "WERKS": "030E",
+        "plant_id": "030e65da2b1c944090548d36b244b28d",
+        "LAND1": "TW",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 67546.99,
+        "CURRENT_OCCUPANCY_PCT": 65.17
+    },
+    {
+        "WERKS": "18BB",
+        "plant_id": "18bb68e2b38e4a8ce7cf4f6b2625768c",
+        "LAND1": "NL",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 115537.07,
+        "CURRENT_OCCUPANCY_PCT": 72.95
+    },
+    {
+        "WERKS": "1B14",
+        "plant_id": "1b1431024a2bc4593de5e7899eea1397",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 84226.28,
+        "CURRENT_OCCUPANCY_PCT": 53.96
+    },
+    {
+        "WERKS": "30AA",
+        "plant_id": "30aaf34d6afd4b11cc3b3ac4704c7908",
+        "LAND1": "DE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 173694.74,
+        "CURRENT_OCCUPANCY_PCT": 82.48
+    },
+    {
+        "WERKS": "3BAB",
+        "plant_id": "3babd94224255b13e94f2d5bead26640",
+        "LAND1": "BR",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 131193.12,
+        "CURRENT_OCCUPANCY_PCT": 82.06
+    },
+    {
+        "WERKS": "50AB",
+        "plant_id": "50abc3e730e36b387ca8e02c26dc0a22",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 95261.43,
+        "CURRENT_OCCUPANCY_PCT": 42.53
+    },
+    {
+        "WERKS": "531D",
+        "plant_id": "531db99cb00833bcd414459069dc7387",
+        "LAND1": "IN",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 167595.23,
+        "CURRENT_OCCUPANCY_PCT": 69.11
+    },
+    {
+        "WERKS": "6024",
+        "plant_id": "60243f9b1ac2dba11ff8131c8f4431e0",
+        "LAND1": "TW",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 148400.48,
+        "CURRENT_OCCUPANCY_PCT": 52.83
+    },
+    {
+        "WERKS": "7876",
+        "plant_id": "7876acb66640bad41f1e1371ef30c180",
+        "LAND1": "BE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 92423.45,
+        "CURRENT_OCCUPANCY_PCT": 87.3
+    },
+    {
+        "WERKS": "7F7C",
+        "plant_id": "7f7c351ee977c765aa8cd5c7020bc38f",
+        "LAND1": "CN",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 76340.06,
+        "CURRENT_OCCUPANCY_PCT": 93.57
+    },
+    {
+        "WERKS": "852C",
+        "plant_id": "852c44ddce7e0c7e4c64d86147300831",
+        "LAND1": "IE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 104296.25,
+        "CURRENT_OCCUPANCY_PCT": 43.48
+    },
+    {
+        "WERKS": "8768",
+        "plant_id": "87682805257e619d49b8e0dfdc14affa",
+        "LAND1": "NL",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 128512.91,
+        "CURRENT_OCCUPANCY_PCT": 83.47
+    },
+    {
+        "WERKS": "8819",
+        "plant_id": "881969ac94d1762fd7d0063e4e0dab37",
+        "LAND1": "IN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 125858.99,
+        "CURRENT_OCCUPANCY_PCT": 46.27
+    },
+    {
+        "WERKS": "8FB9",
+        "plant_id": "8fb9942185975c6e0b2992587fd0d981",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 92189.29,
+        "CURRENT_OCCUPANCY_PCT": 80.74
+    },
+    {
+        "WERKS": "93CA",
+        "plant_id": "93ca746c3824c6174c2da28db36f71f1",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 141256.53,
+        "CURRENT_OCCUPANCY_PCT": 67.66
+    },
+    {
+        "WERKS": "B4A7",
+        "plant_id": "b4a721cfb62f5d19ec61575114d8a2d1",
+        "LAND1": "JP",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 97326.11,
+        "CURRENT_OCCUPANCY_PCT": 68.23
+    },
+    {
+        "WERKS": "E4B2",
+        "plant_id": "e4b24d0984851a4c7f2f4c60d294fc30",
+        "LAND1": "BE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 93768.41,
+        "CURRENT_OCCUPANCY_PCT": 48.26
+    },
+    {
+        "WERKS": "EB0E",
+        "plant_id": "eb0ecdb070a1a0ac46de0cd733d39cf3",
+        "LAND1": "BE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 78305.55,
+        "CURRENT_OCCUPANCY_PCT": 91.56
+    },
+    {
+        "WERKS": "EE62",
+        "plant_id": "ee62ea6672c72a7bf3b061680208d3c2",
+        "LAND1": "BE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 196261.06,
+        "CURRENT_OCCUPANCY_PCT": 86.91
+    },
+    {
+        "WERKS": "FB89",
+        "plant_id": "fb89fd138b104dcf8e2077ad2a23954d",
+        "LAND1": "BE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 142596.35,
+        "CURRENT_OCCUPANCY_PCT": 73.8
+    },
+    {
+        "WERKS": "058D",
+        "plant_id": "058d6f2fbe951a5a56d96b1f1a6bca1c",
+        "LAND1": "JP",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 83487.65,
+        "CURRENT_OCCUPANCY_PCT": 48.21
+    },
+    {
+        "WERKS": "3818",
+        "plant_id": "38181d991caac98be8fb2ecb8bd0f166",
+        "LAND1": "US",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 156368.15,
+        "CURRENT_OCCUPANCY_PCT": 79.73
+    },
+    {
+        "WERKS": "4727",
+        "plant_id": "47279f4d7c670367a5a7bd11cee54b6f",
+        "LAND1": "MX",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 167821.59,
+        "CURRENT_OCCUPANCY_PCT": 57.41
+    },
+    {
+        "WERKS": "4A58",
+        "plant_id": "4a5876b450b45371f6cfe5047ac8cd45",
+        "LAND1": "JP",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 158291.53,
+        "CURRENT_OCCUPANCY_PCT": 75.51
+    },
+    {
+        "WERKS": "65F2",
+        "plant_id": "65f2a94c8c2d56d5b43a1a3d9d811102",
+        "LAND1": "CN",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 123687.39,
+        "CURRENT_OCCUPANCY_PCT": 47.9
+    },
+    {
+        "WERKS": "8535",
+        "plant_id": "85353d3b2f39b9c9b5ee3576578c04b7",
+        "LAND1": "NL",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 129094.82,
+        "CURRENT_OCCUPANCY_PCT": 57.27
+    },
+    {
+        "WERKS": "BE78",
+        "plant_id": "be7878443cfac258324c25d3df1c2ab7",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 183406.55,
+        "CURRENT_OCCUPANCY_PCT": 47.11
+    },
+    {
+        "WERKS": "C84D",
+        "plant_id": "c84dc869ccb1a54ba5e529be5e80891b",
+        "LAND1": "DE",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 176316.18,
+        "CURRENT_OCCUPANCY_PCT": 60.79
+    },
+    {
+        "WERKS": "DA2A",
+        "plant_id": "da2aa151dc9fe6161f1db5f283a18bbd",
+        "LAND1": "DE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 119266.5,
+        "CURRENT_OCCUPANCY_PCT": 45.66
+    },
+    {
+        "WERKS": "E068",
+        "plant_id": "e0688d13958a19e087e123148555e4b4",
+        "LAND1": "US",
+        "PLANT_TYPE": "DC",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 166497.86,
+        "CURRENT_OCCUPANCY_PCT": 82.51
+    },
+    {
+        "WERKS": "E193",
+        "plant_id": "e1934230e977ab7ed57e5ece5f9da5ca",
+        "LAND1": "DE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 184020.57,
+        "CURRENT_OCCUPANCY_PCT": 54.85
+    },
+    {
+        "WERKS": "E262",
+        "plant_id": "e262fc33134b844566d347fce8c92a19",
+        "LAND1": "BE",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 187033.48,
+        "CURRENT_OCCUPANCY_PCT": 89.89
+    },
+    {
+        "WERKS": "EB06",
+        "plant_id": "eb06b9db06012a7a4179b8f3cb5384d3",
+        "LAND1": "US",
+        "PLANT_TYPE": "PLANT",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 98152.94,
+        "CURRENT_OCCUPANCY_PCT": 69.73
+    },
+    {
+        "WERKS": "F3C5",
+        "plant_id": "f3c51d4bfaf65ac76bab085f8b6fe1ae",
+        "LAND1": "BE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "N",
+        "MAX_CAPACITY_HL": 117609.63,
+        "CURRENT_OCCUPANCY_PCT": 41.29
+    },
+    {
+        "WERKS": "F7F7",
+        "plant_id": "f7f75abb4f12120f5b94a0e284dd7df2",
+        "LAND1": "BE",
+        "PLANT_TYPE": "WAREHOUSE",
+        "STRATEGIC_FLAG": "Y",
+        "MAX_CAPACITY_HL": 197698.4,
+        "CURRENT_OCCUPANCY_PCT": 48.65
+    }
+]

@@ -1,0 +1,12 @@
+Historical Allocation Decisions Report
+======================================
+Date: 2024-03-15
+
+Executive Summary:
+Regional allocation efficiency has increased by 15% due to improved source selection logic. However, certain sub-optimal clusters remain in the IN and BE markets.
+
+Detailed Logs:
+- SO-4567: Rerouted from DE to GB (Saved 500 HL transport)
+- SO-4568: Optimal plant matched correctly.
+- STO-991: Movement type 641 verified as productive.
+...

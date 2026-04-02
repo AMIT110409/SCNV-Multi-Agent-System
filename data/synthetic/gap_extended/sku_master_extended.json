@@ -1,0 +1,5683 @@
+[
+    {
+        "sku_id": "96a32df96c0a636208c61ae4dff0555c",
+        "material_type": "ZREP",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 187,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 187
+    },
+    {
+        "sku_id": "f85b09e5fb753cfaaf42fb3000ec86fc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 341,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 341
+    },
+    {
+        "sku_id": "5228ab5986de80469fb6ff82e8581495",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 250,
+        "MIN_FRESHNESS_THRESHOLD": 72,
+        "SHELF_LIFE_DAYS": 250
+    },
+    {
+        "sku_id": "f56da002ddede9a35fab400b849c5fbb",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "362387494f6be6613daea643a7706a42"
+        ],
+        "shelf_life_days": 259,
+        "MIN_FRESHNESS_THRESHOLD": 28,
+        "SHELF_LIFE_DAYS": 259
+    },
+    {
+        "sku_id": "35669a46984ffac270662456a84fb640",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 288,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 288
+    },
+    {
+        "sku_id": "3c95136799e0cc1c407d6da2a92045e8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 166,
+        "MIN_FRESHNESS_THRESHOLD": 39,
+        "SHELF_LIFE_DAYS": 166
+    },
+    {
+        "sku_id": "741330a9bfaabdaaaf53d2553677c786",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 191,
+        "MIN_FRESHNESS_THRESHOLD": 57,
+        "SHELF_LIFE_DAYS": 191
+    },
+    {
+        "sku_id": "8b3db9c259fda51fa824a2fabeab67a4",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 81,
+        "MIN_FRESHNESS_THRESHOLD": 18,
+        "SHELF_LIFE_DAYS": 81
+    },
+    {
+        "sku_id": "00c92222c02f342b47450f5390a2ce99",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 257,
+        "MIN_FRESHNESS_THRESHOLD": 66,
+        "SHELF_LIFE_DAYS": 257
+    },
+    {
+        "sku_id": "2b5976b606fe1c526ff90615f19e9335",
+        "material_type": "ZREP",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 350,
+        "MIN_FRESHNESS_THRESHOLD": 44,
+        "SHELF_LIFE_DAYS": 350
+    },
+    {
+        "sku_id": "6db17a7887605d9ad55cb816ae8da303",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 268,
+        "MIN_FRESHNESS_THRESHOLD": 77,
+        "SHELF_LIFE_DAYS": 268
+    },
+    {
+        "sku_id": "71216fdc26c02f238edb06bcebb536a2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 111,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 111
+    },
+    {
+        "sku_id": "3a7438a346840c80d9ffded328ad2441",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 260,
+        "MIN_FRESHNESS_THRESHOLD": 64,
+        "SHELF_LIFE_DAYS": 260
+    },
+    {
+        "sku_id": "aca308bbdffd9e53385a03aa16462a4b",
+        "material_type": "DIEN",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "18bb68e2b38e4a8ce7cf4f6b2625768c"
+        ],
+        "shelf_life_days": 184,
+        "MIN_FRESHNESS_THRESHOLD": 44,
+        "SHELF_LIFE_DAYS": 184
+    },
+    {
+        "sku_id": "31ed8476f3846745f8ef6b1145368fdd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 97,
+        "MIN_FRESHNESS_THRESHOLD": 9,
+        "SHELF_LIFE_DAYS": 97
+    },
+    {
+        "sku_id": "77e82d2073d3cba2d6d87914b29d78a0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 155,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 155
+    },
+    {
+        "sku_id": "67b252e14ad13190ac0566326d13628e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 135,
+        "MIN_FRESHNESS_THRESHOLD": 34,
+        "SHELF_LIFE_DAYS": 135
+    },
+    {
+        "sku_id": "acdd858929cf8dfa3b961b9537ed2e04",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 311,
+        "MIN_FRESHNESS_THRESHOLD": 80,
+        "SHELF_LIFE_DAYS": 311
+    },
+    {
+        "sku_id": "26182c6515a5b1aa2b7443a020968caa",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 284,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 284
+    },
+    {
+        "sku_id": "5f5afd38f7d9ddf825b5852cdccc9551",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "ce3d8d256cfc18a5aebf62856aae9cc1",
+            "f9601a3ce10e4ed6ea85d0d2e4f5f1dd",
+            "494e5c2ac9d3e74696028680b2580206",
+            "f3d814ccb97a176b464af904adde589d",
+            "7805b793230668c469b7d9c94379e28b",
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 314,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 314
+    },
+    {
+        "sku_id": "e0e29855751f5606d75e4bba8f464de3",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 88,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 88
+    },
+    {
+        "sku_id": "5d019f03fc028ae34cd747c7b0708ad9",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 77,
+        "MIN_FRESHNESS_THRESHOLD": 8,
+        "SHELF_LIFE_DAYS": 77
+    },
+    {
+        "sku_id": "448d6557b0411b6d781a8c5713674f2e",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7a3d70c6d17a73140918996d03c014f"
+        ],
+        "shelf_life_days": 337,
+        "MIN_FRESHNESS_THRESHOLD": 44,
+        "SHELF_LIFE_DAYS": 337
+    },
+    {
+        "sku_id": "a5d16c6a7da56ffddde342589f20767d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 55,
+        "MIN_FRESHNESS_THRESHOLD": 9,
+        "SHELF_LIFE_DAYS": 55
+    },
+    {
+        "sku_id": "766b55f239b8fbdb00e8506c2db4605b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 47,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 47
+    },
+    {
+        "sku_id": "83dce088544d39336ff555f21d28e203",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "b1300291698eadedb559786c809cc592",
+            "b628386c9b92481fab68fbf284bd6a64",
+            "a7a3d70c6d17a73140918996d03c014f",
+            "bbeb0c1b1fd44e392c7ce2fdbd137e87",
+            "cdd96eedd7f695f4d61802f8105ba2b0"
+        ],
+        "shelf_life_days": 274,
+        "MIN_FRESHNESS_THRESHOLD": 63,
+        "SHELF_LIFE_DAYS": 274
+    },
+    {
+        "sku_id": "2d9187d9e6fa875efd33b34e012cf784",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 99,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 99
+    },
+    {
+        "sku_id": "3bcfd2035cdd8a985adad7981f9c6b14",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 104,
+        "MIN_FRESHNESS_THRESHOLD": 13,
+        "SHELF_LIFE_DAYS": 104
+    },
+    {
+        "sku_id": "2144c7a8fd55dd0266d461ac0b1a6c79",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 334,
+        "MIN_FRESHNESS_THRESHOLD": 83,
+        "SHELF_LIFE_DAYS": 334
+    },
+    {
+        "sku_id": "e754ff1aa186e9e5bd9b92322b14723c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 246,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 246
+    },
+    {
+        "sku_id": "580c2ebc89b59aa200635829a5649c21",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 351,
+        "MIN_FRESHNESS_THRESHOLD": 58,
+        "SHELF_LIFE_DAYS": 351
+    },
+    {
+        "sku_id": "681ef0ca0106fe51e931ff61b5576a5b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 75,
+        "MIN_FRESHNESS_THRESHOLD": 21,
+        "SHELF_LIFE_DAYS": 75
+    },
+    {
+        "sku_id": "b63f500759b824cffd4f4f17660ac541",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 112,
+        "MIN_FRESHNESS_THRESHOLD": 27,
+        "SHELF_LIFE_DAYS": 112
+    },
+    {
+        "sku_id": "6b0accaf080393a9578fa6c84c426b9f",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 189,
+        "MIN_FRESHNESS_THRESHOLD": 54,
+        "SHELF_LIFE_DAYS": 189
+    },
+    {
+        "sku_id": "dbf20f77c662a62d8ae655c9ed37075f",
+        "material_type": "INTR",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 118,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 118
+    },
+    {
+        "sku_id": "69e172bd749eab804cb235903f9d840a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 229,
+        "MIN_FRESHNESS_THRESHOLD": 65,
+        "SHELF_LIFE_DAYS": 229
+    },
+    {
+        "sku_id": "0438471ac05274bf73f61638c1186f53",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 185,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 185
+    },
+    {
+        "sku_id": "a95cce3992dd8d82a0d59dbd4cb27bcb",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 327,
+        "MIN_FRESHNESS_THRESHOLD": 51,
+        "SHELF_LIFE_DAYS": 327
+    },
+    {
+        "sku_id": "a8f5d8749e23cdc8bf0d748ad4429bb8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 199,
+        "MIN_FRESHNESS_THRESHOLD": 58,
+        "SHELF_LIFE_DAYS": 199
+    },
+    {
+        "sku_id": "6d4ae745dc373e1d0520fd634a56d1ef",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 174,
+        "MIN_FRESHNESS_THRESHOLD": 34,
+        "SHELF_LIFE_DAYS": 174
+    },
+    {
+        "sku_id": "a0c3029d7eb26f687441db89b63e47f3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 76,
+        "MIN_FRESHNESS_THRESHOLD": 18,
+        "SHELF_LIFE_DAYS": 76
+    },
+    {
+        "sku_id": "95d5e7f85c9d2950751acb9474333867",
+        "material_type": "UNBW",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "dbab2adc8f9d078009ee3fa810bea142",
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 300,
+        "MIN_FRESHNESS_THRESHOLD": 69,
+        "SHELF_LIFE_DAYS": 300
+    },
+    {
+        "sku_id": "63612b062ac3ed4c17bae7f84bd8d351",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 213,
+        "MIN_FRESHNESS_THRESHOLD": 38,
+        "SHELF_LIFE_DAYS": 213
+    },
+    {
+        "sku_id": "ca6de8dae8e9daf7cdfe58a0cbd03445",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 45,
+        "MIN_FRESHNESS_THRESHOLD": 9,
+        "SHELF_LIFE_DAYS": 45
+    },
+    {
+        "sku_id": "22fecfd67464c84042fd27a19ab4ba57",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 218,
+        "MIN_FRESHNESS_THRESHOLD": 62,
+        "SHELF_LIFE_DAYS": 218
+    },
+    {
+        "sku_id": "4ec17f3576f15fffdfd845bb03e82419",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 91,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 91
+    },
+    {
+        "sku_id": "12eb8e9708f5063508bd216bb098a258",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 198,
+        "MIN_FRESHNESS_THRESHOLD": 36,
+        "SHELF_LIFE_DAYS": 198
+    },
+    {
+        "sku_id": "1c706cd9f469c5f805451d69bbe063f3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 335,
+        "MIN_FRESHNESS_THRESHOLD": 47,
+        "SHELF_LIFE_DAYS": 335
+    },
+    {
+        "sku_id": "fa7208bb5d230c7aab59f5ec424fd5cb",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 80,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 80
+    },
+    {
+        "sku_id": "22d465b7d8a9e16effe0937f1c2d9a07",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 240,
+        "MIN_FRESHNESS_THRESHOLD": 51,
+        "SHELF_LIFE_DAYS": 240
+    },
+    {
+        "sku_id": "e5503dacb6813aba1b0c36cee5da6dec",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 141,
+        "MIN_FRESHNESS_THRESHOLD": 36,
+        "SHELF_LIFE_DAYS": 141
+    },
+    {
+        "sku_id": "ff51600ff65b3c4e65d3ae3860dd9ebd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 151,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 151
+    },
+    {
+        "sku_id": "8c687c26eb2ce192790cba607336ff76",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa",
+            "5a99158e0c52f9e7d290906c9d08268d"
+        ],
+        "shelf_life_days": 212,
+        "MIN_FRESHNESS_THRESHOLD": 27,
+        "SHELF_LIFE_DAYS": 212
+    },
+    {
+        "sku_id": "73b7c669ebdfe877b4af89e063ede8a2",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 121,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 121
+    },
+    {
+        "sku_id": "9e018161e962dbda02c2d25a3c7f3862",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 254,
+        "MIN_FRESHNESS_THRESHOLD": 56,
+        "SHELF_LIFE_DAYS": 254
+    },
+    {
+        "sku_id": "3ba69754c661c765687d1400c232f5e7",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 103,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 103
+    },
+    {
+        "sku_id": "142e807852520944c838484b22adbe17",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "5a99158e0c52f9e7d290906c9d08268d",
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 103,
+        "MIN_FRESHNESS_THRESHOLD": 24,
+        "SHELF_LIFE_DAYS": 103
+    },
+    {
+        "sku_id": "61b35ca294e1ce18514b19476dd57b1a",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 199,
+        "MIN_FRESHNESS_THRESHOLD": 34,
+        "SHELF_LIFE_DAYS": 199
+    },
+    {
+        "sku_id": "d0b0f66839e34ce90d4677ea1f0be2bd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 122,
+        "MIN_FRESHNESS_THRESHOLD": 31,
+        "SHELF_LIFE_DAYS": 122
+    },
+    {
+        "sku_id": "3bac37602b3b7a82dc7177ab7eba7407",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 320,
+        "MIN_FRESHNESS_THRESHOLD": 93,
+        "SHELF_LIFE_DAYS": 320
+    },
+    {
+        "sku_id": "986928132baaf4c24f6bc28f7da787a3",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "7c7d20b2e4bad95dc302069792986638",
+            "49e68363ef4bb806e33f16de0060b882",
+            "6f6bb3ed4df10bb920f615b5d8baadc1",
+            "40685b1b7030af626bdf8f8bdd115b9c"
+        ],
+        "shelf_life_days": 334,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 334
+    },
+    {
+        "sku_id": "34eb904057d47516f4f751304cef95dd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 84,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 84
+    },
+    {
+        "sku_id": "6b3a26399bef7415695504bad1e40797",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 36,
+        "MIN_FRESHNESS_THRESHOLD": 4,
+        "SHELF_LIFE_DAYS": 36
+    },
+    {
+        "sku_id": "c8cd0ef66ba7bb962b0b82320c1ba1f8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 240,
+        "MIN_FRESHNESS_THRESHOLD": 67,
+        "SHELF_LIFE_DAYS": 240
+    },
+    {
+        "sku_id": "ea4be31056dc0f680d8aeca490a09301",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 84,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 84
+    },
+    {
+        "sku_id": "bc91903d7e8633150be46ff21eb71894",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "3edcb7da862a1c46b48964322e70d44d"
+        ],
+        "shelf_life_days": 314,
+        "MIN_FRESHNESS_THRESHOLD": 79,
+        "SHELF_LIFE_DAYS": 314
+    },
+    {
+        "sku_id": "49b0f1b0ac3c4364a831ef96b2f08544",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 350,
+        "MIN_FRESHNESS_THRESHOLD": 74,
+        "SHELF_LIFE_DAYS": 350
+    },
+    {
+        "sku_id": "0c98c626231ad94d53ba5adbf4ca4559",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "a7789ef88d599b8df86bbee632b2994d",
+            "85353d3b2f39b9c9b5ee3576578c04b7",
+            "026a39ae63343c68b5223a95f3e17616",
+            "f35a2bc72dfdc2aae569a0c7370bd7f5",
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 264,
+        "MIN_FRESHNESS_THRESHOLD": 72,
+        "SHELF_LIFE_DAYS": 264
+    },
+    {
+        "sku_id": "7fca78f5c82f0c38e4e11100b825a5d2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 187,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 187
+    },
+    {
+        "sku_id": "d142484ef44a0f961b828b4366fb239b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 349,
+        "MIN_FRESHNESS_THRESHOLD": 68,
+        "SHELF_LIFE_DAYS": 349
+    },
+    {
+        "sku_id": "d099244344b6649bd183cecfa48a36bc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 255,
+        "MIN_FRESHNESS_THRESHOLD": 51,
+        "SHELF_LIFE_DAYS": 255
+    },
+    {
+        "sku_id": "7d4a7e7b45d545b89a9d3b3b6a00400a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 163,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 163
+    },
+    {
+        "sku_id": "c7c5832b60ef2a4122478e1768a91c1e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 321,
+        "MIN_FRESHNESS_THRESHOLD": 35,
+        "SHELF_LIFE_DAYS": 321
+    },
+    {
+        "sku_id": "b5e80ba213815bf3d2a4114de624d2b4",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 70,
+        "MIN_FRESHNESS_THRESHOLD": 12,
+        "SHELF_LIFE_DAYS": 70
+    },
+    {
+        "sku_id": "59675dc44f8ecd2081b5c02c06c18798",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 275,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 275
+    },
+    {
+        "sku_id": "ba1eada33211fcff6525527e0c472689",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 296,
+        "MIN_FRESHNESS_THRESHOLD": 57,
+        "SHELF_LIFE_DAYS": 296
+    },
+    {
+        "sku_id": "c90aa05ef8ff0064e536cc7e3d297eea",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 64,
+        "MIN_FRESHNESS_THRESHOLD": 6,
+        "SHELF_LIFE_DAYS": 64
+    },
+    {
+        "sku_id": "296d8fd1de940c6bd21af5b06c29651e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 226,
+        "MIN_FRESHNESS_THRESHOLD": 38,
+        "SHELF_LIFE_DAYS": 226
+    },
+    {
+        "sku_id": "06b50b4cbb49665bbf1c5ee3fce5f6e0",
+        "material_type": "ERSA",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "026a39ae63343c68b5223a95f3e17616",
+            "87682805257e619d49b8e0dfdc14affa",
+            "18bb68e2b38e4a8ce7cf4f6b2625768c"
+        ],
+        "shelf_life_days": 232,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 232
+    },
+    {
+        "sku_id": "3d390477b689a863c7edd08385e0b007",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "908a6f6a6c131a850ecb0e3f11b08189",
+            "47279f4d7c670367a5a7bd11cee54b6f",
+            "e0688d13958a19e087e123148555e4b4",
+            "358aee4cc897452c00244351e4d91f69",
+            "ce99faad2f1839bb616a42ee8ed37e88",
+            "32b991e5d77ad140559ffb95522992d0",
+            "1680e9fa7b4dd5d62ece800239bb53bd",
+            "94e6f3f45bf4405e82cc7497c4b7700b",
+            "e727fa59ddefcefb5d39501167623132",
+            "0c215f194276000be6a6df6528067151"
+        ],
+        "shelf_life_days": 265,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 265
+    },
+    {
+        "sku_id": "0f9d1d9cead76ff14f83f76187624e60",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 165,
+        "MIN_FRESHNESS_THRESHOLD": 16,
+        "SHELF_LIFE_DAYS": 165
+    },
+    {
+        "sku_id": "84af9a7aba0e69491affb7f6cd791303",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 186,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 186
+    },
+    {
+        "sku_id": "40db81e448a80bf58e6b91280f011bf3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 104,
+        "MIN_FRESHNESS_THRESHOLD": 10,
+        "SHELF_LIFE_DAYS": 104
+    },
+    {
+        "sku_id": "3510e5174e34a3d602dc5619980a1f9b",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "5410f15c2a6e22a8d5d5f6b28d040d74",
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 320,
+        "MIN_FRESHNESS_THRESHOLD": 61,
+        "SHELF_LIFE_DAYS": 320
+    },
+    {
+        "sku_id": "5dab7723244b47333664e2baeedc1006",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 101,
+        "MIN_FRESHNESS_THRESHOLD": 18,
+        "SHELF_LIFE_DAYS": 101
+    },
+    {
+        "sku_id": "9b2cd22b592b8b5578f437ee5f0bcb88",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 139,
+        "MIN_FRESHNESS_THRESHOLD": 38,
+        "SHELF_LIFE_DAYS": 139
+    },
+    {
+        "sku_id": "4eb93c520d0c1b2205327947af97d20b",
+        "material_type": "ERSA",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "18bb68e2b38e4a8ce7cf4f6b2625768c",
+            "026a39ae63343c68b5223a95f3e17616",
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 174,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 174
+    },
+    {
+        "sku_id": "e2d11e8381b30617fb298c85a9490e54",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 363,
+        "MIN_FRESHNESS_THRESHOLD": 83,
+        "SHELF_LIFE_DAYS": 363
+    },
+    {
+        "sku_id": "adba9e65c998121e883a88ff94630959",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 63,
+        "MIN_FRESHNESS_THRESHOLD": 10,
+        "SHELF_LIFE_DAYS": 63
+    },
+    {
+        "sku_id": "c8b7b835ea093e4bd09e6a2ff4aaf148",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 204,
+        "MIN_FRESHNESS_THRESHOLD": 39,
+        "SHELF_LIFE_DAYS": 204
+    },
+    {
+        "sku_id": "0e302b6cdc6d1ff4a2f5ae5062a44105",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 46,
+        "MIN_FRESHNESS_THRESHOLD": 4,
+        "SHELF_LIFE_DAYS": 46
+    },
+    {
+        "sku_id": "5688449de6773c1a6b7339071a33c5a7",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 319,
+        "MIN_FRESHNESS_THRESHOLD": 78,
+        "SHELF_LIFE_DAYS": 319
+    },
+    {
+        "sku_id": "9ecf163e2e7ce2a367869ac5cfb1a0de",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 278,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 278
+    },
+    {
+        "sku_id": "694d566a2cfbf090bcc2008f6229d201",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 263,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 263
+    },
+    {
+        "sku_id": "7e4662e666be139c8e26d92956fa4c35",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 342,
+        "MIN_FRESHNESS_THRESHOLD": 63,
+        "SHELF_LIFE_DAYS": 342
+    },
+    {
+        "sku_id": "ff52e3d514bf8a6f173f949f6dd1da3f",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 288,
+        "MIN_FRESHNESS_THRESHOLD": 71,
+        "SHELF_LIFE_DAYS": 288
+    },
+    {
+        "sku_id": "30c5581b22ea4bc43ad66680979438ab",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "362387494f6be6613daea643a7706a42"
+        ],
+        "shelf_life_days": 315,
+        "MIN_FRESHNESS_THRESHOLD": 81,
+        "SHELF_LIFE_DAYS": 315
+    },
+    {
+        "sku_id": "d4d7bfeb11db7bfb5169e37c77a13911",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 302,
+        "MIN_FRESHNESS_THRESHOLD": 84,
+        "SHELF_LIFE_DAYS": 302
+    },
+    {
+        "sku_id": "9065a3b115cddcf37d51b94b80d92fc3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 351,
+        "MIN_FRESHNESS_THRESHOLD": 64,
+        "SHELF_LIFE_DAYS": 351
+    },
+    {
+        "sku_id": "b95b072fd4200055ffa6ee7d5b175048",
+        "material_type": "ERSA",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "18bb68e2b38e4a8ce7cf4f6b2625768c",
+            "026a39ae63343c68b5223a95f3e17616",
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 98,
+        "MIN_FRESHNESS_THRESHOLD": 27,
+        "SHELF_LIFE_DAYS": 98
+    },
+    {
+        "sku_id": "ad740fd92d9661a6b597d3bd4b01b0dd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 145,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 145
+    },
+    {
+        "sku_id": "91df09b6b0773912e42bee6be31fa001",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 264,
+        "MIN_FRESHNESS_THRESHOLD": 52,
+        "SHELF_LIFE_DAYS": 264
+    },
+    {
+        "sku_id": "532fbebefd2bea37cfe3ba337ef72b88",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 57,
+        "MIN_FRESHNESS_THRESHOLD": 6,
+        "SHELF_LIFE_DAYS": 57
+    },
+    {
+        "sku_id": "b0c2130e835059c0b660f4c2eee5719c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 139,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 139
+    },
+    {
+        "sku_id": "91ecf3d1d86fd25126ea19436d79a939",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 222,
+        "MIN_FRESHNESS_THRESHOLD": 56,
+        "SHELF_LIFE_DAYS": 222
+    },
+    {
+        "sku_id": "2308b51c000dd5ba66e48fe9fdd4180c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 152,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 152
+    },
+    {
+        "sku_id": "6c104e0317898a3924401ad7c7aa272c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "cdcb2f5c7b071143529ef7f2705dfbc4"
+        ],
+        "shelf_life_days": 237,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 237
+    },
+    {
+        "sku_id": "5a9c82c2c4ebe4496602faf92126d4c7",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3",
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 336,
+        "MIN_FRESHNESS_THRESHOLD": 81,
+        "SHELF_LIFE_DAYS": 336
+    },
+    {
+        "sku_id": "ab585e3d7cba1052742243a8c344818d",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 201,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 201
+    },
+    {
+        "sku_id": "830c7f7962e8a01df66d0d1cfcd4dacb",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "2e7ceec8361275c4e31fee5fe422740b"
+        ],
+        "shelf_life_days": 277,
+        "MIN_FRESHNESS_THRESHOLD": 75,
+        "SHELF_LIFE_DAYS": 277
+    },
+    {
+        "sku_id": "1afc8b7b7ac210cfd96024d5247347b9",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 104,
+        "MIN_FRESHNESS_THRESHOLD": 20,
+        "SHELF_LIFE_DAYS": 104
+    },
+    {
+        "sku_id": "3432406b06bcb28564b4a028d44d9543",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 100,
+        "MIN_FRESHNESS_THRESHOLD": 14,
+        "SHELF_LIFE_DAYS": 100
+    },
+    {
+        "sku_id": "e438017fe0a8d8ec91e5c86971c91e0e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 282,
+        "MIN_FRESHNESS_THRESHOLD": 47,
+        "SHELF_LIFE_DAYS": 282
+    },
+    {
+        "sku_id": "c1a48a4dfef61bc2b3d7fe8662aaa70b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 114,
+        "MIN_FRESHNESS_THRESHOLD": 25,
+        "SHELF_LIFE_DAYS": 114
+    },
+    {
+        "sku_id": "b642c39b38678d3f94281f7ac1e8f70a",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 291,
+        "MIN_FRESHNESS_THRESHOLD": 69,
+        "SHELF_LIFE_DAYS": 291
+    },
+    {
+        "sku_id": "2c5a530768417122b1787210fac172f6",
+        "material_type": "ZREP",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 79,
+        "MIN_FRESHNESS_THRESHOLD": 16,
+        "SHELF_LIFE_DAYS": 79
+    },
+    {
+        "sku_id": "9bedc3c7c739838f8819e1bd6319bfe0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 103,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 103
+    },
+    {
+        "sku_id": "8727884bfb20e0175fb05a51e242ef37",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 197,
+        "MIN_FRESHNESS_THRESHOLD": 47,
+        "SHELF_LIFE_DAYS": 197
+    },
+    {
+        "sku_id": "e58d69a4213f62455668f7d825dd899c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 336,
+        "MIN_FRESHNESS_THRESHOLD": 47,
+        "SHELF_LIFE_DAYS": 336
+    },
+    {
+        "sku_id": "53b3db99df496beca499718bff2d91b7",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 123,
+        "MIN_FRESHNESS_THRESHOLD": 25,
+        "SHELF_LIFE_DAYS": 123
+    },
+    {
+        "sku_id": "511f753eb50f75999c1d4d957ed0c61e",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 316,
+        "MIN_FRESHNESS_THRESHOLD": 80,
+        "SHELF_LIFE_DAYS": 316
+    },
+    {
+        "sku_id": "a25ad21d8bbb771b367d00a083a87e38",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 180,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 180
+    },
+    {
+        "sku_id": "7c97efb6cc726b2a57158b6bf10389d6",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 264,
+        "MIN_FRESHNESS_THRESHOLD": 53,
+        "SHELF_LIFE_DAYS": 264
+    },
+    {
+        "sku_id": "fdb96b71a669544f68c421e0fb4f2f72",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "d8e1344e27a5b08cdfd5d027d9b8d6de",
+            "cdd96eedd7f695f4d61802f8105ba2b0",
+            "a7a3d70c6d17a73140918996d03c014f",
+            "d47844673f2db74d78da8687d794523d",
+            "b628386c9b92481fab68fbf284bd6a64"
+        ],
+        "shelf_life_days": 235,
+        "MIN_FRESHNESS_THRESHOLD": 68,
+        "SHELF_LIFE_DAYS": 235
+    },
+    {
+        "sku_id": "1d69149bad75022b530b8987b08e26f5",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 81,
+        "MIN_FRESHNESS_THRESHOLD": 8,
+        "SHELF_LIFE_DAYS": 81
+    },
+    {
+        "sku_id": "db615a5c553679c40887af6e952c9f4f",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 285,
+        "MIN_FRESHNESS_THRESHOLD": 46,
+        "SHELF_LIFE_DAYS": 285
+    },
+    {
+        "sku_id": "40df6d388c994bf02d70d56ba21dbe66",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 31,
+        "MIN_FRESHNESS_THRESHOLD": 3,
+        "SHELF_LIFE_DAYS": 31
+    },
+    {
+        "sku_id": "55b4e65381898c08ed9d0975ee604d19",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3",
+            "dbab2adc8f9d078009ee3fa810bea142"
+        ],
+        "shelf_life_days": 129,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 129
+    },
+    {
+        "sku_id": "0249064ac73433b1aabb39b682c4d364",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 220,
+        "MIN_FRESHNESS_THRESHOLD": 54,
+        "SHELF_LIFE_DAYS": 220
+    },
+    {
+        "sku_id": "19bcf08d069979752ef949f49a54b680",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 164,
+        "MIN_FRESHNESS_THRESHOLD": 27,
+        "SHELF_LIFE_DAYS": 164
+    },
+    {
+        "sku_id": "16b3ccbf1acb8fd1a8acb7156834835d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 236,
+        "MIN_FRESHNESS_THRESHOLD": 36,
+        "SHELF_LIFE_DAYS": 236
+    },
+    {
+        "sku_id": "4b6548d1d6ae7efac2f4cff930b674f0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 343,
+        "MIN_FRESHNESS_THRESHOLD": 84,
+        "SHELF_LIFE_DAYS": 343
+    },
+    {
+        "sku_id": "f1208e3610293017312e7dfef4e00ccc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 136,
+        "MIN_FRESHNESS_THRESHOLD": 31,
+        "SHELF_LIFE_DAYS": 136
+    },
+    {
+        "sku_id": "b81aaa158305fd44ae69080ae7b9c6d4",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "026a39ae63343c68b5223a95f3e17616"
+        ],
+        "shelf_life_days": 95,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 95
+    },
+    {
+        "sku_id": "7ad1bdb3e9a6b504201a29c93e36cbf5",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 356,
+        "MIN_FRESHNESS_THRESHOLD": 44,
+        "SHELF_LIFE_DAYS": 356
+    },
+    {
+        "sku_id": "fe61d9a12cde507df0822887af79406b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 251,
+        "MIN_FRESHNESS_THRESHOLD": 51,
+        "SHELF_LIFE_DAYS": 251
+    },
+    {
+        "sku_id": "dd5f373306c54a716ce49f57b4cc8321",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa",
+            "5a99158e0c52f9e7d290906c9d08268d"
+        ],
+        "shelf_life_days": 184,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 184
+    },
+    {
+        "sku_id": "eba1b1d3f0c90761261ecbd12f3af951",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 156,
+        "MIN_FRESHNESS_THRESHOLD": 20,
+        "SHELF_LIFE_DAYS": 156
+    },
+    {
+        "sku_id": "d74b48fe51d89186a623973172b6aa81",
+        "material_type": "DIEN",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa",
+            "978fce5bcc4eccc88ad48ce3914124a2",
+            "ce758408f6ef98d7c7a7b786eca7b3a8"
+        ],
+        "shelf_life_days": 297,
+        "MIN_FRESHNESS_THRESHOLD": 68,
+        "SHELF_LIFE_DAYS": 297
+    },
+    {
+        "sku_id": "399917b116971dca34b3bf18e2099241",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 269,
+        "MIN_FRESHNESS_THRESHOLD": 59,
+        "SHELF_LIFE_DAYS": 269
+    },
+    {
+        "sku_id": "181850bb2bd66811117e4de2d0bf0cbf",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 120,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 120
+    },
+    {
+        "sku_id": "061866396a1796c3e72f9481db3d5347",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "f9601a3ce10e4ed6ea85d0d2e4f5f1dd",
+            "49e68363ef4bb806e33f16de0060b882",
+            "7805b793230668c469b7d9c94379e28b",
+            "494e5c2ac9d3e74696028680b2580206"
+        ],
+        "shelf_life_days": 318,
+        "MIN_FRESHNESS_THRESHOLD": 41,
+        "SHELF_LIFE_DAYS": 318
+    },
+    {
+        "sku_id": "549dddf023e8522cea16992c715113a3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 293,
+        "MIN_FRESHNESS_THRESHOLD": 49,
+        "SHELF_LIFE_DAYS": 293
+    },
+    {
+        "sku_id": "e6dd1646710f9fe0bab7637953d1d167",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 51,
+        "MIN_FRESHNESS_THRESHOLD": 9,
+        "SHELF_LIFE_DAYS": 51
+    },
+    {
+        "sku_id": "e15da67609cc99b144644e12b2c6a102",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 237,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 237
+    },
+    {
+        "sku_id": "5f8762664102a692b10651105459df0a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 97,
+        "MIN_FRESHNESS_THRESHOLD": 14,
+        "SHELF_LIFE_DAYS": 97
+    },
+    {
+        "sku_id": "57b45e449ab1c5245b20bb5b83d4dc63",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 111,
+        "MIN_FRESHNESS_THRESHOLD": 24,
+        "SHELF_LIFE_DAYS": 111
+    },
+    {
+        "sku_id": "e6885edada9405de5d8f1546d7a5f648",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 155,
+        "MIN_FRESHNESS_THRESHOLD": 38,
+        "SHELF_LIFE_DAYS": 155
+    },
+    {
+        "sku_id": "68cf7ab92bdf4aaa0ac642efe2019fbc",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 107,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 107
+    },
+    {
+        "sku_id": "6d8f24a2fc08cd4d7f4c11f51221037d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 226,
+        "MIN_FRESHNESS_THRESHOLD": 59,
+        "SHELF_LIFE_DAYS": 226
+    },
+    {
+        "sku_id": "7388c37afad6ec68e671e223914c4a10",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 225,
+        "MIN_FRESHNESS_THRESHOLD": 46,
+        "SHELF_LIFE_DAYS": 225
+    },
+    {
+        "sku_id": "4df8972c450c0a765f46a70851c04f6f",
+        "material_type": "ROH",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 70,
+        "MIN_FRESHNESS_THRESHOLD": 16,
+        "SHELF_LIFE_DAYS": 70
+    },
+    {
+        "sku_id": "a4799c3c72fdac0d26a038e4946aa754",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 349,
+        "MIN_FRESHNESS_THRESHOLD": 56,
+        "SHELF_LIFE_DAYS": 349
+    },
+    {
+        "sku_id": "7881dac48a27bda53b7230d3da115fee",
+        "material_type": "INTR",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "362387494f6be6613daea643a7706a42"
+        ],
+        "shelf_life_days": 305,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 305
+    },
+    {
+        "sku_id": "df8aa6fb42d06182ab1cdcf83749fcc8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 230,
+        "MIN_FRESHNESS_THRESHOLD": 64,
+        "SHELF_LIFE_DAYS": 230
+    },
+    {
+        "sku_id": "81de6a0364ef9dc3bc5f833a5562f00a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 312,
+        "MIN_FRESHNESS_THRESHOLD": 52,
+        "SHELF_LIFE_DAYS": 312
+    },
+    {
+        "sku_id": "0e1f64022196b733a24047bf3a269364",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 335,
+        "MIN_FRESHNESS_THRESHOLD": 46,
+        "SHELF_LIFE_DAYS": 335
+    },
+    {
+        "sku_id": "802eb7cd88a7df03c16070162ddc2c61",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "d8e1344e27a5b08cdfd5d027d9b8d6de"
+        ],
+        "shelf_life_days": 312,
+        "MIN_FRESHNESS_THRESHOLD": 70,
+        "SHELF_LIFE_DAYS": 312
+    },
+    {
+        "sku_id": "67837b372f87d34c5f5a6c0d3bdd4cd1",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 258,
+        "MIN_FRESHNESS_THRESHOLD": 34,
+        "SHELF_LIFE_DAYS": 258
+    },
+    {
+        "sku_id": "5012d7b20f98959397e8a663e1acd634",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "78f7d96ea21ccae89a7b581295f34135",
+            "cdcb2f5c7b071143529ef7f2705dfbc4"
+        ],
+        "shelf_life_days": 322,
+        "MIN_FRESHNESS_THRESHOLD": 84,
+        "SHELF_LIFE_DAYS": 322
+    },
+    {
+        "sku_id": "1b44e408afa245b4e2096eda629df2c3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "362387494f6be6613daea643a7706a42"
+        ],
+        "shelf_life_days": 223,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 223
+    },
+    {
+        "sku_id": "00ac9b6c9cb81d3c2d959ce1c040de31",
+        "material_type": "ZREP",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 365,
+        "MIN_FRESHNESS_THRESHOLD": 91,
+        "SHELF_LIFE_DAYS": 365
+    },
+    {
+        "sku_id": "1d63775323545d07998c65e59092c965",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 348,
+        "MIN_FRESHNESS_THRESHOLD": 101,
+        "SHELF_LIFE_DAYS": 348
+    },
+    {
+        "sku_id": "ad0b13f45800a71cd490faca699a3ce4",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 218,
+        "MIN_FRESHNESS_THRESHOLD": 58,
+        "SHELF_LIFE_DAYS": 218
+    },
+    {
+        "sku_id": "082313096d5f30c7b3663784d646d7c4",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 316,
+        "MIN_FRESHNESS_THRESHOLD": 58,
+        "SHELF_LIFE_DAYS": 316
+    },
+    {
+        "sku_id": "9200b5ac6edf93eca45635b576940755",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 292,
+        "MIN_FRESHNESS_THRESHOLD": 84,
+        "SHELF_LIFE_DAYS": 292
+    },
+    {
+        "sku_id": "14d2c921a05f3225e24223bba653bfc5",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 360,
+        "MIN_FRESHNESS_THRESHOLD": 59,
+        "SHELF_LIFE_DAYS": 360
+    },
+    {
+        "sku_id": "9a8ce4af604b51cd1881d711c42a5aaf",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 311,
+        "MIN_FRESHNESS_THRESHOLD": 72,
+        "SHELF_LIFE_DAYS": 311
+    },
+    {
+        "sku_id": "cc25798f3964631a32705919930c04cc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 157,
+        "MIN_FRESHNESS_THRESHOLD": 16,
+        "SHELF_LIFE_DAYS": 157
+    },
+    {
+        "sku_id": "633b2532d9b4debc4a4528fbec4889cf",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 363,
+        "MIN_FRESHNESS_THRESHOLD": 49,
+        "SHELF_LIFE_DAYS": 363
+    },
+    {
+        "sku_id": "1fe64cae8737c434c9d891029f238f7d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 143,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 143
+    },
+    {
+        "sku_id": "37d2fc779a1e9b8ef0a43e8f7a97d63b",
+        "material_type": "INTR",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 181,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 181
+    },
+    {
+        "sku_id": "704b26331ff2aa3e7182ccddb543ddf8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 101,
+        "MIN_FRESHNESS_THRESHOLD": 18,
+        "SHELF_LIFE_DAYS": 101
+    },
+    {
+        "sku_id": "4fb897a52a1652b87ab1d181fce05a57",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "49e68363ef4bb806e33f16de0060b882",
+            "8fb9942185975c6e0b2992587fd0d981",
+            "94e6f3f45bf4405e82cc7497c4b7700b",
+            "494e5c2ac9d3e74696028680b2580206",
+            "b6f751d6b4c29c3f497bbca28702cae2",
+            "f3d814ccb97a176b464af904adde589d",
+            "40685b1b7030af626bdf8f8bdd115b9c",
+            "7805b793230668c469b7d9c94379e28b",
+            "a84d94bff96867736e94ced8c4614251",
+            "7c7d20b2e4bad95dc302069792986638",
+            "b33d3f4d8402dab9a7bd1c4c3318a36b",
+            "ce3d8d256cfc18a5aebf62856aae9cc1",
+            "ce99faad2f1839bb616a42ee8ed37e88",
+            "3babd94224255b13e94f2d5bead26640",
+            "47279f4d7c670367a5a7bd11cee54b6f",
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 69,
+        "MIN_FRESHNESS_THRESHOLD": 10,
+        "SHELF_LIFE_DAYS": 69
+    },
+    {
+        "sku_id": "0d5bd42df1aae01709def69717888fc1",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 56,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 56
+    },
+    {
+        "sku_id": "4b2ff9a21716759c225e8dfa3d07c645",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 354,
+        "MIN_FRESHNESS_THRESHOLD": 35,
+        "SHELF_LIFE_DAYS": 354
+    },
+    {
+        "sku_id": "58faa44016d32154061e524af940cffc",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "bbeb0c1b1fd44e392c7ce2fdbd137e87",
+            "403ea2e851b9ab04a996beab4a480a30",
+            "65fc9fb4897a89789352e211ca2d398f"
+        ],
+        "shelf_life_days": 291,
+        "MIN_FRESHNESS_THRESHOLD": 79,
+        "SHELF_LIFE_DAYS": 291
+    },
+    {
+        "sku_id": "7b580338a2adf530a283d4bcccce3a7e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 176,
+        "MIN_FRESHNESS_THRESHOLD": 35,
+        "SHELF_LIFE_DAYS": 176
+    },
+    {
+        "sku_id": "8f24f4b609a54e39a5c3e24e7b8042dd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 301,
+        "MIN_FRESHNESS_THRESHOLD": 31,
+        "SHELF_LIFE_DAYS": 301
+    },
+    {
+        "sku_id": "263170b406269eb304deda2e17a5c2cc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 178,
+        "MIN_FRESHNESS_THRESHOLD": 52,
+        "SHELF_LIFE_DAYS": 178
+    },
+    {
+        "sku_id": "f98c2b2cdd7bed6ab7ea7828ebcdfb7a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 359,
+        "MIN_FRESHNESS_THRESHOLD": 84,
+        "SHELF_LIFE_DAYS": 359
+    },
+    {
+        "sku_id": "6d417a3241c1fd15a6ee32de6d2c7d5f",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 41,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 41
+    },
+    {
+        "sku_id": "ea43c661fb43d58715e0b50a3e412910",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa",
+            "b628386c9b92481fab68fbf284bd6a64",
+            "ae587cfeea5ac21a8f1c1ea51027fef0",
+            "b1c00bcd4b5183705c134b3365f8c45e",
+            "64a08e5f1e6c39faeb90108c430eb120",
+            "1cd138d0499a68f4bb72bee04bbec2d7"
+        ],
+        "shelf_life_days": 213,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 213
+    },
+    {
+        "sku_id": "4e6a3f5d74f5994ecbf0e7c162871f95",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 361,
+        "MIN_FRESHNESS_THRESHOLD": 44,
+        "SHELF_LIFE_DAYS": 361
+    },
+    {
+        "sku_id": "7a3a71eb1e467f156c82c5e6f05e2736",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 151,
+        "MIN_FRESHNESS_THRESHOLD": 24,
+        "SHELF_LIFE_DAYS": 151
+    },
+    {
+        "sku_id": "c1f9e7f331c75e48fa4128d88d2238b0",
+        "material_type": "ROH",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 214,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 214
+    },
+    {
+        "sku_id": "dbf7b25d5e093284855e1eac7586dd55",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 106,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 106
+    },
+    {
+        "sku_id": "aa2b2f1cc330850af4695055c32ae361",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 296,
+        "MIN_FRESHNESS_THRESHOLD": 51,
+        "SHELF_LIFE_DAYS": 296
+    },
+    {
+        "sku_id": "2237aee68ea58dc71e5d7bdb85c7707d",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 98,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 98
+    },
+    {
+        "sku_id": "3772733eb15386450ac8fd83aefd0527",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 116,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 116
+    },
+    {
+        "sku_id": "18d4b2cfd5cc02997f1bece8de3e2fcc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 144,
+        "MIN_FRESHNESS_THRESHOLD": 27,
+        "SHELF_LIFE_DAYS": 144
+    },
+    {
+        "sku_id": "4b26a7b1593785df249e1e03a5e9f157",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 98,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 98
+    },
+    {
+        "sku_id": "e75b8ab07bb87f0de2cc955ceeb13211",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 328,
+        "MIN_FRESHNESS_THRESHOLD": 81,
+        "SHELF_LIFE_DAYS": 328
+    },
+    {
+        "sku_id": "098fccc92e0c814f6f25f4954017a19d",
+        "material_type": "ERSA",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "026a39ae63343c68b5223a95f3e17616",
+            "87682805257e619d49b8e0dfdc14affa",
+            "18bb68e2b38e4a8ce7cf4f6b2625768c"
+        ],
+        "shelf_life_days": 253,
+        "MIN_FRESHNESS_THRESHOLD": 74,
+        "SHELF_LIFE_DAYS": 253
+    },
+    {
+        "sku_id": "897497d573947528e03a7ac14c2b15af",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 296,
+        "MIN_FRESHNESS_THRESHOLD": 51,
+        "SHELF_LIFE_DAYS": 296
+    },
+    {
+        "sku_id": "fa7d2eb8fc1afacc0ce8fcc0fad6f15f",
+        "material_type": "INTR",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 346,
+        "MIN_FRESHNESS_THRESHOLD": 67,
+        "SHELF_LIFE_DAYS": 346
+    },
+    {
+        "sku_id": "3673998ce6f4bbdbc4e3aa80c7ea3c6e",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "494e5c2ac9d3e74696028680b2580206",
+            "ce3d8d256cfc18a5aebf62856aae9cc1",
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 240,
+        "MIN_FRESHNESS_THRESHOLD": 68,
+        "SHELF_LIFE_DAYS": 240
+    },
+    {
+        "sku_id": "4fb23ea33f5d448fd7d2722b62ce7c5b",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 95,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 95
+    },
+    {
+        "sku_id": "7e9cce62da2f0203f525b1a959eabb01",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "8fb9942185975c6e0b2992587fd0d981",
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 301,
+        "MIN_FRESHNESS_THRESHOLD": 36,
+        "SHELF_LIFE_DAYS": 301
+    },
+    {
+        "sku_id": "2c332c76336c13170a6bfe1c22ec6091",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 307,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 307
+    },
+    {
+        "sku_id": "8cddae505f50c27d8f0046f4a478e7d8",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 318,
+        "MIN_FRESHNESS_THRESHOLD": 48,
+        "SHELF_LIFE_DAYS": 318
+    },
+    {
+        "sku_id": "f4cf288d9399693cbe505edbd622aa6d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 317,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 317
+    },
+    {
+        "sku_id": "a742c440461a61431abdbfd2c89fbf28",
+        "material_type": "DIEN",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "0d7363894acdee742caf7fe4e97c4d49"
+        ],
+        "shelf_life_days": 139,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 139
+    },
+    {
+        "sku_id": "7f70c8a39ece7cadfb801bc97e06bf27",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 280,
+        "MIN_FRESHNESS_THRESHOLD": 50,
+        "SHELF_LIFE_DAYS": 280
+    },
+    {
+        "sku_id": "7e0f2b3a362a8ba23dec2739e730dcf9",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 95,
+        "MIN_FRESHNESS_THRESHOLD": 18,
+        "SHELF_LIFE_DAYS": 95
+    },
+    {
+        "sku_id": "e4e30b8ef3dde60501f4b10f0f6ac6fb",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f1f0404e7e34dfa7441d9e5301828743"
+        ],
+        "shelf_life_days": 234,
+        "MIN_FRESHNESS_THRESHOLD": 53,
+        "SHELF_LIFE_DAYS": 234
+    },
+    {
+        "sku_id": "e012df8f34d80de1bd796c96b8dafa7b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 41,
+        "MIN_FRESHNESS_THRESHOLD": 7,
+        "SHELF_LIFE_DAYS": 41
+    },
+    {
+        "sku_id": "798f9f7a2ba9fcb7b9dd82f1a94afd5a",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [],
+        "shelf_life_days": 250,
+        "MIN_FRESHNESS_THRESHOLD": 41,
+        "SHELF_LIFE_DAYS": 250
+    },
+    {
+        "sku_id": "f97e5e9de24372c65fded1fa20256ac7",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "cdcb2f5c7b071143529ef7f2705dfbc4"
+        ],
+        "shelf_life_days": 218,
+        "MIN_FRESHNESS_THRESHOLD": 53,
+        "SHELF_LIFE_DAYS": 218
+    },
+    {
+        "sku_id": "1193e3c10485f268796b1d20b2dfe9fd",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "e262fc33134b844566d347fce8c92a19"
+        ],
+        "shelf_life_days": 358,
+        "MIN_FRESHNESS_THRESHOLD": 93,
+        "SHELF_LIFE_DAYS": 358
+    },
+    {
+        "sku_id": "a7fbfce7287ea346d7dd25350387a850",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 30,
+        "MIN_FRESHNESS_THRESHOLD": 5,
+        "SHELF_LIFE_DAYS": 30
+    },
+    {
+        "sku_id": "73f4a8d31ee7c9960856b46870709d70",
+        "material_type": "ROH",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 206,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 206
+    },
+    {
+        "sku_id": "f15a84ff8426359150d1d94b001cff62",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 93,
+        "MIN_FRESHNESS_THRESHOLD": 24,
+        "SHELF_LIFE_DAYS": 93
+    },
+    {
+        "sku_id": "d5a2a02566908f278329bcb61e71329d",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f9601a3ce10e4ed6ea85d0d2e4f5f1dd"
+        ],
+        "shelf_life_days": 302,
+        "MIN_FRESHNESS_THRESHOLD": 85,
+        "SHELF_LIFE_DAYS": 302
+    },
+    {
+        "sku_id": "ec1095aabeee13f631ce58aaece4798e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 312,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 312
+    },
+    {
+        "sku_id": "378ae924b2c009bc132d55168c621318",
+        "material_type": "ERSA",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "18bb68e2b38e4a8ce7cf4f6b2625768c",
+            "026a39ae63343c68b5223a95f3e17616",
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 278,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 278
+    },
+    {
+        "sku_id": "a9b756f99a7a0b8229249f44aaaad9b2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "02670f291968eaa0d5feef02cb27163f"
+        ],
+        "shelf_life_days": 54,
+        "MIN_FRESHNESS_THRESHOLD": 8,
+        "SHELF_LIFE_DAYS": 54
+    },
+    {
+        "sku_id": "93e4b901c71fd35dae72c3c982370c27",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 293,
+        "MIN_FRESHNESS_THRESHOLD": 69,
+        "SHELF_LIFE_DAYS": 293
+    },
+    {
+        "sku_id": "028a504432405c4682aae74ea5183709",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 174,
+        "MIN_FRESHNESS_THRESHOLD": 25,
+        "SHELF_LIFE_DAYS": 174
+    },
+    {
+        "sku_id": "0bc386c63432e33b99b8abf4e9319bd3",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 315,
+        "MIN_FRESHNESS_THRESHOLD": 86,
+        "SHELF_LIFE_DAYS": 315
+    },
+    {
+        "sku_id": "bbd790209f0e851bc854362391b3e6c5",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5",
+            "026a39ae63343c68b5223a95f3e17616"
+        ],
+        "shelf_life_days": 65,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 65
+    },
+    {
+        "sku_id": "27a308c921944596e827bedfe1899d54",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 359,
+        "MIN_FRESHNESS_THRESHOLD": 55,
+        "SHELF_LIFE_DAYS": 359
+    },
+    {
+        "sku_id": "2b9e9e1017991747ea15c8f29a0df9b0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 237,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 237
+    },
+    {
+        "sku_id": "144f1dc9e41f98f4f8106e9bc10a9aab",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 229,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 229
+    },
+    {
+        "sku_id": "6984d10b15521bb4ce3b5418fb0e70b7",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 257,
+        "MIN_FRESHNESS_THRESHOLD": 49,
+        "SHELF_LIFE_DAYS": 257
+    },
+    {
+        "sku_id": "1f2ec465d08686c43a00c5955882a816",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 32,
+        "MIN_FRESHNESS_THRESHOLD": 8,
+        "SHELF_LIFE_DAYS": 32
+    },
+    {
+        "sku_id": "e48c99af625527fa572aa62bfa5770fe",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 155,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 155
+    },
+    {
+        "sku_id": "74db207f348e1cc7a3854708b390a6c2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 218,
+        "MIN_FRESHNESS_THRESHOLD": 62,
+        "SHELF_LIFE_DAYS": 218
+    },
+    {
+        "sku_id": "14d34296ce8c22f3bbc206072f07e001",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 317,
+        "MIN_FRESHNESS_THRESHOLD": 85,
+        "SHELF_LIFE_DAYS": 317
+    },
+    {
+        "sku_id": "7cf77a997548ffcbfe3a5b4757442826",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 338,
+        "MIN_FRESHNESS_THRESHOLD": 76,
+        "SHELF_LIFE_DAYS": 338
+    },
+    {
+        "sku_id": "048334025237e7fcfc6434d06e225962",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "362387494f6be6613daea643a7706a42"
+        ],
+        "shelf_life_days": 275,
+        "MIN_FRESHNESS_THRESHOLD": 50,
+        "SHELF_LIFE_DAYS": 275
+    },
+    {
+        "sku_id": "05d5dce16e45bcd379c8f18b5df6180d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 282,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 282
+    },
+    {
+        "sku_id": "47202db37cadc1b2c88a2d51b51c1020",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 237,
+        "MIN_FRESHNESS_THRESHOLD": 57,
+        "SHELF_LIFE_DAYS": 237
+    },
+    {
+        "sku_id": "b94ad421a930708228f30b33729d557c",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 222,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 222
+    },
+    {
+        "sku_id": "ea9e4d105aa037aaebb50fbe845e6fb3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 179,
+        "MIN_FRESHNESS_THRESHOLD": 36,
+        "SHELF_LIFE_DAYS": 179
+    },
+    {
+        "sku_id": "cd9d22649135e7bf4ad4d11215a0e8a8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 279,
+        "MIN_FRESHNESS_THRESHOLD": 41,
+        "SHELF_LIFE_DAYS": 279
+    },
+    {
+        "sku_id": "ec72930140e5c3cc109f9a6f4481cb86",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 319,
+        "MIN_FRESHNESS_THRESHOLD": 39,
+        "SHELF_LIFE_DAYS": 319
+    },
+    {
+        "sku_id": "791d0386a9ca681849ce4e10ce140a51",
+        "material_type": "ROH",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "51fb6e4c78fe5b073a92404841ebe19e"
+        ],
+        "shelf_life_days": 310,
+        "MIN_FRESHNESS_THRESHOLD": 36,
+        "SHELF_LIFE_DAYS": 310
+    },
+    {
+        "sku_id": "e17f8e9d470bac17c39959575f997f1b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 128,
+        "MIN_FRESHNESS_THRESHOLD": 25,
+        "SHELF_LIFE_DAYS": 128
+    },
+    {
+        "sku_id": "0ec490195340f39c4d2d65a888bab521",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 97,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 97
+    },
+    {
+        "sku_id": "b4d061a68bc5125334d0b345efc8d08d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 256,
+        "MIN_FRESHNESS_THRESHOLD": 73,
+        "SHELF_LIFE_DAYS": 256
+    },
+    {
+        "sku_id": "7cae5a285d7e972c4549aa049f4a821e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 209,
+        "MIN_FRESHNESS_THRESHOLD": 41,
+        "SHELF_LIFE_DAYS": 209
+    },
+    {
+        "sku_id": "fd01be449e712b39d9e587e29cb8ff06",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 115,
+        "MIN_FRESHNESS_THRESHOLD": 27,
+        "SHELF_LIFE_DAYS": 115
+    },
+    {
+        "sku_id": "aa165aff0a2176c742be767009cfc17a",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 250,
+        "MIN_FRESHNESS_THRESHOLD": 59,
+        "SHELF_LIFE_DAYS": 250
+    },
+    {
+        "sku_id": "41cd24b79a84ff5b6f887b27f8b601a3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 158,
+        "MIN_FRESHNESS_THRESHOLD": 46,
+        "SHELF_LIFE_DAYS": 158
+    },
+    {
+        "sku_id": "246aa81933e7fc03cf3cfc298450cbe0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 331,
+        "MIN_FRESHNESS_THRESHOLD": 97,
+        "SHELF_LIFE_DAYS": 331
+    },
+    {
+        "sku_id": "f1c729f322eb3e43488373d502816572",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 264,
+        "MIN_FRESHNESS_THRESHOLD": 71,
+        "SHELF_LIFE_DAYS": 264
+    },
+    {
+        "sku_id": "444a8dfd719af44ff24687cc1b9df0a9",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 50,
+        "MIN_FRESHNESS_THRESHOLD": 10,
+        "SHELF_LIFE_DAYS": 50
+    },
+    {
+        "sku_id": "3b5619dcaaea617843e96004154678fd",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "026a39ae63343c68b5223a95f3e17616",
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 162,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 162
+    },
+    {
+        "sku_id": "c4af77180ec6775e12e6e265212b74d2",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [],
+        "shelf_life_days": 191,
+        "MIN_FRESHNESS_THRESHOLD": 20,
+        "SHELF_LIFE_DAYS": 191
+    },
+    {
+        "sku_id": "bf35247cd825251521a1454746e492fd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 163,
+        "MIN_FRESHNESS_THRESHOLD": 46,
+        "SHELF_LIFE_DAYS": 163
+    },
+    {
+        "sku_id": "a8e47076e2797616f221fc8b91429885",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "dbab2adc8f9d078009ee3fa810bea142",
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 175,
+        "MIN_FRESHNESS_THRESHOLD": 40,
+        "SHELF_LIFE_DAYS": 175
+    },
+    {
+        "sku_id": "74f1a4507b2ad0d1affa0cea9abf49ce",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 252,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 252
+    },
+    {
+        "sku_id": "101379e71c7543e89acd3633931c9802",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 164,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 164
+    },
+    {
+        "sku_id": "ab491cab7241d143a276e422be67ea13",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 230,
+        "MIN_FRESHNESS_THRESHOLD": 52,
+        "SHELF_LIFE_DAYS": 230
+    },
+    {
+        "sku_id": "9e17d0f29512b55c7e266abce6fb4080",
+        "material_type": "UNBW",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "dbab2adc8f9d078009ee3fa810bea142",
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 294,
+        "MIN_FRESHNESS_THRESHOLD": 53,
+        "SHELF_LIFE_DAYS": 294
+    },
+    {
+        "sku_id": "947dcdae9dc068ecdf52f98cd42a9189",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 46,
+        "MIN_FRESHNESS_THRESHOLD": 12,
+        "SHELF_LIFE_DAYS": 46
+    },
+    {
+        "sku_id": "7a7ab5ff8e7218ca998922741bc78930",
+        "material_type": "INTR",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "78f7d96ea21ccae89a7b581295f34135",
+            "cdcb2f5c7b071143529ef7f2705dfbc4",
+            "362387494f6be6613daea643a7706a42"
+        ],
+        "shelf_life_days": 254,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 254
+    },
+    {
+        "sku_id": "06b5cd3f12384ffdc95752d1f4359ee8",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 71,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 71
+    },
+    {
+        "sku_id": "a2f760779841c1b508336d1d8dc574b8",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 258,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 258
+    },
+    {
+        "sku_id": "c83c8091c0d954567e16525eaf3e6355",
+        "material_type": "ROH",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 324,
+        "MIN_FRESHNESS_THRESHOLD": 90,
+        "SHELF_LIFE_DAYS": 324
+    },
+    {
+        "sku_id": "cc1aac61bf3c93a36129f5b048eb7b62",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "cdd96eedd7f695f4d61802f8105ba2b0",
+            "d47844673f2db74d78da8687d794523d",
+            "d8e1344e27a5b08cdfd5d027d9b8d6de",
+            "a7a3d70c6d17a73140918996d03c014f",
+            "b628386c9b92481fab68fbf284bd6a64"
+        ],
+        "shelf_life_days": 217,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 217
+    },
+    {
+        "sku_id": "209dd4489c59bdc103dd9923bb01d9e2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 164,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 164
+    },
+    {
+        "sku_id": "61ab329272e01d7e3e3d9c3c23186f0e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 85,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 85
+    },
+    {
+        "sku_id": "f543b8181adc3e9a3c920e97dd32da3b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 109,
+        "MIN_FRESHNESS_THRESHOLD": 28,
+        "SHELF_LIFE_DAYS": 109
+    },
+    {
+        "sku_id": "25588adb7c6e914e061561a1e2f7b06e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 96,
+        "MIN_FRESHNESS_THRESHOLD": 25,
+        "SHELF_LIFE_DAYS": 96
+    },
+    {
+        "sku_id": "4f25749ec4adc381c3abe566f25ef278",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "a7a3d70c6d17a73140918996d03c014f",
+            "b628386c9b92481fab68fbf284bd6a64",
+            "cdd96eedd7f695f4d61802f8105ba2b0",
+            "d47844673f2db74d78da8687d794523d"
+        ],
+        "shelf_life_days": 266,
+        "MIN_FRESHNESS_THRESHOLD": 66,
+        "SHELF_LIFE_DAYS": 266
+    },
+    {
+        "sku_id": "32a0e29340ca726f90a54167eaaab3d0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 327,
+        "MIN_FRESHNESS_THRESHOLD": 83,
+        "SHELF_LIFE_DAYS": 327
+    },
+    {
+        "sku_id": "1d964615d6d00a241f4c223b9fc683b0",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "5a99158e0c52f9e7d290906c9d08268d",
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 267,
+        "MIN_FRESHNESS_THRESHOLD": 41,
+        "SHELF_LIFE_DAYS": 267
+    },
+    {
+        "sku_id": "0dd6c7830c494342228132438226045d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "cdcb2f5c7b071143529ef7f2705dfbc4"
+        ],
+        "shelf_life_days": 322,
+        "MIN_FRESHNESS_THRESHOLD": 63,
+        "SHELF_LIFE_DAYS": 322
+    },
+    {
+        "sku_id": "0a718b852c54343f1a915fc075f8b8ad",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 110,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 110
+    },
+    {
+        "sku_id": "5056e9376bb29eca7394ac2f8f6d43f2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 307,
+        "MIN_FRESHNESS_THRESHOLD": 58,
+        "SHELF_LIFE_DAYS": 307
+    },
+    {
+        "sku_id": "e4642e324cab91a01a82e01ce89f4c77",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 313,
+        "MIN_FRESHNESS_THRESHOLD": 57,
+        "SHELF_LIFE_DAYS": 313
+    },
+    {
+        "sku_id": "a18521d79724f3de31b78107a9030fdd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 269,
+        "MIN_FRESHNESS_THRESHOLD": 77,
+        "SHELF_LIFE_DAYS": 269
+    },
+    {
+        "sku_id": "f9e9cd8e58c954daa9d51ed2b6872097",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 265,
+        "MIN_FRESHNESS_THRESHOLD": 36,
+        "SHELF_LIFE_DAYS": 265
+    },
+    {
+        "sku_id": "3c12cb8eeb2384f20fdbfa9cb401bfab",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 174,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 174
+    },
+    {
+        "sku_id": "95aee5c3e3a3eb01681c008a20c4d357",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 48,
+        "MIN_FRESHNESS_THRESHOLD": 14,
+        "SHELF_LIFE_DAYS": 48
+    },
+    {
+        "sku_id": "662d33eacaefc863f6fb377b96688f70",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 365,
+        "MIN_FRESHNESS_THRESHOLD": 87,
+        "SHELF_LIFE_DAYS": 365
+    },
+    {
+        "sku_id": "ae71d8fdc441778fc51d8d7696782e83",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 248,
+        "MIN_FRESHNESS_THRESHOLD": 46,
+        "SHELF_LIFE_DAYS": 248
+    },
+    {
+        "sku_id": "4fed5becaf41bc3835cc400829a5e37d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 234,
+        "MIN_FRESHNESS_THRESHOLD": 25,
+        "SHELF_LIFE_DAYS": 234
+    },
+    {
+        "sku_id": "b0e95d5114d6ff9f7a4062aedc85c091",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 101,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 101
+    },
+    {
+        "sku_id": "1bd03f77e826692850029cf965dd779b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 352,
+        "MIN_FRESHNESS_THRESHOLD": 64,
+        "SHELF_LIFE_DAYS": 352
+    },
+    {
+        "sku_id": "bc7f874a65a669f0c4679adc9a75fdb2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 211,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 211
+    },
+    {
+        "sku_id": "29aeec73591f3442fac611f5e3a48d60",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 262,
+        "MIN_FRESHNESS_THRESHOLD": 69,
+        "SHELF_LIFE_DAYS": 262
+    },
+    {
+        "sku_id": "00ea43c6efeaeb44b9d8b43fdaf8a849",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 199,
+        "MIN_FRESHNESS_THRESHOLD": 39,
+        "SHELF_LIFE_DAYS": 199
+    },
+    {
+        "sku_id": "359240d8a41aaf2082f570199c775ea9",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 88,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 88
+    },
+    {
+        "sku_id": "b2a4ec545ec9d4d7ea3570f014447bae",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 132,
+        "MIN_FRESHNESS_THRESHOLD": 34,
+        "SHELF_LIFE_DAYS": 132
+    },
+    {
+        "sku_id": "c812c12685b64d22a2bbbc9f86b90a54",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 197,
+        "MIN_FRESHNESS_THRESHOLD": 46,
+        "SHELF_LIFE_DAYS": 197
+    },
+    {
+        "sku_id": "814aaf8a09a67c30b1182419cbf78f04",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 302,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 302
+    },
+    {
+        "sku_id": "8f2ba785989cf7452f8f559639b606a8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 215,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 215
+    },
+    {
+        "sku_id": "58f8264860b93d4df317e57333004f59",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 276,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 276
+    },
+    {
+        "sku_id": "719381de000300be8281e9077a125902",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 306,
+        "MIN_FRESHNESS_THRESHOLD": 67,
+        "SHELF_LIFE_DAYS": 306
+    },
+    {
+        "sku_id": "92cafc4db8657c201eb737d301631817",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 355,
+        "MIN_FRESHNESS_THRESHOLD": 48,
+        "SHELF_LIFE_DAYS": 355
+    },
+    {
+        "sku_id": "0a39a14dc53f5035ea827456b3c5ad5d",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 184,
+        "MIN_FRESHNESS_THRESHOLD": 38,
+        "SHELF_LIFE_DAYS": 184
+    },
+    {
+        "sku_id": "6500e58ccd409d0793c705331198bdaf",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 57,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 57
+    },
+    {
+        "sku_id": "8eb46c5342a0b52aee4f4247a88dada1",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 166,
+        "MIN_FRESHNESS_THRESHOLD": 28,
+        "SHELF_LIFE_DAYS": 166
+    },
+    {
+        "sku_id": "ca972c40f9257e89259f92b561d437e5",
+        "material_type": "KMAT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "78f7d96ea21ccae89a7b581295f34135",
+            "cdcb2f5c7b071143529ef7f2705dfbc4"
+        ],
+        "shelf_life_days": 43,
+        "MIN_FRESHNESS_THRESHOLD": 9,
+        "SHELF_LIFE_DAYS": 43
+    },
+    {
+        "sku_id": "f9796b63f4d24258bcfdcd6fb644a65d",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 193,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 193
+    },
+    {
+        "sku_id": "a60351813c494a54eaa5196d927ccfb9",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 74,
+        "MIN_FRESHNESS_THRESHOLD": 12,
+        "SHELF_LIFE_DAYS": 74
+    },
+    {
+        "sku_id": "26ecaaa0c172fa8b8ae1c66a5e9c2948",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 68,
+        "MIN_FRESHNESS_THRESHOLD": 13,
+        "SHELF_LIFE_DAYS": 68
+    },
+    {
+        "sku_id": "2306bec0c9e9e5cb7178e2d7026534dc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 204,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 204
+    },
+    {
+        "sku_id": "dc0b600f363cdcf7e80be1a6c39c2d64",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 348,
+        "MIN_FRESHNESS_THRESHOLD": 40,
+        "SHELF_LIFE_DAYS": 348
+    },
+    {
+        "sku_id": "7cf743e782939d829f642ffc6d18fc1a",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 124,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 124
+    },
+    {
+        "sku_id": "6899d4e20de7582189f4efa9b173b8b2",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "8fb9942185975c6e0b2992587fd0d981",
+            "8279e2cffce183dc1491acdd217369a5",
+            "da2e7b6a3a439421dd792a59a461bd2e",
+            "b33d3f4d8402dab9a7bd1c4c3318a36b"
+        ],
+        "shelf_life_days": 206,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 206
+    },
+    {
+        "sku_id": "f44da675911a7e0018ad1f3f2174572c",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 251,
+        "MIN_FRESHNESS_THRESHOLD": 59,
+        "SHELF_LIFE_DAYS": 251
+    },
+    {
+        "sku_id": "bb3ec0b8865af402ff75cc82111d916e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 36,
+        "MIN_FRESHNESS_THRESHOLD": 6,
+        "SHELF_LIFE_DAYS": 36
+    },
+    {
+        "sku_id": "e9b2bed63ce814bd17d226cccfc79fce",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5",
+            "49e68363ef4bb806e33f16de0060b882",
+            "b33d3f4d8402dab9a7bd1c4c3318a36b"
+        ],
+        "shelf_life_days": 160,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 160
+    },
+    {
+        "sku_id": "5334161fddaae45a3151e8bbccc2a661",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa",
+            "362387494f6be6613daea643a7706a42",
+            "eb0ecdb070a1a0ac46de0cd733d39cf3",
+            "b1c00bcd4b5183705c134b3365f8c45e",
+            "5a99158e0c52f9e7d290906c9d08268d",
+            "026a39ae63343c68b5223a95f3e17616",
+            "85353d3b2f39b9c9b5ee3576578c04b7",
+            "32b991e5d77ad140559ffb95522992d0",
+            "b628386c9b92481fab68fbf284bd6a64"
+        ],
+        "shelf_life_days": 69,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 69
+    },
+    {
+        "sku_id": "7f17d2c626e907bb88cb4d9413e123d9",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 159,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 159
+    },
+    {
+        "sku_id": "7f137c23e129f7ffa8643d9c4b2d457c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 281,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 281
+    },
+    {
+        "sku_id": "178df362c448674cc10b0f86e0ed6988",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 199,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 199
+    },
+    {
+        "sku_id": "519d86e70a4cb6aae95c91ff983dc1b8",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "b628386c9b92481fab68fbf284bd6a64",
+            "ae587cfeea5ac21a8f1c1ea51027fef0",
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 57,
+        "MIN_FRESHNESS_THRESHOLD": 14,
+        "SHELF_LIFE_DAYS": 57
+    },
+    {
+        "sku_id": "a3148f5796bdf5ac376e53b561546b84",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 299,
+        "MIN_FRESHNESS_THRESHOLD": 52,
+        "SHELF_LIFE_DAYS": 299
+    },
+    {
+        "sku_id": "6c81c43593e2abc9c3134f44eb7b98d3",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "026a39ae63343c68b5223a95f3e17616"
+        ],
+        "shelf_life_days": 85,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 85
+    },
+    {
+        "sku_id": "33a35174322ed7ad137301bfffdd2edc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 61,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 61
+    },
+    {
+        "sku_id": "7e67ea8b7f840d9914e25a87b8bb31fe",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 100,
+        "MIN_FRESHNESS_THRESHOLD": 13,
+        "SHELF_LIFE_DAYS": 100
+    },
+    {
+        "sku_id": "b385f7b064c9db43ed2642e3ce304908",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 55,
+        "MIN_FRESHNESS_THRESHOLD": 7,
+        "SHELF_LIFE_DAYS": 55
+    },
+    {
+        "sku_id": "f3217472280d71bdf06dc7b4fc956f4f",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 165,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 165
+    },
+    {
+        "sku_id": "f11bd6a567aaeca72868c194abfad44c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 59,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 59
+    },
+    {
+        "sku_id": "8e7ccd51492ee6fb8fb48c3973fac459",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 45,
+        "MIN_FRESHNESS_THRESHOLD": 4,
+        "SHELF_LIFE_DAYS": 45
+    },
+    {
+        "sku_id": "837def462bed3bf0b1ee91d5a5ad5cf5",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "cdcb2f5c7b071143529ef7f2705dfbc4"
+        ],
+        "shelf_life_days": 75,
+        "MIN_FRESHNESS_THRESHOLD": 12,
+        "SHELF_LIFE_DAYS": 75
+    },
+    {
+        "sku_id": "0d235249827c06f0788678e62ffb3f5b",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "b6f751d6b4c29c3f497bbca28702cae2",
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 344,
+        "MIN_FRESHNESS_THRESHOLD": 72,
+        "SHELF_LIFE_DAYS": 344
+    },
+    {
+        "sku_id": "bde0f6810517b00e6c90883e53acfe61",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 92,
+        "MIN_FRESHNESS_THRESHOLD": 12,
+        "SHELF_LIFE_DAYS": 92
+    },
+    {
+        "sku_id": "597bb16bad777f8bc33f78014caa96df",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "b6f751d6b4c29c3f497bbca28702cae2",
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 239,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 239
+    },
+    {
+        "sku_id": "506f6585b6e5aaf6bb6c92414750b165",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 55,
+        "MIN_FRESHNESS_THRESHOLD": 7,
+        "SHELF_LIFE_DAYS": 55
+    },
+    {
+        "sku_id": "2435eaa24ceb8c32944f46fe4886ad04",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "cdcb2f5c7b071143529ef7f2705dfbc4"
+        ],
+        "shelf_life_days": 172,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 172
+    },
+    {
+        "sku_id": "07d5d65fc6ac97c3deeb97e15ee9eab9",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 303,
+        "MIN_FRESHNESS_THRESHOLD": 87,
+        "SHELF_LIFE_DAYS": 303
+    },
+    {
+        "sku_id": "aa33946bb81e69cf23e1c52f1c22a2d7",
+        "material_type": "INTR",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 360,
+        "MIN_FRESHNESS_THRESHOLD": 55,
+        "SHELF_LIFE_DAYS": 360
+    },
+    {
+        "sku_id": "8754b3fbe7b0ec0c2d0119d25981ddab",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 221,
+        "MIN_FRESHNESS_THRESHOLD": 51,
+        "SHELF_LIFE_DAYS": 221
+    },
+    {
+        "sku_id": "36c6f786cb6998c5c08906af7a48528d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 207,
+        "MIN_FRESHNESS_THRESHOLD": 20,
+        "SHELF_LIFE_DAYS": 207
+    },
+    {
+        "sku_id": "77a2464bf4364ae08ab9afdd8fec5512",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa",
+            "85353d3b2f39b9c9b5ee3576578c04b7",
+            "1680e9fa7b4dd5d62ece800239bb53bd",
+            "5a99158e0c52f9e7d290906c9d08268d",
+            "32b991e5d77ad140559ffb95522992d0",
+            "e0688d13958a19e087e123148555e4b4",
+            "b628386c9b92481fab68fbf284bd6a64",
+            "65f2a94c8c2d56d5b43a1a3d9d811102",
+            "362387494f6be6613daea643a7706a42",
+            "026a39ae63343c68b5223a95f3e17616"
+        ],
+        "shelf_life_days": 343,
+        "MIN_FRESHNESS_THRESHOLD": 64,
+        "SHELF_LIFE_DAYS": 343
+    },
+    {
+        "sku_id": "febb311a4bb9d1d0aa42dfbca35f39e2",
+        "material_type": "INTR",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 76,
+        "MIN_FRESHNESS_THRESHOLD": 21,
+        "SHELF_LIFE_DAYS": 76
+    },
+    {
+        "sku_id": "f3efc7a2da88673445d5a59e2468c8eb",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 80,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 80
+    },
+    {
+        "sku_id": "ec828cf393ed7e69ff7bf4f2e3c66274",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 219,
+        "MIN_FRESHNESS_THRESHOLD": 56,
+        "SHELF_LIFE_DAYS": 219
+    },
+    {
+        "sku_id": "b123fce77167685722bb07bbddc573f8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 343,
+        "MIN_FRESHNESS_THRESHOLD": 81,
+        "SHELF_LIFE_DAYS": 343
+    },
+    {
+        "sku_id": "6473cc048c34ff09757bc7e6a47d1564",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "bbeb0c1b1fd44e392c7ce2fdbd137e87",
+            "a7a3d70c6d17a73140918996d03c014f"
+        ],
+        "shelf_life_days": 205,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 205
+    },
+    {
+        "sku_id": "39cf823acf4da4b0f07bff4fdfe34a4c",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 67,
+        "MIN_FRESHNESS_THRESHOLD": 13,
+        "SHELF_LIFE_DAYS": 67
+    },
+    {
+        "sku_id": "977f9a5479e724286c7fdeb22f48ea67",
+        "material_type": "DIEN",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "18bb68e2b38e4a8ce7cf4f6b2625768c",
+            "87682805257e619d49b8e0dfdc14affa",
+            "978fce5bcc4eccc88ad48ce3914124a2",
+            "453fadbd8a1a3af50a9df4df899537b5",
+            "ce758408f6ef98d7c7a7b786eca7b3a8"
+        ],
+        "shelf_life_days": 361,
+        "MIN_FRESHNESS_THRESHOLD": 85,
+        "SHELF_LIFE_DAYS": 361
+    },
+    {
+        "sku_id": "1cf7848b9b157c0499a46dfd26610bac",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 160,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 160
+    },
+    {
+        "sku_id": "1074e02efb3f6f91f42dd7a91533722a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 213,
+        "MIN_FRESHNESS_THRESHOLD": 59,
+        "SHELF_LIFE_DAYS": 213
+    },
+    {
+        "sku_id": "a3a40e0eef11acb60f5d83c663865d7a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 95,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 95
+    },
+    {
+        "sku_id": "69a62c39fab04ff0531b583aba826927",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3",
+            "dbab2adc8f9d078009ee3fa810bea142"
+        ],
+        "shelf_life_days": 68,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 68
+    },
+    {
+        "sku_id": "c983d42a15acada02e5e5e6c3fc72d84",
+        "material_type": "ZREP",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 76,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 76
+    },
+    {
+        "sku_id": "58faeb6f310f17ecb5b3f93944e73da7",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 158,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 158
+    },
+    {
+        "sku_id": "9eb5645281e9d0ffc6cddd54ae1cbb1d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 121,
+        "MIN_FRESHNESS_THRESHOLD": 28,
+        "SHELF_LIFE_DAYS": 121
+    },
+    {
+        "sku_id": "c7e68832a07f90f4fe973c19f87c50fb",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 197,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 197
+    },
+    {
+        "sku_id": "9aa3c00c6bfc25a7ab955726e4f826c1",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 311,
+        "MIN_FRESHNESS_THRESHOLD": 88,
+        "SHELF_LIFE_DAYS": 311
+    },
+    {
+        "sku_id": "28093af229336858c40cd31055975961",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 195,
+        "MIN_FRESHNESS_THRESHOLD": 40,
+        "SHELF_LIFE_DAYS": 195
+    },
+    {
+        "sku_id": "776ecd62547fe43789c25a87a4404fab",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 127,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 127
+    },
+    {
+        "sku_id": "a664caadeaa5a8536874192b438b4037",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 55,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 55
+    },
+    {
+        "sku_id": "9f712fe535af6898589648d3e2ecf00c",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 159,
+        "MIN_FRESHNESS_THRESHOLD": 20,
+        "SHELF_LIFE_DAYS": 159
+    },
+    {
+        "sku_id": "d143e97ef61a99a88d021a6568891d2a",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 135,
+        "MIN_FRESHNESS_THRESHOLD": 35,
+        "SHELF_LIFE_DAYS": 135
+    },
+    {
+        "sku_id": "2ada5bb27a10cb8a5f67b3434997e51f",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "362387494f6be6613daea643a7706a42"
+        ],
+        "shelf_life_days": 240,
+        "MIN_FRESHNESS_THRESHOLD": 60,
+        "SHELF_LIFE_DAYS": 240
+    },
+    {
+        "sku_id": "59e4f90abea9271056a10bef8b10aeae",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 339,
+        "MIN_FRESHNESS_THRESHOLD": 88,
+        "SHELF_LIFE_DAYS": 339
+    },
+    {
+        "sku_id": "e57a4096021ea538a3abc31ab16417e6",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 266,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 266
+    },
+    {
+        "sku_id": "3e7e106b351036deb2baff37370f4a21",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 161,
+        "MIN_FRESHNESS_THRESHOLD": 21,
+        "SHELF_LIFE_DAYS": 161
+    },
+    {
+        "sku_id": "cddfc1398f11c5789d21cf88c7a9c7eb",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 228,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 228
+    },
+    {
+        "sku_id": "59dc44a0904eb129c2ddd55fcebde9ff",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 231,
+        "MIN_FRESHNESS_THRESHOLD": 54,
+        "SHELF_LIFE_DAYS": 231
+    },
+    {
+        "sku_id": "b203677321c529cf68450add2c3df22d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 44,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 44
+    },
+    {
+        "sku_id": "45b9d942ee0b5f11d523d18f33ee3f58",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 313,
+        "MIN_FRESHNESS_THRESHOLD": 35,
+        "SHELF_LIFE_DAYS": 313
+    },
+    {
+        "sku_id": "43150257d8b1b6bbbc44f8c0f553312b",
+        "material_type": "KMAT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "852c44ddce7e0c7e4c64d86147300831",
+            "c0e90532fb42ac6de18e25e95db73047",
+            "32b991e5d77ad140559ffb95522992d0",
+            "f35a2bc72dfdc2aae569a0c7370bd7f5",
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 323,
+        "MIN_FRESHNESS_THRESHOLD": 80,
+        "SHELF_LIFE_DAYS": 323
+    },
+    {
+        "sku_id": "5233957481ca97a853aa214e981bd144",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 123,
+        "MIN_FRESHNESS_THRESHOLD": 34,
+        "SHELF_LIFE_DAYS": 123
+    },
+    {
+        "sku_id": "52cc02541bcd65f7afcb523564114bb6",
+        "material_type": "ROH",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 200,
+        "MIN_FRESHNESS_THRESHOLD": 21,
+        "SHELF_LIFE_DAYS": 200
+    },
+    {
+        "sku_id": "460cbd101f820a465ceb796c6c58afa8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 235,
+        "MIN_FRESHNESS_THRESHOLD": 47,
+        "SHELF_LIFE_DAYS": 235
+    },
+    {
+        "sku_id": "9efe0dd9d150041b7ec98ad2fd259230",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 216,
+        "MIN_FRESHNESS_THRESHOLD": 63,
+        "SHELF_LIFE_DAYS": 216
+    },
+    {
+        "sku_id": "00be51d21af19bd70d6945826c253152",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 292,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 292
+    },
+    {
+        "sku_id": "7ff8b9d34469ecb748cf11e6ef18001f",
+        "material_type": "INTR",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 70,
+        "MIN_FRESHNESS_THRESHOLD": 16,
+        "SHELF_LIFE_DAYS": 70
+    },
+    {
+        "sku_id": "423ea64d9c45ba14405797c2202f56e3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 62,
+        "MIN_FRESHNESS_THRESHOLD": 16,
+        "SHELF_LIFE_DAYS": 62
+    },
+    {
+        "sku_id": "c4ffa2652eaad6360095affa53a92bc5",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 219,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 219
+    },
+    {
+        "sku_id": "c94a4261ad301fea34aa304adb8cb98d",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3",
+            "026a39ae63343c68b5223a95f3e17616"
+        ],
+        "shelf_life_days": 336,
+        "MIN_FRESHNESS_THRESHOLD": 90,
+        "SHELF_LIFE_DAYS": 336
+    },
+    {
+        "sku_id": "266006e0c04acfda244817010ab7295f",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 355,
+        "MIN_FRESHNESS_THRESHOLD": 99,
+        "SHELF_LIFE_DAYS": 355
+    },
+    {
+        "sku_id": "fb49db3d5ddb4a5f082b21806ec0c14b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 295,
+        "MIN_FRESHNESS_THRESHOLD": 50,
+        "SHELF_LIFE_DAYS": 295
+    },
+    {
+        "sku_id": "f1123095c7a0eac5cacf13a15a6f9430",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 133,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 133
+    },
+    {
+        "sku_id": "153cebd0135e439e62eb3a6f0dea7ec6",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 67,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 67
+    },
+    {
+        "sku_id": "23f65ba7bcc5b7f3dc2be527df993195",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 225,
+        "MIN_FRESHNESS_THRESHOLD": 31,
+        "SHELF_LIFE_DAYS": 225
+    },
+    {
+        "sku_id": "2c707d9a13824dd34cea14542a80f1b6",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3",
+            "dbab2adc8f9d078009ee3fa810bea142"
+        ],
+        "shelf_life_days": 129,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 129
+    },
+    {
+        "sku_id": "36dea20bd28226e4d93e3ad353629fbb",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "49e68363ef4bb806e33f16de0060b882",
+            "40685b1b7030af626bdf8f8bdd115b9c",
+            "8279e2cffce183dc1491acdd217369a5",
+            "7c7d20b2e4bad95dc302069792986638"
+        ],
+        "shelf_life_days": 217,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 217
+    },
+    {
+        "sku_id": "a3ead9b46eaf52c4cebb9d4d902719c3",
+        "material_type": "HAWA",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "f21e255f89e0f258accbe4e984eef486",
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 328,
+        "MIN_FRESHNESS_THRESHOLD": 64,
+        "SHELF_LIFE_DAYS": 328
+    },
+    {
+        "sku_id": "2dadb341fc616e38bc9675c41d8ad696",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 133,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 133
+    },
+    {
+        "sku_id": "c71382385c37d0a4dfc0c21f37259f0a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 365,
+        "MIN_FRESHNESS_THRESHOLD": 87,
+        "SHELF_LIFE_DAYS": 365
+    },
+    {
+        "sku_id": "a82a0334b55653a1e2927e3687e07a19",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 136,
+        "MIN_FRESHNESS_THRESHOLD": 38,
+        "SHELF_LIFE_DAYS": 136
+    },
+    {
+        "sku_id": "04229ccf887cb11f79385a48583da1a9",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "5a99158e0c52f9e7d290906c9d08268d",
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 203,
+        "MIN_FRESHNESS_THRESHOLD": 52,
+        "SHELF_LIFE_DAYS": 203
+    },
+    {
+        "sku_id": "5ea32746a2d0f3b32f525e2ad6b68b72",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 224,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 224
+    },
+    {
+        "sku_id": "01709de030c90c8884f289759c3a29da",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 354,
+        "MIN_FRESHNESS_THRESHOLD": 80,
+        "SHELF_LIFE_DAYS": 354
+    },
+    {
+        "sku_id": "950320b9f3badf4ff830eb36aad753de",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 42,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 42
+    },
+    {
+        "sku_id": "bd8410de118311c21512bf559c05afd4",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 316,
+        "MIN_FRESHNESS_THRESHOLD": 55,
+        "SHELF_LIFE_DAYS": 316
+    },
+    {
+        "sku_id": "050e752d6eb642d4565b143d77ea64ca",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "dbab2adc8f9d078009ee3fa810bea142",
+            "e6acf4b0f69f6f6e60e9a815938aa1ff",
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 292,
+        "MIN_FRESHNESS_THRESHOLD": 58,
+        "SHELF_LIFE_DAYS": 292
+    },
+    {
+        "sku_id": "adb362c5a7365a4e0f0eea8e5f29607e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 169,
+        "MIN_FRESHNESS_THRESHOLD": 47,
+        "SHELF_LIFE_DAYS": 169
+    },
+    {
+        "sku_id": "532e31fa69375aa8e7a7e9822d442976",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 364,
+        "MIN_FRESHNESS_THRESHOLD": 66,
+        "SHELF_LIFE_DAYS": 364
+    },
+    {
+        "sku_id": "e885a19381161fd5b79d6f512da41878",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 201,
+        "MIN_FRESHNESS_THRESHOLD": 56,
+        "SHELF_LIFE_DAYS": 201
+    },
+    {
+        "sku_id": "6c8c54a6367dede9f36c876b06209f43",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 284,
+        "MIN_FRESHNESS_THRESHOLD": 71,
+        "SHELF_LIFE_DAYS": 284
+    },
+    {
+        "sku_id": "0ee30decccc59696b5b3a60867bb01fd",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 164,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 164
+    },
+    {
+        "sku_id": "7e4dda1efedbe71aa2ff1d402c5d46d1",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 343,
+        "MIN_FRESHNESS_THRESHOLD": 97,
+        "SHELF_LIFE_DAYS": 343
+    },
+    {
+        "sku_id": "9f41af6057ad879fea8ae8f7c94869cc",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 39,
+        "MIN_FRESHNESS_THRESHOLD": 9,
+        "SHELF_LIFE_DAYS": 39
+    },
+    {
+        "sku_id": "8cfee4d0a044679f929715c293525c48",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 183,
+        "MIN_FRESHNESS_THRESHOLD": 41,
+        "SHELF_LIFE_DAYS": 183
+    },
+    {
+        "sku_id": "ba215b369c38fe9b77e26fcf70951f2a",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "e727fa59ddefcefb5d39501167623132",
+            "0c215f194276000be6a6df6528067151",
+            "32b991e5d77ad140559ffb95522992d0",
+            "908a6f6a6c131a850ecb0e3f11b08189"
+        ],
+        "shelf_life_days": 59,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 59
+    },
+    {
+        "sku_id": "af488edce51206709d123f613edd6ce6",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 102,
+        "MIN_FRESHNESS_THRESHOLD": 24,
+        "SHELF_LIFE_DAYS": 102
+    },
+    {
+        "sku_id": "d25c7fb85838bd1e846593ea6d50241a",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "358aee4cc897452c00244351e4d91f69",
+            "e0688d13958a19e087e123148555e4b4",
+            "0c215f194276000be6a6df6528067151",
+            "e727fa59ddefcefb5d39501167623132",
+            "32b991e5d77ad140559ffb95522992d0",
+            "1680e9fa7b4dd5d62ece800239bb53bd"
+        ],
+        "shelf_life_days": 107,
+        "MIN_FRESHNESS_THRESHOLD": 28,
+        "SHELF_LIFE_DAYS": 107
+    },
+    {
+        "sku_id": "1f2f9afba6f5e39b0321b51222ce0e60",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 177,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 177
+    },
+    {
+        "sku_id": "400fcc6946d07b8c560d044b31316908",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 283,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 283
+    },
+    {
+        "sku_id": "3dea29b35b1d8473c1285965cba1ba2e",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 34,
+        "MIN_FRESHNESS_THRESHOLD": 8,
+        "SHELF_LIFE_DAYS": 34
+    },
+    {
+        "sku_id": "b2f78ceba6d6d3aafc0f299300fc90fe",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 335,
+        "MIN_FRESHNESS_THRESHOLD": 69,
+        "SHELF_LIFE_DAYS": 335
+    },
+    {
+        "sku_id": "f523e5ede625e48cac4b5fed5cd50310",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 365,
+        "MIN_FRESHNESS_THRESHOLD": 94,
+        "SHELF_LIFE_DAYS": 365
+    },
+    {
+        "sku_id": "307930bc3b493af3b41db1256d684650",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 242,
+        "MIN_FRESHNESS_THRESHOLD": 66,
+        "SHELF_LIFE_DAYS": 242
+    },
+    {
+        "sku_id": "ccafe72747bb3d14f46f7d73ac3eeae8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 230,
+        "MIN_FRESHNESS_THRESHOLD": 54,
+        "SHELF_LIFE_DAYS": 230
+    },
+    {
+        "sku_id": "9fd26c980fd449d361b5890330e2d66c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 310,
+        "MIN_FRESHNESS_THRESHOLD": 34,
+        "SHELF_LIFE_DAYS": 310
+    },
+    {
+        "sku_id": "38fa7a95056d0e519243278626e87582",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 338,
+        "MIN_FRESHNESS_THRESHOLD": 96,
+        "SHELF_LIFE_DAYS": 338
+    },
+    {
+        "sku_id": "1f1a50d0935c6584c0db87c1f97fe6e1",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 157,
+        "MIN_FRESHNESS_THRESHOLD": 20,
+        "SHELF_LIFE_DAYS": 157
+    },
+    {
+        "sku_id": "43ca4241a03c4a8d0984751894c494de",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 49,
+        "MIN_FRESHNESS_THRESHOLD": 10,
+        "SHELF_LIFE_DAYS": 49
+    },
+    {
+        "sku_id": "c534344710f64815c17b08b315cb31ac",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 232,
+        "MIN_FRESHNESS_THRESHOLD": 28,
+        "SHELF_LIFE_DAYS": 232
+    },
+    {
+        "sku_id": "817903f129b4b05a3c73690568380e6a",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "d8e1344e27a5b08cdfd5d027d9b8d6de",
+            "4a5876b450b45371f6cfe5047ac8cd45",
+            "6244b2ba957c48bc64582cf2bcec3d04",
+            "b628386c9b92481fab68fbf284bd6a64",
+            "ad47a008a2f806aa6eb1b53852cd8b37",
+            "92bf5e6240737e0326ea59846a83e076",
+            "ae587cfeea5ac21a8f1c1ea51027fef0",
+            "bbeb0c1b1fd44e392c7ce2fdbd137e87",
+            "a7a3d70c6d17a73140918996d03c014f"
+        ],
+        "shelf_life_days": 98,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 98
+    },
+    {
+        "sku_id": "b314f42c8ee13220d9ba1a93eb45d3bf",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 279,
+        "MIN_FRESHNESS_THRESHOLD": 77,
+        "SHELF_LIFE_DAYS": 279
+    },
+    {
+        "sku_id": "e05c07c238050ca4df4ebcf0693189ee",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 60,
+        "MIN_FRESHNESS_THRESHOLD": 14,
+        "SHELF_LIFE_DAYS": 60
+    },
+    {
+        "sku_id": "59bc55d46d4f8ab07b0824e010ed852d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 223,
+        "MIN_FRESHNESS_THRESHOLD": 35,
+        "SHELF_LIFE_DAYS": 223
+    },
+    {
+        "sku_id": "1176387da8bcf8da6c9f6bc47198ef5d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 312,
+        "MIN_FRESHNESS_THRESHOLD": 66,
+        "SHELF_LIFE_DAYS": 312
+    },
+    {
+        "sku_id": "6066f6cbc3a83add919e3503b7aac0c0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 242,
+        "MIN_FRESHNESS_THRESHOLD": 52,
+        "SHELF_LIFE_DAYS": 242
+    },
+    {
+        "sku_id": "16bef6a154b9dfd6457b10753f231f34",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 298,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 298
+    },
+    {
+        "sku_id": "2f9f00b3e2145495b0cfbcfbe587a1fb",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 251,
+        "MIN_FRESHNESS_THRESHOLD": 40,
+        "SHELF_LIFE_DAYS": 251
+    },
+    {
+        "sku_id": "7c0652f9540e498f72fc8fc88440d859",
+        "material_type": "DIEN",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a6d259bfbfa2062843ef543e21d7ec8e"
+        ],
+        "shelf_life_days": 76,
+        "MIN_FRESHNESS_THRESHOLD": 8,
+        "SHELF_LIFE_DAYS": 76
+    },
+    {
+        "sku_id": "24d298ba29474d970325be4e33d586db",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 46,
+        "MIN_FRESHNESS_THRESHOLD": 11,
+        "SHELF_LIFE_DAYS": 46
+    },
+    {
+        "sku_id": "bd24f28cc3b0c68499fcdbe3bcdf6136",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 235,
+        "MIN_FRESHNESS_THRESHOLD": 39,
+        "SHELF_LIFE_DAYS": 235
+    },
+    {
+        "sku_id": "f91756bd6ae6ff3be05264c96d2a6910",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "dbab2adc8f9d078009ee3fa810bea142",
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 227,
+        "MIN_FRESHNESS_THRESHOLD": 63,
+        "SHELF_LIFE_DAYS": 227
+    },
+    {
+        "sku_id": "af523a6816e20ffb390f66ace327dd1d",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 359,
+        "MIN_FRESHNESS_THRESHOLD": 66,
+        "SHELF_LIFE_DAYS": 359
+    },
+    {
+        "sku_id": "c53485ef5c5d7ae5b94778b64ff1e083",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 238,
+        "MIN_FRESHNESS_THRESHOLD": 66,
+        "SHELF_LIFE_DAYS": 238
+    },
+    {
+        "sku_id": "2fcfea073afe20de7da7266e21f95446",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5",
+            "49e68363ef4bb806e33f16de0060b882"
+        ],
+        "shelf_life_days": 266,
+        "MIN_FRESHNESS_THRESHOLD": 75,
+        "SHELF_LIFE_DAYS": 266
+    },
+    {
+        "sku_id": "0bbf12fcd394624556ef98fd84835afa",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "b628386c9b92481fab68fbf284bd6a64",
+            "a7a3d70c6d17a73140918996d03c014f",
+            "6244b2ba957c48bc64582cf2bcec3d04",
+            "fd4f21f2556dad0ea8b7a5c04eabebda",
+            "4a5876b450b45371f6cfe5047ac8cd45",
+            "cdd96eedd7f695f4d61802f8105ba2b0",
+            "1cd138d0499a68f4bb72bee04bbec2d7",
+            "d47844673f2db74d78da8687d794523d"
+        ],
+        "shelf_life_days": 229,
+        "MIN_FRESHNESS_THRESHOLD": 44,
+        "SHELF_LIFE_DAYS": 229
+    },
+    {
+        "sku_id": "bc0317d86752fccca7769f29fedc497d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 196,
+        "MIN_FRESHNESS_THRESHOLD": 32,
+        "SHELF_LIFE_DAYS": 196
+    },
+    {
+        "sku_id": "27dab01521fcf4364133b6ff7297f422",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 90,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 90
+    },
+    {
+        "sku_id": "88892aec00578a6ee47bb5755fd9d6db",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 352,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 352
+    },
+    {
+        "sku_id": "5c141a58dded6ba293df2ca8a75c77b0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 174,
+        "MIN_FRESHNESS_THRESHOLD": 46,
+        "SHELF_LIFE_DAYS": 174
+    },
+    {
+        "sku_id": "0b1df7e1ae757464fff807469adb1d1f",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5",
+            "b33d3f4d8402dab9a7bd1c4c3318a36b",
+            "f2692f6a5d17bcc17f445d0237c53b1c"
+        ],
+        "shelf_life_days": 277,
+        "MIN_FRESHNESS_THRESHOLD": 51,
+        "SHELF_LIFE_DAYS": 277
+    },
+    {
+        "sku_id": "208346e32c005cb5992873cab2efa262",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "494e5c2ac9d3e74696028680b2580206",
+            "f9601a3ce10e4ed6ea85d0d2e4f5f1dd",
+            "ce3d8d256cfc18a5aebf62856aae9cc1",
+            "a7150cd6f6610c6d28cf13c1b06c6f15",
+            "f3d814ccb97a176b464af904adde589d"
+        ],
+        "shelf_life_days": 155,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 155
+    },
+    {
+        "sku_id": "f9230a3b53d67f0bf6bc88192fb5065a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 118,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 118
+    },
+    {
+        "sku_id": "cf8ccb7b308ea303c3b9b861f2b2299c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 44,
+        "MIN_FRESHNESS_THRESHOLD": 6,
+        "SHELF_LIFE_DAYS": 44
+    },
+    {
+        "sku_id": "4770f1679d3a3d92fc2d0b321cb0ddac",
+        "material_type": "DIEN",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "de594ef5c314372edec29b93cab9d72e",
+            "18bb68e2b38e4a8ce7cf4f6b2625768c",
+            "32b991e5d77ad140559ffb95522992d0",
+            "0137daf1d0891ba3e3e04da7970454cb",
+            "4ebccfb3e317c7789f04f7a558df4537",
+            "453fadbd8a1a3af50a9df4df899537b5",
+            "ce758408f6ef98d7c7a7b786eca7b3a8",
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 285,
+        "MIN_FRESHNESS_THRESHOLD": 56,
+        "SHELF_LIFE_DAYS": 285
+    },
+    {
+        "sku_id": "ba4d652321f421dc903990b691d7e422",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 196,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 196
+    },
+    {
+        "sku_id": "369bd4d85fe130057f40fc76975ae17f",
+        "material_type": "ROH",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa",
+            "32b991e5d77ad140559ffb95522992d0",
+            "908a6f6a6c131a850ecb0e3f11b08189",
+            "0c215f194276000be6a6df6528067151",
+            "358aee4cc897452c00244351e4d91f69"
+        ],
+        "shelf_life_days": 346,
+        "MIN_FRESHNESS_THRESHOLD": 96,
+        "SHELF_LIFE_DAYS": 346
+    },
+    {
+        "sku_id": "0d93cc9beb695fb890f7d061eb0afdc1",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 263,
+        "MIN_FRESHNESS_THRESHOLD": 38,
+        "SHELF_LIFE_DAYS": 263
+    },
+    {
+        "sku_id": "aa46c842995aeae041d96a0ee6626779",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "d8e1344e27a5b08cdfd5d027d9b8d6de"
+        ],
+        "shelf_life_days": 111,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 111
+    },
+    {
+        "sku_id": "0336234c292a39dd82123947e9c79b7d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 198,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 198
+    },
+    {
+        "sku_id": "ffe75a8a24a8c00bd62f3395fac8e90c",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 44,
+        "MIN_FRESHNESS_THRESHOLD": 12,
+        "SHELF_LIFE_DAYS": 44
+    },
+    {
+        "sku_id": "d40c4dc26ce7895615e1a3afa3ac86b1",
+        "material_type": "DIEN",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 102,
+        "MIN_FRESHNESS_THRESHOLD": 17,
+        "SHELF_LIFE_DAYS": 102
+    },
+    {
+        "sku_id": "c8861624d53a35917453bf78822871bf",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 146,
+        "MIN_FRESHNESS_THRESHOLD": 42,
+        "SHELF_LIFE_DAYS": 146
+    },
+    {
+        "sku_id": "2a878474dd20767aad0f8e501bf785a5",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 117,
+        "MIN_FRESHNESS_THRESHOLD": 14,
+        "SHELF_LIFE_DAYS": 117
+    },
+    {
+        "sku_id": "9fbbbab5337170601ab31cfcc31f35af",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 175,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 175
+    },
+    {
+        "sku_id": "adfb11fe9ba440645a9602905bc21d83",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 110,
+        "MIN_FRESHNESS_THRESHOLD": 21,
+        "SHELF_LIFE_DAYS": 110
+    },
+    {
+        "sku_id": "201923253712490ec0713b4d48a021a5",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 57,
+        "MIN_FRESHNESS_THRESHOLD": 7,
+        "SHELF_LIFE_DAYS": 57
+    },
+    {
+        "sku_id": "b79de90e2800b3a5598bd14a8e1ff1ae",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 325,
+        "MIN_FRESHNESS_THRESHOLD": 52,
+        "SHELF_LIFE_DAYS": 325
+    },
+    {
+        "sku_id": "dfa05ed64f57487395421c63b88fb92d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 94,
+        "MIN_FRESHNESS_THRESHOLD": 18,
+        "SHELF_LIFE_DAYS": 94
+    },
+    {
+        "sku_id": "979507c9d99853f2ce597d1bd2169519",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 38,
+        "MIN_FRESHNESS_THRESHOLD": 4,
+        "SHELF_LIFE_DAYS": 38
+    },
+    {
+        "sku_id": "3bdb0e89afccffb6569c4ad45d518af8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 331,
+        "MIN_FRESHNESS_THRESHOLD": 54,
+        "SHELF_LIFE_DAYS": 331
+    },
+    {
+        "sku_id": "45ccdfd284fd8740e52ba7666c64f648",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 220,
+        "MIN_FRESHNESS_THRESHOLD": 26,
+        "SHELF_LIFE_DAYS": 220
+    },
+    {
+        "sku_id": "1193239ba66b22bdc573c4ac5d421dd2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 52,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 52
+    },
+    {
+        "sku_id": "9c825c99b131b0faa2269962d35ccff7",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 154,
+        "MIN_FRESHNESS_THRESHOLD": 22,
+        "SHELF_LIFE_DAYS": 154
+    },
+    {
+        "sku_id": "5257b8435ffe47d515d49e7439e4bb39",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f1f0404e7e34dfa7441d9e5301828743"
+        ],
+        "shelf_life_days": 181,
+        "MIN_FRESHNESS_THRESHOLD": 23,
+        "SHELF_LIFE_DAYS": 181
+    },
+    {
+        "sku_id": "8ef64fea035da92c1416ebc4b7554ee8",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 259,
+        "MIN_FRESHNESS_THRESHOLD": 37,
+        "SHELF_LIFE_DAYS": 259
+    },
+    {
+        "sku_id": "c88570a20f918f380b5425b8111c0aa2",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 358,
+        "MIN_FRESHNESS_THRESHOLD": 40,
+        "SHELF_LIFE_DAYS": 358
+    },
+    {
+        "sku_id": "f59160a81e9f1ac9dc2b7251e1b47cb6",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 48,
+        "MIN_FRESHNESS_THRESHOLD": 7,
+        "SHELF_LIFE_DAYS": 48
+    },
+    {
+        "sku_id": "2213f738e9f6bf688abfa5a67b89fefa",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 194,
+        "MIN_FRESHNESS_THRESHOLD": 35,
+        "SHELF_LIFE_DAYS": 194
+    },
+    {
+        "sku_id": "f1422dfdb4c89054c5c902a1b160697d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 93,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 93
+    },
+    {
+        "sku_id": "e1f85cbd6f7941f1814a5babf5a841ee",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f1f0404e7e34dfa7441d9e5301828743"
+        ],
+        "shelf_life_days": 69,
+        "MIN_FRESHNESS_THRESHOLD": 10,
+        "SHELF_LIFE_DAYS": 69
+    },
+    {
+        "sku_id": "6d798caf612230715414dfa4a4fe683f",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 314,
+        "MIN_FRESHNESS_THRESHOLD": 86,
+        "SHELF_LIFE_DAYS": 314
+    },
+    {
+        "sku_id": "c5c12d8a423611346f7b76a57fbff94a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 106,
+        "MIN_FRESHNESS_THRESHOLD": 28,
+        "SHELF_LIFE_DAYS": 106
+    },
+    {
+        "sku_id": "df647b676faf5e30ee2919147751acb5",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 164,
+        "MIN_FRESHNESS_THRESHOLD": 48,
+        "SHELF_LIFE_DAYS": 164
+    },
+    {
+        "sku_id": "a712b7b7001e76d7f73db0eef74f1410",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 207,
+        "MIN_FRESHNESS_THRESHOLD": 20,
+        "SHELF_LIFE_DAYS": 207
+    },
+    {
+        "sku_id": "86b0a9528dd1147c3779baf410275ec3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 166,
+        "MIN_FRESHNESS_THRESHOLD": 28,
+        "SHELF_LIFE_DAYS": 166
+    },
+    {
+        "sku_id": "610165d338a796c74e262831fc76aa82",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 271,
+        "MIN_FRESHNESS_THRESHOLD": 43,
+        "SHELF_LIFE_DAYS": 271
+    },
+    {
+        "sku_id": "702a1280ae6f6328b8c7848fb37d419c",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0"
+        ],
+        "shelf_life_days": 295,
+        "MIN_FRESHNESS_THRESHOLD": 86,
+        "SHELF_LIFE_DAYS": 295
+    },
+    {
+        "sku_id": "a3efccd7b52f907028f7c3e586383667",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f7f75abb4f12120f5b94a0e284dd7df2"
+        ],
+        "shelf_life_days": 133,
+        "MIN_FRESHNESS_THRESHOLD": 18,
+        "SHELF_LIFE_DAYS": 133
+    },
+    {
+        "sku_id": "1d154e521adcb76f645af6c532cbdb4d",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 138,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 138
+    },
+    {
+        "sku_id": "ebf6c1b4a7f5ab4c55aa4af727b54dc6",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 322,
+        "MIN_FRESHNESS_THRESHOLD": 54,
+        "SHELF_LIFE_DAYS": 322
+    },
+    {
+        "sku_id": "d7f37d1b6b89a5ffda00d1fd04ccc7ec",
+        "material_type": "HALB",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 260,
+        "MIN_FRESHNESS_THRESHOLD": 64,
+        "SHELF_LIFE_DAYS": 260
+    },
+    {
+        "sku_id": "23022de27fea3024a0909c594804f555",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 52,
+        "MIN_FRESHNESS_THRESHOLD": 5,
+        "SHELF_LIFE_DAYS": 52
+    },
+    {
+        "sku_id": "11ca522cebbfa14cb7571d3f0e95f48b",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 76,
+        "MIN_FRESHNESS_THRESHOLD": 9,
+        "SHELF_LIFE_DAYS": 76
+    },
+    {
+        "sku_id": "7c077db5cca4ea9a180cc13d634944ad",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7a3d70c6d17a73140918996d03c014f"
+        ],
+        "shelf_life_days": 97,
+        "MIN_FRESHNESS_THRESHOLD": 25,
+        "SHELF_LIFE_DAYS": 97
+    },
+    {
+        "sku_id": "1a5ef09e566bdc867bf47f107f8a9354",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 336,
+        "MIN_FRESHNESS_THRESHOLD": 73,
+        "SHELF_LIFE_DAYS": 336
+    },
+    {
+        "sku_id": "ac18c65bba71ce671fd0a511662b142e",
+        "material_type": "INTR",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "362387494f6be6613daea643a7706a42"
+        ],
+        "shelf_life_days": 319,
+        "MIN_FRESHNESS_THRESHOLD": 45,
+        "SHELF_LIFE_DAYS": 319
+    },
+    {
+        "sku_id": "ad27af92f00dabdb1e1cd7083cc5260a",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "f1f0404e7e34dfa7441d9e5301828743"
+        ],
+        "shelf_life_days": 120,
+        "MIN_FRESHNESS_THRESHOLD": 29,
+        "SHELF_LIFE_DAYS": 120
+    },
+    {
+        "sku_id": "622146e656b44343fb0e9697cbc41fec",
+        "material_type": "HALB",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3",
+            "dbab2adc8f9d078009ee3fa810bea142"
+        ],
+        "shelf_life_days": 255,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 255
+    },
+    {
+        "sku_id": "4d9b721e0f9b3945db49273ed8b29ff3",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 256,
+        "MIN_FRESHNESS_THRESHOLD": 69,
+        "SHELF_LIFE_DAYS": 256
+    },
+    {
+        "sku_id": "0eed4a44cfde3a351884bfe380c2f2e5",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 145,
+        "MIN_FRESHNESS_THRESHOLD": 42,
+        "SHELF_LIFE_DAYS": 145
+    },
+    {
+        "sku_id": "303d6ccb7db2b51abca3037e153ac694",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 200,
+        "MIN_FRESHNESS_THRESHOLD": 21,
+        "SHELF_LIFE_DAYS": 200
+    },
+    {
+        "sku_id": "98a6f96cedba56798ca60ae34575bbc1",
+        "material_type": "KMAT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "85353d3b2f39b9c9b5ee3576578c04b7"
+        ],
+        "shelf_life_days": 51,
+        "MIN_FRESHNESS_THRESHOLD": 14,
+        "SHELF_LIFE_DAYS": 51
+    },
+    {
+        "sku_id": "f856ecba3a8daaa709f6a45e1c7478e6",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 103,
+        "MIN_FRESHNESS_THRESHOLD": 30,
+        "SHELF_LIFE_DAYS": 103
+    },
+    {
+        "sku_id": "79093f1dbbde0ad448d8c7cc09e72b06",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "df0e09d6f25a15a815563df9827f48fa"
+        ],
+        "shelf_life_days": 125,
+        "MIN_FRESHNESS_THRESHOLD": 20,
+        "SHELF_LIFE_DAYS": 125
+    },
+    {
+        "sku_id": "f8b8898e2f541dd5fd4f9f0380d1f618",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 59,
+        "MIN_FRESHNESS_THRESHOLD": 16,
+        "SHELF_LIFE_DAYS": 59
+    },
+    {
+        "sku_id": "00ec56a2ee0e21cdef31ff68e9d853a7",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 97,
+        "MIN_FRESHNESS_THRESHOLD": 27,
+        "SHELF_LIFE_DAYS": 97
+    },
+    {
+        "sku_id": "0c9cc65154662886814484ec52c3a04d",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 83,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 83
+    },
+    {
+        "sku_id": "203512139fa5832418bf224642393438",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "978fce5bcc4eccc88ad48ce3914124a2"
+        ],
+        "shelf_life_days": 151,
+        "MIN_FRESHNESS_THRESHOLD": 33,
+        "SHELF_LIFE_DAYS": 151
+    },
+    {
+        "sku_id": "843600d7a20397d4606deffe4667cf06",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "a7614c0d18c91a8888aaf72b126db7c8"
+        ],
+        "shelf_life_days": 117,
+        "MIN_FRESHNESS_THRESHOLD": 19,
+        "SHELF_LIFE_DAYS": 117
+    },
+    {
+        "sku_id": "49e978de1c1f77d2dcefe4abe6e1148d",
+        "material_type": "FERT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "b33d3f4d8402dab9a7bd1c4c3318a36b",
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 97,
+        "MIN_FRESHNESS_THRESHOLD": 15,
+        "SHELF_LIFE_DAYS": 97
+    },
+    {
+        "sku_id": "7ac43dd0262962edd73f8ec39c7c491e",
+        "material_type": "KMAT",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "32b991e5d77ad140559ffb95522992d0",
+            "a7789ef88d599b8df86bbee632b2994d",
+            "f21e255f89e0f258accbe4e984eef486"
+        ],
+        "shelf_life_days": 234,
+        "MIN_FRESHNESS_THRESHOLD": 66,
+        "SHELF_LIFE_DAYS": 234
+    },
+    {
+        "sku_id": "5cb15942207e5841e96f3454fd80f31c",
+        "material_type": "ROH",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 199,
+        "MIN_FRESHNESS_THRESHOLD": 31,
+        "SHELF_LIFE_DAYS": 199
+    },
+    {
+        "sku_id": "7c9a86d3fb739208a88ecc3ee477a2d9",
+        "material_type": "ZREP",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "7876acb66640bad41f1e1371ef30c180"
+        ],
+        "shelf_life_days": 263,
+        "MIN_FRESHNESS_THRESHOLD": 53,
+        "SHELF_LIFE_DAYS": 263
+    },
+    {
+        "sku_id": "8cc973170ae3bdeb1cacefa42a0133de",
+        "material_type": "UNBW",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "eb0ecdb070a1a0ac46de0cd733d39cf3"
+        ],
+        "shelf_life_days": 231,
+        "MIN_FRESHNESS_THRESHOLD": 50,
+        "SHELF_LIFE_DAYS": 231
+    },
+    {
+        "sku_id": "125841c58f3a5beb6efa9f1a19bfe4db",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 116,
+        "MIN_FRESHNESS_THRESHOLD": 24,
+        "SHELF_LIFE_DAYS": 116
+    },
+    {
+        "sku_id": "b30e74c245b1cfd845f1131a0a95e022",
+        "material_type": "DIEN",
+        "source_model": "DUAL",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa",
+            "978fce5bcc4eccc88ad48ce3914124a2",
+            "ce758408f6ef98d7c7a7b786eca7b3a8"
+        ],
+        "shelf_life_days": 124,
+        "MIN_FRESHNESS_THRESHOLD": 34,
+        "SHELF_LIFE_DAYS": 124
+    },
+    {
+        "sku_id": "3d0286c3945b56bf78e0d7e34f5848d0",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 176,
+        "MIN_FRESHNESS_THRESHOLD": 49,
+        "SHELF_LIFE_DAYS": 176
+    },
+    {
+        "sku_id": "a8509cd354ef093bc62ef0ed9be8843d",
+        "material_type": "FERT",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "8279e2cffce183dc1491acdd217369a5"
+        ],
+        "shelf_life_days": 36,
+        "MIN_FRESHNESS_THRESHOLD": 4,
+        "SHELF_LIFE_DAYS": 36
+    },
+    {
+        "sku_id": "4d7e8da08c2e5e6107e6159eeea947de",
+        "material_type": "ERSA",
+        "source_model": "SINGLE",
+        "sourcing_plants": [
+            "87682805257e619d49b8e0dfdc14affa"
+        ],
+        "shelf_life_days": 105,
+        "MIN_FRESHNESS_THRESHOLD": 16,
+        "SHELF_LIFE_DAYS": 105
+    }
+]
