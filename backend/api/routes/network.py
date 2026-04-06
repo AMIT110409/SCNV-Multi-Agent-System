@@ -2,6 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from typing import Dict, Any, List
 import os
 import sys
+import uuid
 
 # Ensure backend root is in path for imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
@@ -48,11 +49,12 @@ async def get_network_map(user_data: dict = Depends(verify_supabase_jwt)):
                 plant_table = metadata.tables['plant_master']
                 plants = conn.execute(select(plant_table)).fetchall()
                 for i, plant in enumerate(plants):
+                    plant_dict = dict(plant._mapping) if hasattr(plant, '_mapping') else plant.__dict__
                     nodes.append({
-                        "id": plant.plant_id,
+                        "id": plant_dict.get('plant_id', f"node-{i}"),
                         "type": "plant",
                         "data": {
-                            "label": f"Plant {plant.country} ({plant.region})" if plant.country else "Plant",
+                            "label": f"Plant {plant_dict.get('country', '')} ({plant_dict.get('region', '')})" if plant_dict.get('country') else "Plant",
                             "type": "manufacturing"
                         },
                         # Grid layout for Plants: 4 columns wide
@@ -64,11 +66,12 @@ async def get_network_map(user_data: dict = Depends(verify_supabase_jwt)):
                 dc_table = metadata.tables['dc_master']
                 dcs = conn.execute(select(dc_table)).fetchall()
                 for i, dc in enumerate(dcs):
+                    dc_dict = dict(dc._mapping) if hasattr(dc, '_mapping') else dc.__dict__
                     nodes.append({
-                        "id": dc.dc_id,
+                        "id": dc_dict.get('dc_id', f"dc-{i}"),
                         "type": "dc",
                         "data": {
-                            "label": f"DC {dc.country}" if dc.country else "DC",
+                            "label": f"DC {dc_dict.get('country', '')}" if dc_dict.get('country') else "DC",
                             "type": "distribution"
                         },
                         # Grid layout for DCs: 6 columns wide, shifted 1500px to the right
@@ -80,13 +83,14 @@ async def get_network_map(user_data: dict = Depends(verify_supabase_jwt)):
                 lane_table = metadata.tables['strategic_matrix']
                 lanes = conn.execute(select(lane_table).limit(100)).fetchall() # Limit to avoid overwhelming React Flow
                 for lane in lanes:
+                    lane_dict = dict(lane._mapping) if hasattr(lane, '_mapping') else lane.__dict__
                     edges.append({
-                        "id": f"edge-{lane.id}",
-                        "source": lane.source,
-                        "target": lane.destination,
+                        "id": f"edge-{lane_dict.get('id', uuid.uuid4().hex[:6])}",
+                        "source": lane_dict.get('source'),
+                        "target": lane_dict.get('destination'),
                         "animated": True,
-                        "label": "Strategic Lane" if str(lane.is_strategic_lane).lower() == 'true' else "Standard Use",
-                        "style": {"stroke": "#4f46e5" if str(lane.is_strategic_lane).lower() == 'true' else "#9ca3af"}
+                        "label": "Strategic Lane" if str(lane_dict.get('is_strategic_lane')).lower() == 'true' else "Standard Use",
+                        "style": {"stroke": "#4f46e5" if str(lane_dict.get('is_strategic_lane')).lower() == 'true' else "#9ca3af"}
                     })
 
         return {
