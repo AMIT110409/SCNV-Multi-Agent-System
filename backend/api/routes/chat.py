@@ -272,7 +272,20 @@ async def chat(req: ChatRequest):
                 }]
             }
 
-        # ── Generic question check ─────────────────────────────────────────────
+        # ── FIXED ORDER ─────────────────────────────────────────────────────────────
+        # Route 1: KPI check FIRST (before generic patterns steal these questions)
+        has_kpi_keywords = is_country_kpi_query(query_lower)
+        is_analyst_active = (agent_id == "analyst")
+
+        if has_kpi_keywords or is_analyst_active:
+            api_key = os.getenv("OPENAI_API_KEY")
+            if not api_key:
+                return {"answer": "OPENAI_API_KEY not configured.", "sources": []}
+            llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, openai_api_key=api_key)
+            country_code = detect_country(query_lower)
+            return answer_kpi_query(req.message, country_code, llm)
+
+        # ── Route 2: Generic questions (only reaches here if no KPI keywords matched) ──
         # Questions starting with "what is", "explain", "how does" etc. that do NOT
         # contain SAP terms are pure definition/knowledge questions → go to LLM only.
         generic_patterns = [
@@ -313,30 +326,30 @@ async def chat(req: ChatRequest):
             return {"answer": "I'm the SCNV Assistant. You need to configure my OPENAI_API_KEY for full conversational access.", "sources": []}
         llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, openai_api_key=api_key)
 
-        # ── Route 1: Country KPI Queries ──────────────────────────────────────
-        has_kpi_keywords = is_country_kpi_query(query_lower)
-        is_analyst_active = (agent_id == "analyst")
-       
-        if has_kpi_keywords or is_analyst_active:
-            country_code = detect_country(query_lower)
-            return answer_kpi_query(req.message, country_code, llm)
- 
-        # ── Route 2: STO Classification Queries ──────────────────────────────
+        # ── Route 3: STO Classification Queries ──────────────────────────────
         sto_keywords = [r"\bsto\b", r"\bclassify\b", r"\btransfer\b", r"\bdc\b", r"\blateral\b"]
         has_sto_keywords = any(re.search(p, query_lower) for p in sto_keywords)
        
         if agent_id == "orchestrator" or has_sto_keywords:
-            dummy_sto = {
-                "sto_id": f"MSG-{uuid.uuid4().hex[:6]}",
-                "source_location": "DC_North" if "dc" in query_lower else "Unknown",
-                "destination_location": "Store_44",
-                "sku_id": "Laptops-X1" if "laptop" in query_lower else "Unknown",
-                "quantity": 50,
+            # Extract real values from message where possible
+            import re as _re
+            sto_id_match = _re.search(r'\b(STO[-_]?\w+|MSG[-_]?\w+)\b', req.message, _re.IGNORECASE)
+            source_match = _re.search(r'from\s+([\w_]+)', req.message, _re.IGNORECASE)
+            dest_match = _re.search(r'to\s+([\w_]+)', req.message, _re.IGNORECASE)
+            qty_match = _re.search(r'(\d+)\s*(hl|units|cases)?', req.message, _re.IGNORECASE)
+
+            parsed_sto = {
+                "sto_id": sto_id_match.group(1) if sto_id_match else f"MSG-{uuid.uuid4().hex[:6]}",
+                "source_location": source_match.group(1) if source_match else "DC_Unknown",
+                "destination_location": dest_match.group(1) if dest_match else "DC_Unknown",
+                "sku_id": "Beer_Generic",   # better default than "Laptops-X1"
+                "quantity": float(qty_match.group(1)) if qty_match else 50,
                 "event_type": "STO_CREATED"
             }
+
             initial_state_data = {
-                "sto": dummy_sto,
-                "event_type": dummy_sto.get("event_type", "STO_CREATED")
+                "sto": parsed_sto,
+                "event_type": parsed_sto.get("event_type", "STO_CREATED")
             }
             final_state = orchestrator.process_event(initial_state_data)
             res_dict = final_state if isinstance(final_state, dict) else final_state.__dict__
@@ -349,11 +362,18 @@ async def chat(req: ChatRequest):
                     "confidence": 0.5,
                     "text_snippet": "No distinct alternative graphs resolved."
                 })
+            
             answer = (
-                f"🛡️ **LangGraph STO Analysis Complete**\n\n"
+                f"**STO Analysis: {parsed_sto['sto_id']}**\n\n"
+                f"**Route:** {parsed_sto['source_location']} → {parsed_sto['destination_location']}\n"
                 f"**Classification:** {res_dict.get('classification', 'N/A')}\n"
-                f"**Strategic Reasoning:** {res_dict.get('reasoning_text', 'No detailed reasoning provided.')}\n\n"
-                "This analysis was performed by our multi-agent orchestrator, cross-referencing master data and strategic logistics lanes."
+                f"**Root Cause:** {res_dict.get('root_cause', 'N/A')}\n"
+                f"**Confidence:** {res_dict.get('confidence', 0) * 100:.0f}%\n\n"
+                f"**Analysis:** {res_dict.get('reasoning_text', 'No reasoning provided.')}\n\n"
+                + (f"**Optimal Route:** {res_dict.get('optimal_route', {}).get('source')} → "
+                   f"{res_dict.get('optimal_route', {}).get('destination')}\n"
+                   f"**Estimated Savings:** ${res_dict.get('optimal_route', {}).get('cost_savings', 0):,.2f}"
+                   if res_dict.get('optimal_route') else "")
             )
             return {"answer": answer, "sources": sources}
        
