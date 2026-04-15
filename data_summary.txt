@@ -1,0 +1,333 @@
+Sheets in c:\Users\Abcom\Downloads\scnv-agent\docs\SCNV Data.xlsx:
+['VTTK', 'MKPF', 'VBAK', 'KNA1', 'USR21', 'LFA1', 'T001K', 'EKKO', 'MBEWH_4', 'MBEWH_3', 'MBEWH_2', 'MBEWH_1', 'AUFNR', 'EKPO', 'USR02', 'VKORG', 'T156', 'LIPS', 'LIKP', 'T156T', 'T001', 'T001W', 'VTTP', 'MBEW', 'AFKO', 'TVKOT', 'EKET', 'MSEG', 'MCHB', 'MARA', 'MARC', 'VBAP', 'MCHA']
+
+--- Sheet: VTTK ---
+Columns: ['Mandt', 'Tknum', 'Daten']
+Sample data:
+     Mandt       Tknum      Daten
+0  1774170  1882878123        NaT
+1  1774170  1882956975 2026-02-04
+2  1774170  1883147534 2026-02-03
+3  1774170  1883246099 2026-02-04
+4  1774170  1883338093 2026-02-10
+
+--- Sheet: MKPF ---
+Columns: ['Mandt', 'Mblnr', 'Mjahr', 'Budat', 'Usnam', 'Blart']
+Sample data:
+     Mandt       Mblnr  Mjahr      Budat                                                             Usnam Blart
+0  1774170  8876824142   2026 2026-01-14  9b989c5fba1d6f028f0edabd1c921e039a747dcfba4e2327950d8bc692a3a7e0    WE
+1  1774170  8876863568   2026 2026-01-15  9b989c5fba1d6f028f0edabd1c921e039a747dcfba4e2327950d8bc692a3a7e0    WE
+2  1774170  8876909565   2026 2026-01-15  9b989c5fba1d6f028f0edabd1c921e039a747dcfba4e2327950d8bc692a3a7e0    WE
+3  1774170  8877001559   2026 2026-01-16  9b989c5fba1d6f028f0edabd1c921e039a747dcfba4e2327950d8bc692a3a7e0    WE
+4  1774170  8877027843   2026 2026-01-16  9b989c5fba1d6f028f0edabd1c921e039a747dcfba4e2327950d8bc692a3a7e0    WE
+
+--- Sheet: VBAK ---
+Columns: ['Vbeln', 'Bstnk', 'Mandt', 'Bukrs Vf', 'Vkorg', 'Vtweg', 'Vkbur', 'Kunnr', 'Ernam', 'Netwr', 'Erdat', 'Erzet', 'Audat', 'Vdatu', 'Bstdk', 'Waerk', 'Auart', 'Vbtyp', 'Vsbed', 'Objnr', 'Kkber']
+Sample data:
+        Vbeln                             Bstnk    Mandt                          Bukrs Vf                             Vkorg                             Vtweg                             Vkbur                                                             Kunnr                                                             Ernam     Netwr      Erdat               Erzet      Audat      Vdatu      Bstdk Waerk Auart Vbtyp  Vsbed  Objnr                             Kkber
+0  4760269982                               NaN  1774170  4f16c818875d9fcb6867c7bdc89be7eb  fa2e8c4385712f9a1d24c363a2cbe5b8  96a3be3cf272e017046d1b2674a52bd3  fa2e8c4385712f9a1d24c363a2cbe5b8  dca139f73f61e0e5310feb5cc70c7e23a18f2044e5a252886a67b7b3fb8a2382  e3d6b4832be79e8acf8dd562b5c3429da3a6acbc166f58f49f040f5f50de4959  14768.20 2026-01-01 1970-01-01 09:12:50 2026-01-01 2026-01-01        NaT   INR    B1     K     30    NaN  f1b0775946bc0329b35b823b86eeb5f5
+1  4760414544  5b9c2ba7303cdf542c84e14a437c299a  1774170  537d9b6c927223c796cac288cced29df  f7696a9b362ac5a51c3dc8f098b73923  96a3be3cf272e017046d1b2674a52bd3  f7696a9b362ac5a51c3dc8f098b73923  a806f65ef78cf740e766ee2b66ce61feb1a0f674af763852967a16ac2ca17177  606582eba42f3b03aec07dce891c796ffb61265ff0ba15d2ab3c902571a637ba   2973.39 2026-01-02 1970-01-01 13:55:56 2026-01-02 2026-01-02 2026-01-02   EUR    RE     H     30    NaN  f7696a9b362ac5a51c3dc8f098b73923
+2  4760591961  0f698609d41e885f87a39dd1c79c1d0c  1774170  4f16c818875d9fcb6867c7bdc89be7eb  fa2e8c4385712f9a1d24c363a2cbe5b8  96a3be3cf272e017046d1b2674a52bd3  fa2e8c4385712f9a1d24c363a2cbe5b8  d06eb5e51344e2bff5e67392d7217bfd9a7a109181c2a067616c748c9ed143b3  7e11186a642a793d65ec15e1ef3642be296deb0b4d8624c760918bb5ca746e0c   4430.46 2026-01-04 1970-01-01 13:06:48 2026-01-04 2026-01-04        NaT   INR    G2     K     30    NaN  f1b0775946bc0329b35b823b86eeb5f5
+3  4760598532  e5b0e41fe67fb7e9004d95bd4c18a4fe  1774170  4f16c818875d9fcb6867c7bdc89be7eb  fa2e8c4385712f9a1d24c363a2cbe5b8  96a3be3cf272e017046d1b2674a52bd3  fa2e8c4385712f9a1d24c363a2cbe5b8  d06eb5e51344e2bff5e67392d7217bfd9a7a109181c2a067616c748c9ed143b3  7e11186a642a793d65ec15e1ef3642be296deb0b4d8624c760918bb5ca746e0c   2215.23 2026-01-04 1970-01-01 13:08:00 2026-01-04 2026-01-04        NaT   INR    G2     K     30    NaN  f1b0775946bc0329b35b823b86eeb5f5
+4  4760664242  c9ea24f4617fe1caf000f548c48c39e4  1774170  4f16c818875d9fcb6867c7bdc89be7eb  fa2e8c4385712f9a1d24c363a2cbe5b8  96a3be3cf272e017046d1b2674a52bd3  fa2e8c4385712f9a1d24c363a2cbe5b8  d06eb5e51344e2bff5e67392d7217bfd9a7a109181c2a067616c748c9ed143b3  7e11186a642a793d65ec15e1ef3642be296deb0b4d8624c760918bb5ca746e0c   5538.07 2026-01-04 1970-01-01 13:19:54 2026-01-04 2026-01-04        NaT   INR    G2     K     30    NaN  f1b0775946bc0329b35b823b86eeb5f5
+
+--- Sheet: KNA1 ---
+Columns: ['Mandt', 'Kunnr', 'Name1', 'Land1', 'Vbund', 'Werks']
+Sample data:
+     Mandt                                                             Kunnr                                                             Name1 Land1  Vbund  Werks
+0  1774170  04a44a048d5d97ffda83aab8e002a700ae5154cb1218a77a0d3336690fd5acb0  c2265d8b85a3185a219c302ca594b475dd23941510c4cd2846534aa6d042b35b    IN    NaN    NaN
+1  1774170  3068ef57111b11c1a3cc7417b07ce23507afa3ef95a2c4da4a7d5e7228741ffe  34865ec53b99c486d3045970127837616bf29a3826fc3f19a8c35af164463ff9    CN    NaN    NaN
+2  1774170  33429c669d76552239eda1cafd857aaace0cec7f9970c004cdbc8cbf8bdeec18  5dce058a28cfa8ca216ba10e6987e1bcf2ae42cca8ee8cfaaa1f5378562fe794    HK    NaN    NaN
+3  1774170  3c6860d3b4260a7c81082824eb17060cd175dd25d10dd2d5ec67f904be1dd29e  2958514d066171c633e797949a189c702c453243b57f9182cc4a14c93008214f    MX    NaN    NaN
+4  1774170  4fd458ae0e6001c79af085911a8bdb7d61a5646a460c1d7e3a3ea9d9c82e9602  b999448c14b8d2afdb1ef1aefe998e9c821b8ea711d30bd9a31d0926daf5e492    DE    NaN    NaN
+
+--- Sheet: USR21 ---
+Columns: ['Mandt', 'Bname', 'Persnumber']
+Sample data:
+     Mandt                                                             Bname                                                        Persnumber
+0  1774170  0669e55dbe6b6def7c2ca26c8842f5e3825cd05955b841fe294b5ce6b8c3a9e6  f3e4a6d252ce27d4cbbc6cd7ba8f863f78c9c07eed051d69c0c6233f0117fc04
+1  1774170  73a990eb28ef6584bbad6a052117a04d0e8177ea2ab5cda723ca1dec179ccb04  463152965bb807fd3505190af44519ae72cfd863bc8380c11f5eb0e5767123bb
+2  1774170  7836e69d4305dade86ebd015ef0b8942a21a73cd5b2c6cc7f6caa98f4898eee6  b0439f945c04fb6da3063ce18a696c9a889110ed25a1eb57ee5fe90d993deb40
+3  1774170  8fddce5ad6e675e403430272323db552e877bb240b44930f686c31221ed5f05f  50f43b28e3b4acdd7d387cb93aad866514b5a1faccc08c8c87fd5ed8e6b375dd
+4  1774170  2cd54cac6499ecd0747152145d12bb7b7e6cb6c8391fedc39e18d498c6c7c19c  35a1e49c2abe3833c7fd1486071fe3e471cc159716a2bf2a205ff14dcb10a468
+
+--- Sheet: LFA1 ---
+Columns: ['Mandt', 'Lifnr', 'Name1', 'Land1', 'Werks']
+Sample data:
+     Mandt                                                             Lifnr                                                             Name1 Land1  Werks
+0  1774170  2f7f17845bc81ee62ccb8674b27721b6e4eea306b53d967a11e832cddeb9482f  f7b7d4ecfe6c1ee61047b17cb40e7feaa01d96ac767e891783e82dd620ee7b42    US    NaN
+1  1774170  379862b12cbeb84e23bbb2a6c9b4324455057fa46189d1e3d53ca826e5b43188  b43114729f4d1885a07f0f44be9b1d55f530389e9be4b10d41c5bc29d06ec081    CH    NaN
+2  1774170  4793990246eccd9ca327bfa2ad63b3a1f1c26cf1a70d3b2aec74ed69b11bc23e  082c750d04fd2d2fc67bd9c62b3a6a40b04c02aa78bd48ab674181ccd1f35676    BE    NaN
+3  1774170  50d7b09243370a3572fd67c80d0eea58ba3a05d28dea910dcd3303e4132cab53  b73f54f38f217c6ae7ea38dea03fde4ea4f10429da854a86c592701fe83a703a    NL    NaN
+4  1774170  87bc629834d34ab3bdaf13501b6e6ba7f1d85d2333a0ce294625e8ef5d0fdb00  fb5dac29ca0ed27ac6b2f2c3ebd77cc63c92ff441d0cd974fc641867752a291f    US    NaN
+
+--- Sheet: T001K ---
+Columns: ['Mandt', 'Bwkey', 'Bukrs']
+Sample data:
+     Mandt                             Bwkey                             Bukrs
+0  1774170  0f855422bfd001709fada100edf5c16c  a3d06db1f8c85b2837b4603a51834425
+1  1774170  0f855422bfd001709fada100edf5c16c  a3d06db1f8c85b2837b4603a51834425
+2  1774170  0f855422bfd001709fada100edf5c16c  a3d06db1f8c85b2837b4603a51834425
+3  1774170  0f855422bfd001709fada100edf5c16c  a3d06db1f8c85b2837b4603a51834425
+4  1774170  0f855422bfd001709fada100edf5c16c  a3d06db1f8c85b2837b4603a51834425
+
+--- Sheet: EKKO ---
+Columns: ['Mandt', 'Ebeln', 'Lifnr', 'Bedat', 'Aedat']
+Sample data:
+     Mandt      Ebeln                                                             Lifnr      Bedat      Aedat
+0  1774170  236805104  3e7b3883c089c1e5bc4a673aa443100bda669da00580244b77a1810b092dfada 2026-02-27 2026-02-27
+1  1774170  236844530  e19f4c50a7af90279de6ec6d47ec89cb8574be518a2335af857c9127941144af 2026-02-27 2026-02-27
+2  1774170  237054802  f89e5d50e8149852437682349b638500e8af80b3159457b914a7d1c7acbaa02c 2026-02-27 2026-02-27
+3  1774170  237232219  bb97f2f931eee7875d5b5739f693db969bda43791e6835852f0e6e51e6e0b161 2026-02-27 2026-02-27
+4  1774170  237442491  a9a63fb4fe23e8cef92dee877982796e8dd21d6d637db709a75fb155bd925b8c 2026-02-27 2026-02-27
+
+--- Sheet: MBEWH_4 ---
+Columns: ['Mandt', 'Matnr', 'Lfgja', 'Bwkey', 'Bwtar', 'Lfmon', 'Stprs', 'Peinh']
+Sample data:
+     Mandt                             Matnr  Lfgja                             Bwkey  Bwtar  Lfmon  Stprs   Peinh
+0  1774170  4f19a097362f123fcde3fa43401460bf   2024  85353d3b2f39b9c9b5ee3576578c04b7    NaN     12      0  738.41
+1  1774170  4f19a097362f123fcde3fa43401460bf   2024  85353d3b2f39b9c9b5ee3576578c04b7    NaN     12      0  738.41
+2  1774170  4f19a097362f123fcde3fa43401460bf   2024  85353d3b2f39b9c9b5ee3576578c04b7    NaN     12      0  738.41
+3  1774170  4f19a097362f123fcde3fa43401460bf   2024  85353d3b2f39b9c9b5ee3576578c04b7    NaN     12      0  738.41
+4  1774170  4f19a097362f123fcde3fa43401460bf   2024  85353d3b2f39b9c9b5ee3576578c04b7    NaN     12      0  738.41
+
+--- Sheet: MBEWH_3 ---
+Columns: ['Mandt', 'Matnr', 'Lfgja', 'Bwkey', 'Bwtar', 'Lfmon', 'Stprs', 'Peinh']
+Sample data:
+     Mandt                             Matnr  Lfgja                             Bwkey  Bwtar  Lfmon     Stprs    Peinh
+0  1774170  0ef71a8fd1813eb498eaba32e36c44cf   2020  d8e1344e27a5b08cdfd5d027d9b8d6de    NaN     12  341.1011  73.8410
+1  1774170  0ef71a8fd1813eb498eaba32e36c44cf   2020  d8e1344e27a5b08cdfd5d027d9b8d6de    NaN     12  341.1011  73.8410
+2  1774170  0ef71a8fd1813eb498eaba32e36c44cf   2023  d8e1344e27a5b08cdfd5d027d9b8d6de    NaN      3  492.1060  73.8410
+3  1774170  0f09694e0e06992e1ee30447ed3ef2f9   2024  f7f75abb4f12120f5b94a0e284dd7df2    NaN      7    0.0000   0.7384
+4  1774170  0f0f9accb998e8af7041627e76e99335   2022  49e68363ef4bb806e33f16de0060b882    NaN     12    0.0000   0.0000
+
+--- Sheet: MBEWH_2 ---
+Columns: ['Mandt', 'Matnr', 'Lfgja', 'Bwkey', 'Bwtar', 'Lfmon', 'Stprs', 'Peinh']
+Sample data:
+     Mandt                             Matnr  Lfgja                             Bwkey  Bwtar  Lfmon        Stprs   Peinh
+0  1774170  0043d6b158e1515d64e39c2b5ad144c6   2010  362387494f6be6613daea643a7706a42    NaN      4  181035.9797  738.41
+1  1774170  0043d6b158e1515d64e39c2b5ad144c6   2010  362387494f6be6613daea643a7706a42    NaN      7  181035.9797  738.41
+2  1774170  0043d6b158e1515d64e39c2b5ad144c6   2010  362387494f6be6613daea643a7706a42    NaN      8  175003.1700  738.41
+3  1774170  0043d6b158e1515d64e39c2b5ad144c6   2011  362387494f6be6613daea643a7706a42    NaN      3  163927.0200  738.41
+4  1774170  0043d6b158e1515d64e39c2b5ad144c6   2011  362387494f6be6613daea643a7706a42    NaN     12  123314.4700  738.41
+
+--- Sheet: MBEWH_1 ---
+Columns: ['Mandt', 'Matnr', 'Lfgja', 'Bwkey', 'Bwtar', 'Lfmon', 'Stprs', 'Peinh']
+Sample data:
+     Mandt                             Matnr  Lfgja                             Bwkey  Bwtar  Lfmon      Stprs   Peinh
+0  1774170  0065713b07f0c4d905198f72021bc9db   2024  8fb9942185975c6e0b2992587fd0d981    NaN     12     0.0000  738.41
+1  1774170  0065713b07f0c4d905198f72021bc9db   2025  8fb9942185975c6e0b2992587fd0d981    NaN      5  1535.0141  738.41
+2  1774170  0065713b07f0c4d905198f72021bc9db   2025  8fb9942185975c6e0b2992587fd0d981    NaN      7  1447.6897  738.41
+3  1774170  0065713b07f0c4d905198f72021bc9db   2026  8fb9942185975c6e0b2992587fd0d981    NaN      1  1377.5260  738.41
+4  1774170  0065713b07f0c4d905198f72021bc9db   2026  8fb9942185975c6e0b2992587fd0d981    NaN      1  1377.5260  738.41
+
+--- Sheet: AUFNR ---
+Columns: ['Mandt', 'Aufnr']
+Sample data:
+     Mandt       Aufnr
+0  1774170  1623652173
+1  1774170  1768273312
+2  1774170  2338491550
+3  1774170  2364315580
+4  1774170  2388766271
+
+--- Sheet: EKPO ---
+Columns: ['Mandt', 'Ebeln', 'Ebelp', 'Werks', 'Lgort', 'Aedat']
+Sample data:
+     Mandt       Ebeln  Ebelp                             Werks                             Lgort      Aedat
+0  1774170  5086476598    510  8fb9942185975c6e0b2992587fd0d981  c47ade717cc2f5de276a102b2d2dad78 2026-02-24
+1  1774170  5086476598    540  8fb9942185975c6e0b2992587fd0d981  c47ade717cc2f5de276a102b2d2dad78 2026-02-24
+2  1774170  5086476598    630  8fb9942185975c6e0b2992587fd0d981  c47ade717cc2f5de276a102b2d2dad78 2026-02-24
+3  1774170  5086516024     10  5410f15c2a6e22a8d5d5f6b28d040d74                               NaN 2026-02-24
+4  1774170  5086529166     40  35a015cdf62855b47a130ce61232acd7  559d584acfae10609d4ae78a2b5bd8d2 2026-02-24
+
+--- Sheet: USR02 ---
+Columns: ['Mandt', 'Bname']
+Sample data:
+     Mandt                                                             Bname
+0  1774170  19556386335f8a6937ecc7f3cfaada24c631158e5def6357c3eafa6bf1a9ccce
+1  1774170  45cba78fe4eed239b73c940c26cc5529e1d480dd4afffcd25a0df1402af6a0ce
+2  1774170  7c8fc95be309699e357656bcfadde6a460bcb4713585b3ad115791fbba407138
+3  1774170  9632958389179a00013c2da7de9788b0d65b88e12f1e80ae420e7e19e2966740
+4  1774170  e1fb39f0d4b537efff1a0b22fe90ad240f16e98e337cae83ac990d01908121b5
+
+--- Sheet: VKORG ---
+Columns: ['Mandt', 'Vkorg']
+Sample data:
+     Mandt                             Vkorg
+0  1774170  18bb68e2b38e4a8ce7cf4f6b2625768c
+1  1774170  217c0e01c1828e7279051f1b6675745d
+2  1774170  978fce5bcc4eccc88ad48ce3914124a2
+3  1774170  8dc5983b8c4ef1d8fcd5f325f9a65511
+4  1774170  b0bef4c9a6e50d43880191492d4fc827
+
+--- Sheet: T156 ---
+Columns: ['Mandt', 'Bwart', 'Shkzg', 'Xstbw', 'Kzvbu']
+Sample data:
+     Mandt  Bwart Shkzg  Xstbw Kzvbu
+0  1774170    121     H    NaN   NaN
+1  1774170    141     S    NaN   NaN
+2  1774170    281     H    NaN     R
+3  1774170    309     H    NaN     R
+4  1774170    311     H    NaN   NaN
+
+--- Sheet: LIPS ---
+Columns: ['Mandt', 'Vbeln', 'Posnr', 'Erdat', 'Erzet', 'Ernam', 'Lfimg', 'Vrkme', 'Ntgew', 'Gewei', 'Volum', 'Voleh', 'Lgort', 'Vgtyp', 'Vgbel', 'Vgpos', 'Matnr', 'Werks', 'Charg']
+Sample data:
+     Mandt       Vbeln   Posnr      Erdat               Erzet                                                             Ernam       Lfimg Vrkme       Ntgew Gewei      Volum Voleh                             Lgort Vgtyp       Vgbel  Vgpos                             Matnr                             Werks                             Charg
+0  1774170  9283047697      10 2026-01-21 1970-01-01 10:40:47  0f199e9c472ca000df736f1e07185896b47996043e20f88cdbcc0a3fee7b924f   2787.4977    KG   2787.4977    KG  4738.7462   CDM  75fe4c6dd5b8d747fbb3deecd96182c6     C  9763086664     10  d3da0f58c7415c6ca959f1d3b8a22cb5  362387494f6be6613daea643a7706a42  bad08fd20541c7228c88771e9e54ca23
+1  1774170  9283087123  900004 2026-01-21 1970-01-01 10:48:38  f56261de30052e06c410b2b9a996b02dacd924547f313044eb99ca5ef6c9818c   1476.8200    KG   1476.8200    KG     0.0000   NaN  94ceafea4f9fa0cfbfcfb383189b031a     C  9602557134     10  ee8a9ce2c15408ef62e931d387be582d  8fb9942185975c6e0b2992587fd0d981  9fdaa4a307c49e5ec1e2f19d44c9b3db
+2  1774170  9283087123  900005 2026-01-21 1970-01-01 10:48:40  f56261de30052e06c410b2b9a996b02dacd924547f313044eb99ca5ef6c9818c  11814.5600    KG  11814.5600    KG     0.0000   NaN  94ceafea4f9fa0cfbfcfb383189b031a     C  9602557134     10  ee8a9ce2c15408ef62e931d387be582d  8fb9942185975c6e0b2992587fd0d981  98b0a17abd17c8c2de8c910e8f895745
+3  1774170  9283093694  900004 2026-01-21 1970-01-01 10:53:30  f56261de30052e06c410b2b9a996b02dacd924547f313044eb99ca5ef6c9818c   4910.4265    KG   4910.4265    KG  8347.7251   CDM  75fe4c6dd5b8d747fbb3deecd96182c6     C  9706326366     10  5ac7dfb708bfe138d96f57ceafd96232  85353d3b2f39b9c9b5ee3576578c04b7  735475cb91f32025070559609c788f4d
+4  1774170  9283192259      10 2026-01-21 1970-01-01 11:12:44  7fc319204518970bf9de65fe847b1e300bff50d5a0761dc6fbe453daa64fbf41      0.0000    KG      0.0000    KG     0.0000   CDM  75fe4c6dd5b8d747fbb3deecd96182c6     C  9523915406     10  7d9c5334199980a269ad857c885cf67f  eb0ecdb070a1a0ac46de0cd733d39cf3  d41d8cd98f00b204e9800998ecf8427e
+
+--- Sheet: LIKP ---
+Columns: ['Mandt', 'Vbeln', 'Erdat', 'Erzet', 'Ernam', 'Lfart', 'Kodat', 'Kouhr', 'Podat', 'Potim', 'Lfdat', 'Ntgew', 'Btgew', 'Gewei', 'Volum', 'Voleh', 'Kunnr', 'Wadat', 'Vbtyp', 'Wadat Ist']
+Sample data:
+     Mandt       Vbeln      Erdat               Erzet                                                             Ernam Lfart      Kodat         Kouhr  Podat      Potim      Lfdat       Ntgew       Btgew Gewei  Volum  Voleh                                                             Kunnr      Wadat Vbtyp  Wadat Ist
+0  1774170  9401161422 2026-02-25 1970-01-01 01:50:40  626b2b4b626b9fd60fcc4a5cc78b5ba730a1966b3e25775f38a5c2cb6f820f92    LF 2026-02-26  25569.578924    NaN 1970-01-01 2026-02-26   3692.0500   3692.0500    KG      0    NaN  1013f883170f7b4234112c9ca6236f7ac9cb2e59a95ed7dc190794ee3f49f821 2026-02-26     J 2026-02-26
+1  1774170  9401167993 2026-02-25 1970-01-01 01:52:31  626b2b4b626b9fd60fcc4a5cc78b5ba730a1966b3e25775f38a5c2cb6f820f92    LF 2026-02-27  25569.375000    NaN 1970-01-01 2026-02-27   7384.1000   7384.1000    KG      0    NaN  1013f883170f7b4234112c9ca6236f7ac9cb2e59a95ed7dc190794ee3f49f821 2026-02-27     J 2026-02-27
+2  1774170  9401246845 2026-02-25 1970-01-01 02:12:03  0d527e1a6e4aaffe932ba8d31070e5525da265e62170aaaab3b0575c49dbe4e0  NLCC 2026-03-04  25569.729167    NaN 1970-01-01 2026-03-23  14768.2000  14768.2000    KG      0    NaN  fa0a98e3def4c7641d845caf7d2ab9cf8094f71f593c66d49e239055d50d7102 2026-03-04     J        NaT
+3  1774170  9401319126 2026-02-25 1970-01-01 02:29:44  9d9590237c98dd94ab76ae8f0da8a58271e69d91a92d242c6ee30b1044a64e82    LF 2026-02-27  25569.375000    NaN 1970-01-01 2026-02-28  11076.1500  11076.1500    KG      0    NaN  fedf8c6bb1b4b9afb6d79ea7ebbac05fca19a93088540863746748e0e26f3183 2026-02-27     J 2026-02-27
+4  1774170  9401351981 2026-02-25 1970-01-01 02:32:42  2a592255b832fa325b430d31063abf62419b7dd8f6099816498917a06c94aede    LF 2026-02-25  25569.646979    NaN 1970-01-01 2026-02-25    627.6485    627.6485    KG      0    NaN  de3f99c252cc63dc2debcd292189729b40d551dfeafa45eb8e3f26dd0c3f8802 2026-02-25     J 2026-02-25
+
+--- Sheet: T156T ---
+Columns: ['Mandt', 'Bwart', 'Spras', 'Sobkz', 'Kzbew', 'Kzzug', 'Kzvbr']
+Sample data:
+     Mandt  Bwart Spras  Sobkz Kzbew Kzzug  Kzvbr
+0  1774170    641     E    NaN     L     X    NaN
+1  1774170    641     E    NaN     L     X    NaN
+2  1774170    641     E    NaN     L     X    NaN
+3  1774170    641     E    NaN     L     X    NaN
+4  1774170    641     E    NaN     L     X    NaN
+
+--- Sheet: T001 ---
+Columns: ['Mandt', 'Bukrs', 'Butxt', 'Waers']
+Sample data:
+     Mandt                             Bukrs                                                             Butxt Waers
+0  1774170  1579779b98ce9edb98dd85606f2c119d  4976d514322f196db9d770cd04dfb3015e2ba625fc6a61080d22f7b6795337f9   EUR
+1  1774170  184260348236f9554fe9375772ff966e  6ef101928d5cdb92c736e5de09fe40650de9fde6270adbaf299f9ba03b9c3e33   USD
+2  1774170  4f977d1f5522ea81a9e3a6c76be1a464  264475be1109c441826008f137e831ab339a500d08d5f7f31c16f8f2eb061ab2   NaN
+3  1774170  5df07ecf4cea616e3eb384a9be3511bb  be75b142baa63aa54761b11114f79ace5badb8719690c63bc6607f05cafe230e   BRL
+4  1774170  f52b43f6e0e444510cf55c5869d8d06b  a6d6a3e4967d0ca7e9b6b36ada3de5b2878d9e3f62b55bf6e6e9626a95ef19b0   EUR
+
+--- Sheet: T001W ---
+Columns: ['Mandt', 'Werks', 'Land1', 'Regio', 'Bwkey']
+Sample data:
+     Mandt                             Werks Land1 Regio                             Bwkey
+0  1774170  08f38e0434442128fab5ead6217ca759    SG    SG  08f38e0434442128fab5ead6217ca759
+1  1774170  22b1f2e0983160db6f7bb9f62f4dbb39    IN    13  22b1f2e0983160db6f7bb9f62f4dbb39
+2  1774170  40685b1b7030af626bdf8f8bdd115b9c    HK    NT  40685b1b7030af626bdf8f8bdd115b9c
+3  1774170  57df43f2b383566d9bf9857ae48f7af2    MX   MEX  57df43f2b383566d9bf9857ae48f7af2
+4  1774170  65fc9fb4897a89789352e211ca2d398f    JP    24  65fc9fb4897a89789352e211ca2d398f
+
+--- Sheet: VTTP ---
+Columns: ['Mandt', 'Vbeln', 'Tknum', 'Tpnum']
+Sample data:
+     Mandt       Vbeln       Tknum  Tpnum
+0  1774170  9311165006  1881103953      1
+1  1774170  9311191290  1888752597      1
+2  1774170  9311237287  1879073514      1
+3  1774170  9311263571  1877345341      1
+4  1774170  9311302997  1877365054      1
+
+--- Sheet: MBEW ---
+Columns: ['Mandt', 'Matnr', 'Lfgja', 'Bwkey', 'Bwtar', 'Lfmon', 'Stprs', 'Peinh', 'Lbkum', 'Salk3', 'Vprsv', 'Verpr']
+Sample data:
+     Mandt                             Matnr  Lfgja                             Bwkey  Bwtar  Lfmon        Stprs   Peinh  Lbkum       Salk3 Vprsv     Verpr
+0  1774170  f4ec8b1418b92aaa639c383b44fe6fb6   2026  5410f15c2a6e22a8d5d5f6b28d040d74    NaN      3  303806.2268  738.41   3768  1550279.47     S  320121.2
+1  1774170  f4ec8b1418b92aaa639c383b44fe6fb6   2026  5410f15c2a6e22a8d5d5f6b28d040d74    NaN      3  303806.2268  738.41   3768  1550279.47     S  320121.2
+2  1774170  f4ec8b1418b92aaa639c383b44fe6fb6   2026  5410f15c2a6e22a8d5d5f6b28d040d74    NaN      3  303806.2268  738.41   3768  1550279.47     S  320121.2
+3  1774170  f4ec8b1418b92aaa639c383b44fe6fb6   2026  5410f15c2a6e22a8d5d5f6b28d040d74    NaN      3  303806.2268  738.41   3768  1550279.47     S  320121.2
+4  1774170  f4ec8b1418b92aaa639c383b44fe6fb6   2026  5410f15c2a6e22a8d5d5f6b28d040d74    NaN      3  303806.2268  738.41   3768  1550279.47     S  320121.2
+
+--- Sheet: AFKO ---
+Columns: ['Mandt', 'Aufnr', 'Gltrs', 'Gstrs']
+Sample data:
+     Mandt       Aufnr      Gltrs      Gstrs
+0  1774170  3080797553 2025-11-21 2025-11-17
+1  1774170  3091054884 2025-12-26 2025-10-17
+2  1774170  3092980187 2025-12-18 2025-04-04
+3  1774170  3095174901 2025-12-19 2025-12-15
+4  1774170  3102968107 2025-12-31 2025-07-16
+
+--- Sheet: TVKOT ---
+Columns: ['Mandt', 'Vkorg', 'Spras', 'Vtext']
+Sample data:
+     Mandt                             Vkorg Spras                                                             Vtext
+0  1774170  03fa2f7502f5f6b9169e67d17cbf51bb     J  30d9c9c1ddf35d72d465841d4aa3aec0c224f112395c353f95f12f8884ca14e2
+1  1774170  217c0e01c1828e7279051f1b6675745d     L  8df884f20b5ff455f66460fa383e81b627b0fc33fcecfb806a9d8f4f21511a46
+2  1774170  217c0e01c1828e7279051f1b6675745d     S  8df884f20b5ff455f66460fa383e81b627b0fc33fcecfb806a9d8f4f21511a46
+3  1774170  2e7ceec8361275c4e31fee5fe422740b     S  1fabb1877f43d535391e51d2c00997bd5043bc2192cdb885308028abdf665dc9
+4  1774170  32b991e5d77ad140559ffb95522992d0     T  3c5d5d2ff81feaeca83d8247e1fe0cc997675b42afcba7b26ed5a23d25c3f464
+
+--- Sheet: EKET ---
+Columns: ['Mandt', 'Ebeln', 'Ebelp', 'Eindt', 'Etenr']
+Sample data:
+     Mandt      Ebeln  Ebelp      Eindt  Etenr
+0  1774170  226054948      3 2026-02-21      1
+1  1774170  226061519      1 2026-03-02      1
+2  1774170  226087803      3 2026-02-16      1
+3  1774170  226133800      1 2026-03-06      1
+4  1774170  226206081      1 2026-02-08      1
+
+--- Sheet: MSEG ---
+Columns: ['Mandt', 'Mblnr', 'Mjahr', 'Zeile', 'Budat Mkpf', 'Meins', 'Bwart', 'Matnr', 'Werks', 'Lgort', 'Charg', 'Kdauf', 'Kdpos', 'Shkzg', 'Dmbtr', 'Waers', 'Bwtar', 'Menge', 'Ebeln', 'Ebelp', 'Bukrs', 'Rsnum', 'Rspos', 'Umwrk', 'Umlgo', 'Lbkum', 'Vfdat', 'Hsdat', 'Salk3', 'Projn', 'Aufnr', 'Aufps', 'Sobkz', 'Vbeln Im', 'Vbelp Im', 'Kunnr', 'Lifnr', 'Wempf', 'Smblp', 'Sjahr', 'Smbln', 'Kzbew', 'Kzzug', 'Kzvbr']
+Sample data:
+     Mandt      Mblnr  Mjahr  Zeile Budat Mkpf Meins  Bwart                             Matnr                             Werks                             Lgort                             Charg  Kdauf  Kdpos Shkzg      Dmbtr Waers  Bwtar    Menge       Ebeln  Ebelp                             Bukrs  Rsnum  Rspos Umwrk Umlgo  Lbkum      Vfdat      Hsdat       Salk3  Projn  Aufnr  Aufps  Sobkz    Vbeln Im  Vbelp Im                                                             Kunnr  Lifnr     Wempf  Smblp  Sjahr  Smbln Kzbew Kzzug  Kzvbr
+0  1774170  465120762   2026      8 2026-01-30    KG    641  88495e86b4350841cf73a72793261066  0f855422bfd001709fada100edf5c16c                               NaN                               NaN    NaN      0     S  3429.6412   INR    NaN  18.4603  5056164575    150  a3d06db1f8c85b2837b4603a51834425      0      0  27PM  JHFG  20500        NaT        NaT  3808594.55    NaN    NaN      0    NaN  9303516362    900004  6604207cf26040ec294d86ed845818e95c1c23bb050f0d1336b9fe175c04d603    NaN  88261608      0      0    NaN     L     X    NaN
+1  1774170  465120762   2026     15 2026-01-30    KG    641  517c781ab3c886749c0dc794b6cd5cef  5410f15c2a6e22a8d5d5f6b28d040d74  3c654548bcac6aee22d5c1ffebab8496  a5f9b50413270cc5f549148f1ebdb563    NaN      0     H  6329.7391   INR    NaN  18.4603  5056164575    240  a3d06db1f8c85b2837b4603a51834425      0      0  27Z6   NaN    150 2026-08-07 2025-02-13    51432.72    NaN    NaN      0    NaN  9303516362    900008  6604207cf26040ec294d86ed845818e95c1c23bb050f0d1336b9fe175c04d603    NaN  88261608      0      0    NaN     L     X    NaN
+2  1774170  465416457   2026      2 2026-01-30    KG    641  2d9f473176fdf71c4bc76f2dbf9c69f5  0f855422bfd001709fada100edf5c16c                               NaN                               NaN    NaN      0     S  2485.5988   INR    NaN  18.4603  5056164575     30  a3d06db1f8c85b2837b4603a51834425      0      0  27PM  JHFG  38900        NaT        NaT  5237725.51    NaN    NaN      0    NaN  9304252314    900001  6604207cf26040ec294d86ed845818e95c1c23bb050f0d1336b9fe175c04d603    NaN  88261608      0      0    NaN     L     X    NaN
+3  1774170  465416457   2026      9 2026-01-30    KG    641  bf8ecbe226880219202db822483f458e  5410f15c2a6e22a8d5d5f6b28d040d74  3c654548bcac6aee22d5c1ffebab8496  ee05859b1b4a012c4ea11923d4849a10    NaN      0     H  2442.5421   INR    NaN  18.4603  5056164575     80  a3d06db1f8c85b2837b4603a51834425      0      0  27Z6   NaN   4725 2026-04-16 2024-10-23   625182.56    NaN    NaN      0    NaN  9304252314    900005  6604207cf26040ec294d86ed845818e95c1c23bb050f0d1336b9fe175c04d603    NaN  88261608      0      0    NaN     L     X    NaN
+4  1774170  465626729   2026     17 2026-01-30    KG    641  99b6fc12ce4b20301ae5de2de6bbb7c9  5410f15c2a6e22a8d5d5f6b28d040d74  3c654548bcac6aee22d5c1ffebab8496  a09aa7c1f3ca737daacbd999c23a9337    NaN      0     H  5154.1756   INR    NaN  36.9205  5056164575    200  a3d06db1f8c85b2837b4603a51834425      0      0  27Z6   NaN     75 2026-02-16 2024-08-25    10470.15    NaN    NaN      0    NaN  9304265456    900009  6604207cf26040ec294d86ed845818e95c1c23bb050f0d1336b9fe175c04d603    NaN  88261608      0      0    NaN     L     X    NaN
+
+--- Sheet: MCHB ---
+Columns: ['Mandt', 'Werks', 'Lgort', 'Matnr', 'Charg', 'Clabs', 'Cumlm', 'Cinsm']
+Sample data:
+     Mandt                             Werks                             Lgort                             Matnr                             Charg  Clabs  Cumlm  Cinsm
+0  1774170  32b991e5d77ad140559ffb95522992d0  1f6614e113a240ec40a939cc5e5ae0af  baabdb968f0e53c93285e7031c9d5001  a837d57e480c3ef39b02d4e69720e18a      0      0      0
+1  1774170  32b991e5d77ad140559ffb95522992d0  1f6614e113a240ec40a939cc5e5ae0af  baabdb968f0e53c93285e7031c9d5001  a83ebe88561b39518813d210151b1789      0      0      0
+2  1774170  32b991e5d77ad140559ffb95522992d0  1f6614e113a240ec40a939cc5e5ae0af  baabdb968f0e53c93285e7031c9d5001  b8ab98c94f2bbfb7f474c17190094690      0      0      0
+3  1774170  32b991e5d77ad140559ffb95522992d0  1f6614e113a240ec40a939cc5e5ae0af  baabdb968f0e53c93285e7031c9d5001  e769d7c78b12a9239f6f495f6b645dea      0      0      0
+4  1774170  32b991e5d77ad140559ffb95522992d0  1f6614e113a240ec40a939cc5e5ae0af  baabdb968f0e53c93285e7031c9d5001  fb7dcdb5da9acc1ace4f793c023b5cb2      0      0      0
+
+--- Sheet: MARA ---
+Columns: ['Mandt', 'Matnr', 'Meins', 'Mtart', 'Matkl', 'Prdha', 'Ersda']
+Sample data:
+     Mandt                             Matnr Meins Mtart     Matkl  Prdha      Ersda
+0  1774170  385898e5454cd6da7930fed7ca944fd3    KG  FERT    PGJ015    NaN 2010-05-19
+1  1774170  385a25a09f398638bd20540fdf1f4185    M2  ERSA  35020000    NaN 2025-03-21
+2  1774170  385a9bd5ab383e28b1551e47851dac6f    ST  ERSA  37050000    NaN 2025-03-21
+3  1774170  385b44cb6f485079b75806e58317c57c    KG  FERT    PGC005    NaN 2019-01-14
+4  1774170  38662ec0f07c8fb2c7c2ce0a53e20343    ST  ERSA  37010991    NaN 2002-04-28
+
+--- Sheet: MARC ---
+Columns: ['Mandt', 'Werks', 'Matnr', 'Plifz', 'Eisbe', 'Nfmat', 'Beskz', 'Webaz', 'Dzeit', 'Dismm', 'Dispo', 'Disgr', 'Lgrad', 'Strgr', 'Mmstd', 'Ausdt', 'Bstmi']
+Sample data:
+     Mandt                             Werks                             Matnr  Plifz  Eisbe                             Nfmat Beskz  Webaz  Dzeit Dismm                             Dispo  Disgr  Lgrad  Strgr  Mmstd  Ausdt  Bstmi
+0  1774170  18bb68e2b38e4a8ce7cf4f6b2625768c  9859e819c6b6ace4b6ddc1df4ca33cf5      0      0  d41d8cd98f00b204e9800998ecf8427e     F      0      0    ND  dc5c7986daef50c1e02ab09b442ee34f    NaN      0    NaN    NaN    NaN      0
+1  1774170  18bb68e2b38e4a8ce7cf4f6b2625768c  98dc5ddf5c1214eaccf420713dcfe6e5      0      0  d41d8cd98f00b204e9800998ecf8427e     F      0      0    ND  d41d8cd98f00b204e9800998ecf8427e    NaN      0    NaN    NaN    NaN      0
+2  1774170  18bb68e2b38e4a8ce7cf4f6b2625768c  9908e1f46e414b86a0ba380fb9539e00      0      0  d41d8cd98f00b204e9800998ecf8427e     F      0      0    ND  d41d8cd98f00b204e9800998ecf8427e    NaN      0    NaN    NaN    NaN      0
+3  1774170  18bb68e2b38e4a8ce7cf4f6b2625768c  993e1766a35f2f9d27f3ee2897c3511c      0      0  d41d8cd98f00b204e9800998ecf8427e     F      0      0    ND  dc5c7986daef50c1e02ab09b442ee34f    NaN      0    NaN    NaN    NaN      0
+4  1774170  18bb68e2b38e4a8ce7cf4f6b2625768c  99b62bd6a0f4daf52f9231a796737840      0      0  d41d8cd98f00b204e9800998ecf8427e     F      0      0    ND  d41d8cd98f00b204e9800998ecf8427e    NaN      0    NaN    NaN    NaN      0
+
+--- Sheet: VBAP ---
+Columns: ['Vbeln', 'Vgbel', 'Mandt', 'Werks', 'Matnr', 'Kdmat', 'Ernam', 'Netwr', 'Netpr', 'Brgew', 'Ntgew', 'Kwmeng', 'Kpein', 'Erdat', 'Erzet', 'Posnr', 'Vgpos', 'Waerk', 'Vrkme', 'Gewei', 'Abgru', 'Fkrel', 'Pstyv', 'Vgtyp', 'Route', 'Objnr']
+Sample data:
+        Vbeln  Vgbel    Mandt                             Werks                             Matnr                             Kdmat                                                             Ernam      Netwr      Netpr      Brgew      Ntgew     Kwmeng  Kpein      Erdat               Erzet  Posnr  Vgpos Waerk Vrkme Gewei  Abgru Fkrel Pstyv  Vgtyp   Route               Objnr
+0  9805771880      0  1774170  8fb9942185975c6e0b2992587fd0d981  e2454dd399dd0a62b6744002914fa6a2  6df5aedbbbb062b754c6068536b1367a  0c7705f39abf8e92dee900390d8eed17e9f0db91a04ed27c3b94855760829657   21783.10  2178.3095  7384.1000  7384.1000  7384.1000   1000 2026-01-24 1970-01-01 13:37:17     10      0   EUR    KG    KG    NaN     A   TAN    NaN  TR35Y2  VB0001492280000010
+1  9805883587      0  1774170  b1c00bcd4b5183705c134b3365f8c45e  4fce95af639372503fb8c1c77b9a2c83  d41d8cd98f00b204e9800998ecf8427e  0f4d119a18a30d384f25adabe89513acbc520af99882c0804fc3cae949bf47e2   20338.58   813.5432    18.4603    18.4603    18.4603      1 2026-01-25 1970-01-01 08:29:00     10      0   INR    KG    KG    NaN     A   TAN    NaN  IN7300  VB0001492297000010
+2  9805955868      0  1774170  362387494f6be6613daea643a7706a42  9fd106df4ac4774e5697d7796b6b0879  ab7009583e0f6bd689b6f4d4a1268c01  0f4d119a18a30d384f25adabe89513acbc520af99882c0804fc3cae949bf47e2  688936.53   229.6455  2281.6869  2215.2300  2215.2300      1 2026-01-25 1970-01-01 12:04:20     10      0   INR    KG    KG    NaN     A   TAN    NaN  I10100  VB0001492308000010
+3  9806028149      0  1774170  362387494f6be6613daea643a7706a42  86d49d659094fb3ad33f7133aaeaca3b  deb92a5af174f7e9a700fe9452041477  0f4d119a18a30d384f25adabe89513acbc520af99882c0804fc3cae949bf47e2  165034.64   220.0462   570.4217   553.8075   553.8075      1 2026-01-25 1970-01-01 12:17:34     10      0   INR    KG    KG    NaN     A   TAN    NaN  I10100  VB0001492319000010
+4  9806054433      0  1774170  362387494f6be6613daea643a7706a42  86d49d659094fb3ad33f7133aaeaca3b  deb92a5af174f7e9a700fe9452041477  0f4d119a18a30d384f25adabe89513acbc520af99882c0804fc3cae949bf47e2  165034.64   220.0462   570.4217   553.8075   553.8075      1 2026-01-25 1970-01-01 12:20:51     10      0   INR    KG    KG    NaN     A   TAN    NaN  I10100  VB0001492323000010
+
+--- Sheet: MCHA ---
+Columns: ['Mandt', 'Matnr', 'Werks', 'Charg', 'Lvorm', 'Ersda', 'Ernam', 'Aenam', 'Laeda', 'Verab', 'Vfdat', 'Zusch', 'Zustd', 'Zaedt', 'Lifnr', 'Licha', 'Bwtar', 'Lwedt', 'Herkl', 'Hsdat', 'Qndat']
+Sample data:
+     Mandt                             Matnr                             Werks                             Charg  Lvorm      Ersda                                                             Ernam                                                             Aenam  Laeda  Verab  Vfdat  Zusch  Zustd  Zaedt                                                             Lifnr                             Licha                             Bwtar  Lwedt  Herkl  Hsdat  Qndat
+0  1774170  0cbb09e20cfdcfa1c064717d454f3c58  cdcb2f5c7b071143529ef7f2705dfbc4  ac927b7f5a4e869099dfc04cb51cfb24    NaN 2024-11-09  c331607dba3a57e3880bd313b3636da696a0ccd6208c90157f93dd1064f7d5c9  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855    NaN    NaN    NaN    NaN    NaN    NaN  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  d41d8cd98f00b204e9800998ecf8427e  d41d8cd98f00b204e9800998ecf8427e    NaN    NaN    NaN    NaN
+1  1774170  0cbb09e20cfdcfa1c064717d454f3c58  cdcb2f5c7b071143529ef7f2705dfbc4  aed83abdbbf48d5d19b5524c213b3ae5    NaN 2026-02-27  c331607dba3a57e3880bd313b3636da696a0ccd6208c90157f93dd1064f7d5c9  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855    NaN    NaN    NaN    NaN    NaN    NaN  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  d41d8cd98f00b204e9800998ecf8427e  d41d8cd98f00b204e9800998ecf8427e    NaN    NaN    NaN    NaN
+2  1774170  0cbb09e20cfdcfa1c064717d454f3c58  cdcb2f5c7b071143529ef7f2705dfbc4  afeafab962d114e9ac1527deefaf79f8    NaN 2022-03-10  1bd357b094e7a2ccf18fe2713d226ef5195cc1413cb87055f6ae95a74c93f942  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855    NaN    NaN    NaN    NaN    NaN    NaN  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  d41d8cd98f00b204e9800998ecf8427e  d41d8cd98f00b204e9800998ecf8427e    NaN    NaN    NaN    NaN
+3  1774170  0cbb09e20cfdcfa1c064717d454f3c58  cdcb2f5c7b071143529ef7f2705dfbc4  b02f286059bbd0a504517f535611cab2    NaN 2021-12-09  1bd357b094e7a2ccf18fe2713d226ef5195cc1413cb87055f6ae95a74c93f942  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855    NaN    NaN    NaN    NaN    NaN    NaN  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  d41d8cd98f00b204e9800998ecf8427e  d41d8cd98f00b204e9800998ecf8427e    NaN    NaN    NaN    NaN
+4  1774170  0cbb09e20cfdcfa1c064717d454f3c58  cdcb2f5c7b071143529ef7f2705dfbc4  b15e1b89bb7ae2c0a43b67d6a004bb94    NaN 2023-06-10  c331607dba3a57e3880bd313b3636da696a0ccd6208c90157f93dd1064f7d5c9  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855    NaN    NaN    NaN    NaN    NaN    NaN  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  d41d8cd98f00b204e9800998ecf8427e  d41d8cd98f00b204e9800998ecf8427e    NaN    NaN    NaN    NaN
+

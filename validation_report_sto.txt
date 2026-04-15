@@ -1,0 +1,3 @@
+--- Validating STO Data Sources against SCNV Architecture ---
+✅ LIKP.csv has all required columns: ['Vbeln', 'Lfart', 'Kunnr']
+✅ LIPS.csv has all required columns: ['Vbeln', 'Posnr', 'Matnr', 'Werks', 'Lfimg']

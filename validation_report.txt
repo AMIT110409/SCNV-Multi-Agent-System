@@ -1,0 +1,16 @@
+--- Validating Data Sources against SCNV Architecture ---
+
+1. plant_master.json
+✅ T001W.csv has all required columns: ['Werks', 'Land1', 'Regio']
+
+2. dc_master.json
+✅ KNA1.csv has all required columns: ['Kunnr', 'Land1', 'Name1']
+
+3. sku_master.json
+✅ MARA.csv has all required columns: ['Matnr', 'Mtart', 'Meins']
+✅ MARC.csv has all required columns: ['Matnr', 'Werks']
+
+4. incoming_stos.json
+✅ EKKO.csv has all required columns: ['Ebeln', 'Bedat']
+❌ EKPO.csv is MISSING expected columns: ['Matnr', 'Menge']
+   Available columns: ['Mandt', 'Ebeln', 'Ebelp', 'Werks', 'Lgort', 'Aedat']

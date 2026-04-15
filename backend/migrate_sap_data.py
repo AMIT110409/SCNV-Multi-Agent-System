@@ -90,10 +90,16 @@ def insert_data(table, data, chunk_size=1000):
                         cleaned_row[k] = v
                 cleaned_chunk.append(cleaned_row)
             
-            # Using basic insert. For duplicates, this will fail on primary key, but for a fresh DB it's fine.
-            # We assume DB is fresh for these tables.
-            conn.execute(insert(table).values(cleaned_chunk))
-            print(f"Inserted {i + len(chunk)}/{len(data)} records into {table.name}...")
+            # Using PostgreSQL-specific ON CONFLICT DO NOTHING to ensure idempotence
+            from sqlalchemy.dialects.postgresql import insert as pg_insert
+            
+            # Note: This code works for PostgreSQL/Supabase.
+            # If used with SQLite, we would need different syntax.
+            stmt = pg_insert(table).values(cleaned_chunk)
+            on_conflict_stmt = stmt.on_conflict_do_nothing()
+            
+            conn.execute(on_conflict_stmt)
+            print(f"Synced {i + len(chunk)}/{len(data)} records into {table.name} (Idempotent)...")
 
 if __name__ == '__main__':
     print("Starting SAP Data Migration to Supabase via SQLAlchemy...")

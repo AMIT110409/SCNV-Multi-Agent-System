@@ -1,0 +1,333 @@
+SCNV AGENT
+Supply Chain Network Visibility Agent
+1. Executive Summary
+The SCNV Agent v2.1 architecture document provides a strong foundation for classifying and correcting unproductive Stock Transfer Orders (STOs). However, a detailed review against operational dashboards and business requirements reveals significant gaps in three critical areas that prevent the system from delivering full value:
+Allocation Efficiency Monitoring: No agent or KPI tracks whether customer Sales Orders are being shipped from the optimal (strategic) source plant.
+Country-wise Volume Tracking: All KPIs in the current doc are global. There is no mechanism to measure productive vs. unproductive transfer percentages at the country level.
+Pre-shipment Intervention: The system triggers on STO creation but misses the Delivery / Picking trigger window — meaning allocation errors at planning time go uncorrected.
+Gap Summary
+2. Current Architecture vs. What You Need
+The following table compares every major architectural component in v2.1 against the requirements derived from the operational dashboards and business objectives.
+3. Full KPI Framework
+The following is the complete KPI framework merging the current v2.1 document with the 8 missing KPIs identified from the operational dashboards.
+3.1  STO Movement Efficiency KPIs (Existing — Keep)
+3.2  Allocation Efficiency KPIs (New — Add These)
+3.3  Country-wise Volume KPIs (New — Add These)
+3.4  Value Tracking KPIs (Partial — Enhance)
+4. New Agents Required
+4.1  Allocation Efficiency Agent (6th Agent — P0)
+Tools this agent needs
+Output Schema
+4.2  Country KPI Monitor Agent (7th Agent — P0)
+Tools this agent needs
+5. STO Classification Logic (Reference)
+This section documents the classification rules from the original v2.1 architecture for completeness and cross-reference with the new agents.
+5.1  Productive vs. Unproductive Classification
+Note: In the table above, 'PRODUCTIVE' = green status, 'MISSING/UNPRODUCTIVE' = red status. The color coding maps to: Green arrow = productive transfer, Red arrow = unproductive transfer as shown in the STO logic diagrams.
+5.2  Root Cause Categories (12 Classes)
+6. SAP Data Model & Column Specifications
+This section defines every SAP table and column required for the SCNV Agent. Columns marked NEW are missing from the current v2.1 document and must be added to the synthetic data generator and the SAP integration layer.
+6.1  STO Tables — EKKO / EKPO / MSEG (Partially in Doc)
+6.2  Sales Order Tables — VBAK / VBAP / LIKP / LIPS (Missing from Doc)
+6.3  Plant / DC / Country Master Tables (Missing from Doc)
+6.4  SKU Sourcing Master (Z-Table — Partial in Doc)
+6.5  Agent Output / Reason Code Table (Z-Table — Partial in Doc)
+7. Modifications to Existing Agents
+7.1  Orchestrator Agent — Changes
+7.2  Optimizer Agent — Changes
+7.3  SCM Analyst Agent — Changes
+8. Updated Implementation Plan
+The following additions should be inserted into the existing 15-week solo execution plan from v2.1. These are incremental changes to existing phases — not replacements.
+Phase 1 Additions (Weeks 1–2)
+Add SO synthetic data to Week 1: vbak_orders.json, vbap_items.json, likp_deliveries.json (50+ SOs across UK, Belgium, Germany)
+Add plant_country_master.json with WERKS, LAND1, PLANT_TYPE, STRATEGIC_FLAG, MAX_CAPACITY_HL, CURRENT_OCCUPANCY_PCT
+Extend sku_master.json to include SHELF_LIFE_DAYS and MIN_FRESHNESS_THRESHOLD
+Add COUNTRY_CODE, VOLUME_HL, CONFIDENCE_SCORE fields to the STO output schema
+Phase 2 Additions (Weeks 3–5)
+Week 4: Build Allocation Efficiency Agent skeleton with check_optimal_source_for_customer() tool stub
+Week 4: Build Country KPI Monitor Agent skeleton with aggregate_country_kpis() tool stub
+Week 5: Add SO_CREATED and DELIVERY_CREATED event types to the LangGraph state graph
+Week 5: Add daily cron trigger routing in Orchestrator for Country KPI Agent
+Phase 3 Additions (Weeks 6–8)
+Week 6: Add Allocation Efficiency KPI card to the React dashboard (Allocation Efficiency %, Unproductive Transfer Ratio, Optimal Allocation Ratio)
+Week 6: Add Country Selector filter to dashboard — all KPI charts gain country dimension
+Week 7: Add x% productive/unproductive by country bar chart (monthly trend)
+Week 7: Add Sub-optimal Customer % tile per country
+Week 8: Add SO re-routing approval card in Communication Agent Push Mode (separate from STO card)
+Phase 5 Additions (Weeks 11–12)
+Week 11: Embed SO allocation decisions into pgvector alongside STO decisions
+Week 11: Enable RAG chatbot to answer country KPI queries: 'What is UK allocation efficiency this month?'
+Week 12: Wire real SAP SO tables (VBAK/VBAP/LIKP) alongside STO tables in Phase 6
+Additional MVP Milestone
+9. Synthetic Data Sample Schema
+The following JSON schemas define the synthetic data files for Phase 1. These extend the schemas implied by the v2.1 document with the new fields required for country KPIs and allocation efficiency tracking.
+9.1  incoming_stos.json — Extended Schema
+9.2  customer_orders.json — New File (SO Data)
+10. Recommended Next Steps
+Priority Order for Implementation
+
+--- TABLES ---
+Table 1:
+Gap Analysis, KPI Framework & SAP Data Model  Architecture Enhancement Plan — v1.0
+
+Table 2:
+Document Type | Gap Analysis & Enhancement Plan
+Based On | SCNV Agent Final Architecture v2.1
+Date | March 2026
+Status | For Review & Implementation
+Scope | Allocation Efficiency + Country KPIs + SAP Data Model
+
+Table 3:
+Business Impact of Gaps Without these enhancements, the system cannot answer: • What % of stock transfers in Country X are productive vs. unproductive this month? • What % of customers are NOT being shipped from the best optimal location? • How do I fix a sub-optimal allocation before the truck leaves the plant?
+
+Table 4:
+# | Area | Gap Description | Status | Priority
+1 | 6th Agent: Allocation Efficiency | No agent monitors SO optimal source | MISSING | P0
+2 | Country KPI Dimension | All KPIs are global — no country split | MISSING | P0
+3 | Customer SO Tables (VBAK/VBAP/LIKP) | SAP SO data not defined in doc | MISSING | P0
+4 | Pre-shipment Delivery Trigger | No trigger on DELIVERY_CREATED | MISSING | P1
+5 | Allocation Efficiency KPIs (5 new) | None of the screenshot KPIs defined | MISSING | P0
+6 | Strategic matrix → SO link | Matrix only used for STO, not SO routing | PARTIAL | P1
+7 | Plant/Country/DC Master (T001W) | No country dimension in master data | MISSING | P0
+8 | Value Tracking Dashboard sub-KPIs | Deleted STO / SO value split missing | PARTIAL | P2
+
+Table 5:
+Component | Current doc (v2.1) | What you need | Status | Gap
+Orchestrator Agent | Routes STO events + user queries. Synthesizes findings. | Add SO event routing. Add country-KPI query routing. | PARTIAL | ≈
+SCM Analyst Agent | Classifies STOs using Rules 1–4. Single/Dual source logic. | Same. Also classify SO allocation against strategic matrix. | PARTIAL | ≈
+Optimizer Agent | Finds best re-route for unproductive STOs. | Also evaluate new SOs: check_optimal_source_for_customer(). | PARTIAL | ≈
+Allocation Efficiency Agent | NOT IN DOCUMENT | Monitor SO shipments vs optimal plant. Track x% sub-optimal customers per country. | MISSING | ✗
+Country KPI Monitor Agent | NOT IN DOCUMENT | Aggregate productive/unproductive volume per country per month. Publish country scorecards. | MISSING | ✗
+Process Mining Agent | Pluggable Celonis agent for lane KPIs + conformance. | Same. Add country-lane efficiency breakdown. | COVERED | ✓
+Communication Agent | Push (Slack/Teams) + Pull (RAG chatbot). | Same. Add country-level KPI query support. Add SO re-routing approval cards. | PARTIAL | ≈
+STO_CREATED trigger | Primary event trigger. Full pipeline. | Same. Keep. | COVERED | ✓
+DELIVERY_CREATED trigger | NOT IN DOCUMENT | New trigger: catch allocation errors before goods issue (picking started). | MISSING | ✗
+SO_CREATED trigger | NOT IN DOCUMENT | Evaluate new SOs against strategic source matrix at order creation. | MISSING | ✗
+Unproductive STO Rate % | Defined. UK <5%, Belgium <3%. | Add per-country tracking dimension. | PARTIAL | ≈
+Allocation Efficiency % | NOT IN DOCUMENT | Vol shipped from optimal source / Total vol × 100. Baseline: 68.53% (UK). | MISSING | ✗
+Optimal Allocation Ratio | NOT IN DOCUMENT | SO vol from strategic plant ≥60% of order vol. Baseline: 56.16% (UK). | MISSING | ✗
+Sub-optimal Customer % | NOT IN DOCUMENT | x% customers NOT shipped from best location per country. Baseline: 29% (UK). | MISSING | ✗
+Country x% Productive Vol | NOT IN DOCUMENT | Productive HL / Total HL per country per month. Trend view. | MISSING | ✗
+Value Realized (cumulative) | Cost Avoidance defined (~$2M/yr). | Add sub-KPIs: Deleted STO value + SO optimized value (monthly). Baseline: 178K UK pilot. | PARTIAL | ≈
+
+Table 6:
+KPI Name | Formula / Definition | Baseline | Target | Status
+Unproductive STO Rate | Unproductive STOs / Total STOs × 100 | UK: 14% · Belgium: 9% | <5% / <3% | COVERED
+STO Classification Accuracy | Correctly classified / Total STOs × 100 | — | ≥98% | COVERED
+False Positive Rate | Productive STOs wrongly flagged / Total | — | <0.5% | COVERED
+Time to Corrective Action | STO event → action executed (minutes) | Next-day (batch) | <5 min | COVERED
+Auto-Execution Rate | Auto-actions / Total flagged × 100 | — | >70% | COVERED
+Alert Acceptance Rate | Human approved / Total escalations × 100 | — | >85% | COVERED
+RAG Q&A Accuracy | Correct answers / Total chatbot queries × 100 | — | >90% | COVERED
+
+Table 7:
+KPI Name | Formula / Definition | Baseline (UK) | Target | Status
+Allocation Efficiency — Total | Vol actually shipped from optimal source locations AND productive transfers / Total vol shipped × 100 | 68.53% (UK) Benchmark: 72.48% | >80% | MISSING
+Unproductive Transfer Ratio | Volume of unproductive transfers / Total plant transfer volume × 100 | Unprod: 36.31% Prod: 63.69% | Unprod <15% | MISSING
+Optimal Allocation Ratio (SO) | Orders where total vol shipped from strategic plant ≥ 60% of vol shipped / Total orders × 100 | 56.16% Benchmark: 70% | >70% | MISSING
+Sub-optimal Customer % (per country) | x% customers in country NOT shipped from best optimal location / Total customers in country × 100 | 29% (UK) | <10% | MISSING
+Allocation Efficiency — by Month Trend | Monthly time-series of Allocation Efficiency % (Total, Unproductive ratio, Optimal ratio) | Data from 2021-01-04 | Upward trend | MISSING
+
+Table 8:
+KPI Name | Formula / Definition | Granularity | Output | Status
+Productive Transfer % by Country | Productive STO vol (country) / Total STO vol (country) × 100 | Per country, monthly | %, HL | MISSING
+Country Shipment Volume (HL) | Total HL shipped per country per month. Split: productive vs unproductive. | Country × Month | HL chart | MISSING
+x% Unproductive per Country | Unproductive transfer HL / Total HL transferred in country × 100 | Country × Month | % trend | MISSING
+Reason Code Distribution by Country | Count per reason code / Total unproductive in country × 100. Top reason codes ranked. | Country × Reason Code | Ranking | MISSING
+STO Count by Country (Scatter/Dot plot) | # STO per STO Reason Code per country. Enables 'Sales Over Forecast = 783 STO' drill-down. | Country × Reason Code | Count chart | MISSING
+
+Table 9:
+KPI Name | Formula / Definition | Baseline | Target | Status
+Transport Cost Avoidance | Avoided unproductive STOs × avg transport cost per STO | — | ~$2M/yr EUR | PARTIAL
+Total Value Realized (cumulative) | Sum of: Deleted STO value + SO optimized value + SO unnecessary movements. Monthly rolling. | 178K (UK 3-mo pilot) | Grow MoM | PARTIAL
+Value by Sub-Use-Case | Deleted STO: 70.5K · SO optimize: 1.1K · STO unnecessary: 106K (as per Value Dashboard) | 177.6K total | Track monthly | MISSING
+Working Capital Impact | Reduction in inventory tied up in transit due to unproductive movements eliminated | — | Measure | MISSING
+
+Table 10:
+Agent Overview Role: Monitor customer Sales Orders and plant-to-plant movements to ensure all shipments originate from the optimal (strategic) source plant. Flag and correct sub-optimal allocations before goods issue. Trigger Events: SO_CREATED · DELIVERY_CREATED · PICKING_STARTED (before Goods Issue) Key Question it answers: Is this customer being shipped from the best plant? If not, what is the savings if we re-source?
+
+Table 11:
+Tool Name | Input → Output | Purpose
+check_optimal_source_for_customer() | customer_id, SKU, qty, dest_plant → {optimal_plant, score, cost_delta, freshness_delta} | Returns the best source plant for this customer order, ranked by: strategic flag + occupancy + freshness + cost
+get_so_allocation_status() | so_number → {current_plant, is_optimal, efficiency_pct} | Checks if the SO is currently allocated to optimal plant vs. sub-optimal
+calculate_reallocation_savings() | from_plant, to_plant, SKU, qty → {cost_saving, freshness_gain, distance_delta} | Quantifies the value of re-routing this SO to the better plant
+execute_so_reallocation() | so_id, new_plant → {success, sap_doc_number} | SAP write-back: updates the delivering plant on the SO/delivery in SAP
+
+Table 12:
+Field | Description
+is_optimal_allocation | Boolean: is the current delivering plant the strategic optimal plant?
+current_source_plant | The plant currently assigned to deliver this SO
+optimal_source_plant | The plant that should be delivering based on strategic matrix + capacity + freshness
+efficiency_score_pct | 0–100%: how close is this allocation to optimal? Used in Allocation Efficiency KPI.
+cost_saving_estimate | $ savings if re-routed to optimal plant. Used in Value Tracking dashboard.
+reason_for_sub_optimal | Root cause: Incorrect Deployment / Capacity Constraint / Sales Over Forecast / etc.
+confidence | 0.0–1.0: if ≥0.95 → auto-reallocation. If <0.95 → escalate to human via Slack card.
+
+Table 13:
+Agent Overview Role: Runs scheduled (daily/weekly) aggregation of productive vs. unproductive transfer volumes per country. Publishes country scorecards. Detects deteriorating country-level trends and triggers alerts. Trigger: Daily cron + on-demand user query via RAG chatbot ('What is the UK productive transfer % this month?')
+
+Table 14:
+Tool Name | Input → Output | Purpose
+aggregate_country_kpis() | country_code, date_range → {productive_hl, unprod_hl, productive_pct, sto_count, so_count} | Core aggregation across all STO + SO data for a country and time window
+get_country_reason_distribution() | country_code → [{reason_code, count, pct}] | Ranks root cause reason codes by frequency within the country
+detect_country_trend_anomaly() | country_code → {trend_direction, alert_flag, delta_pct} | Compares current month to previous 3-month average. Fires alert if delta > threshold.
+get_customer_suboptimal_pct() | country_code → {suboptimal_customer_pct, top_suboptimal_customers[]} | Answers: What x% of customers in this country are not getting optimal delivery?
+
+Table 15:
+Rule | Movement Type | Classification | Condition | Rationale
+1 | Plant → DC / Warehouse | PRODUCTIVE | Strategic lane + capacity OK | Natural forward distribution flow
+1 | Plant → DC / Warehouse | MISSING | Non-strategic or over capacity | Misaligned allocation — correctable
+2 | DC → DC (lateral transfer) | MISSING | Always | Initial misallocation — backward movement
+3 | DC/Warehouse → Plant (reverse) | MISSING | Always | Cyclic/backward = waste
+4a | Plant → Plant (Single Source, sourcing direction) | COVERED | SKU only produced at source plant | Destination cannot self-produce
+4a | Plant → Plant (Single Source, reverse) | MISSING | Movement back to origin plant | Reverse flow = waste
+4b | Plant → Plant (Dual Source, any direction) | MISSING | SKU produced at both plants | Destination can self-produce — transfer is waste
+
+Table 16:
+Root Cause | Category | Eliminable? | Agent Action
+Incorrect Deployments | Planning Error | Yes — fully | Auto-delete STO
+Incorrect Planning | Planning Error | Yes — fully | Auto-delete STO
+Master Data Issues | Data Quality | Yes — fix data | Flag + notify data team
+Sales Over Forecast | Demand Signal | Partially | Escalate to planner
+Warehouse Occupancy | Capacity | Partially | Escalate with alt route
+Lane Unavailability | Logistics | Partially | Find alternative lane
+Tax Benefits | Financial | Context-dependent | Flag for finance review
+Freshness Risk | Product Quality | No — justified | Mark as justified
+Stockout Risk | Risk Mitigation | No — justified | Mark as justified
+No Local Production | Sourcing Gap | No — structural | Mark as structural
+Single Source SKU | Structural | No — structural | Mark as productive (Rule 4a)
+
+Table 17:
+SAP Table | Column | Type | Description | Status
+EKKO | EBELN | CHAR(10) | Purchase/STO order number | COVERED
+EKPO | EBELP | NUMC(5) | STO line item number | COVERED
+EKPO | MATNR | CHAR(18) | Material / SKU number | COVERED
+EKPO | WERKS | CHAR(4) | Source plant (e.g. GB01) | COVERED
+EKPO | LIFNR | CHAR(10) | Destination plant (vendor code) | COVERED
+EKPO | MENGE | QUAN | Order quantity (in MEINS unit) | COVERED
+EKPO | MEINS | UNIT(3) | Unit of measure: HL / PC / KG | COVERED
+EKPO | EINDT | DATS | Delivery date / Planned delivery date | COVERED
+MSEG | BWART | CHAR(3) | Movement type: 641=STO issue · 101=GR · 301=Plant-Plant | MISSING
+MSEG | BLDAT | DATS | Posting/goods issue date | MISSING
+MSEG | SHKZG | CHAR(1) | Debit/Credit indicator: S=Debit (issue), H=Credit | MISSING
+EKKO | LOEKZ | CHAR(1) | Deletion flag — used by agent for SAP write-back delete action | MISSING
+
+Table 18:
+SAP Table | Column | Type | Description | Status
+VBAK | VBELN | CHAR(10) | Sales order number | MISSING
+VBAP | POSNR | NUMC(6) | SO line item number | MISSING
+VBAP | MATNR | CHAR(18) | Material / SKU on the order | MISSING
+VBAP | WERKS | CHAR(4) | Delivering plant assigned to this line item | MISSING
+VBAP | KWMENG | QUAN | Order quantity (HL / cases) | MISSING
+LIPS | LFIMG | QUAN | Actual shipped quantity (from delivery item) | MISSING
+VBAK | KUNNR | CHAR(10) | Customer number — for sub-optimal customer % KPI | MISSING
+VBAK | VKORG | CHAR(4) | Sales organization — maps to country (e.g. GB11=UK, BE01=Belgium) | MISSING
+VBAK | ERDAT | DATS | SO creation date — used for time-series KPIs | MISSING
+LIKP | WADAT | DATS | Planned goods issue date — trigger window for pre-ship intervention | MISSING
+LIKP | VSTEL | CHAR(4) | Shipping point (maps to plant/DC) | MISSING
+VBAP | LGNUM | CHAR(3) | Warehouse number — for DC identification | MISSING
+
+Table 19:
+SAP Table | Column | Type | Description | Status
+T001W | WERKS | CHAR(4) | Plant code (e.g. GB01, GB02, BE03) | MISSING
+T001W | LAND1 | CHAR(3) | Country code (GB, BE, DE, FR, NL…) — critical for country KPIs | MISSING
+Z_PLANT_EXT | PLANT_TYPE | CHAR(10) | Custom field: 'PLANT' or 'DC' or 'WAREHOUSE' | MISSING
+Z_PLANT_EXT | STRATEGIC_FLAG | CHAR(1) | Y/N: is this a strategic plant/DC per the strategic matrix | MISSING
+Z_PLANT_EXT | MAX_CAPACITY_HL | QUAN | Maximum capacity in hectolitres — used for capacity check in Rules | MISSING
+Z_PLANT_EXT | CURRENT_OCCUPANCY_PCT | DEC(5,2) | Live fill percentage — refreshed daily from warehouse management | MISSING
+
+Table 20:
+Table | Column | Type | Description | Status
+MARC / Z_SKU_SRC | MATNR | CHAR(18) | Material/SKU number | COVERED
+Z_SKU_SRC | WERKS | CHAR(4) | Plant this sourcing record applies to | COVERED
+Z_SKU_SRC | SOURCE_MODEL | CHAR(6) | SINGLE or DUAL — determines Rule 4a vs 4b classification | COVERED
+Z_SKU_SRC | IS_SOURCING_PLANT | CHAR(1) | Y/N: is this the origin plant for single-source SKUs? | COVERED
+Z_SKU_SRC | SHELF_LIFE_DAYS | INT | Total shelf life of this SKU in days — used for freshness risk calculation | MISSING
+Z_SKU_SRC | MIN_FRESHNESS_THRESHOLD | INT | Minimum remaining shelf life (days) required at destination | MISSING
+
+Table 21:
+Table | Column | Type | Description | Status
+Z_SCNV_OUT | STO_NUMBER | CHAR(10) | STO order number being classified | COVERED
+Z_SCNV_OUT | STO_ITEM | NUMC(5) | STO line item | COVERED
+Z_SCNV_OUT | REASON_CODE | CHAR(40) | Agent-assigned reason: e.g. 'Sales Over Forecast', 'Check ID Side' | COVERED
+Z_SCNV_OUT | REASON_CODE_CHANGED_TO | CHAR(40) | If human overrides the reason code, the new value is stored here | COVERED
+Z_SCNV_OUT | CLASSIFICATION | CHAR(12) | PRODUCTIVE or UNPRODUCTIVE — final agent verdict | COVERED
+Z_SCNV_OUT | AGENT_CLASSIFICATION_MODE | CHAR(4) | AUTO (Tier 1 rules) or LLM (Tier 2 reasoning) — new field | MISSING
+Z_SCNV_OUT | CONFIDENCE_SCORE | DEC(3,2) | 0.00 to 1.00 — agent confidence. ≥0.95 = auto-execute, <0.95 = escalate | MISSING
+Z_SCNV_OUT | COUNTRY_CODE | CHAR(3) | Country of the source plant — denormalized for fast country-level KPI queries | MISSING
+Z_SCNV_OUT | VOLUME_HL | QUAN | Volume in HL — used for x% productive volume calculation by country | MISSING
+Z_SCNV_OUT | SAP_ACTION_TAKEN | CHAR(20) | DELETE / MODIFY_PLANT / MODIFY_QTY / NO_ACTION — for audit trail | MISSING
+Z_SCNV_OUT | HUMAN_DECISION | CHAR(10) | APPROVED / REJECTED / AUTO — human override tracking | COVERED
+
+Table 22:
+Attribute | Current (v2.1) | Required Change
+Trigger events | STO_CREATED · STO_MODIFIED · STO_DELETED · Goods Issue/Receipt | Add: SO_CREATED · DELIVERY_CREATED · PICKING_STARTED · Daily KPI cron job
+Agent routing | STO event → SCM Analyst → Optimizer → (Celonis) → synthesize → act | Add: SO event → Allocation Efficiency Agent. Daily cron → Country KPI Monitor Agent.
+Query routing | All user queries → Communication Agent (Pull/RAG) | Add routing: country KPI queries → Country KPI Monitor → aggregate → answer
+
+Table 23:
+Attribute | Current (v2.1) | Required Change
+Use case | Find best re-route for unproductive STOs only | Also evaluate new SOs: given a customer order, find the optimal source plant
+New tool | find_best_source() — takes SKU + dest + volume | Add: check_optimal_source_for_customer(customer_id, SKU, qty, dest_plant)
+Scoring criteria | Cost + freshness + distance | Add: strategic matrix flag + current occupancy % as primary ranking criteria
+
+Table 24:
+Attribute | Current (v2.1) | Required Change
+Scope | Classifies STOs only (Rules 1–4) | Also evaluate SO-level allocation: is the SO delivery plant optimal per strategic matrix?
+Output | {classification, rule_applied, root_cause, confidence, reasoning_text} | Add fields: country_code, volume_hl, is_pre_shipment (flag for delivery-level interventions)
+
+Table 25:
+Milestone | When | What You Can Demo | New vs v2.1
+MVP 2.5: Country KPIs | End of Week 7 | Dashboard shows: UK productive %, Belgium productive %, x% unproductive per country per month | MISSING
+MVP 3.5: Alloc. Efficiency | End of Week 8 | Dashboard shows Allocation Efficiency %, Optimal Allocation Ratio, Sub-optimal Customer % by country | MISSING
+MVP 4.5: SO Re-routing | End of Week 10 | SO created → agent checks if optimal plant → Slack card → re-allocate in SAP → audit log | MISSING
+
+Table 26:
+Field | Type | Example | Notes
+sto_number | string | 4507647835 | SAP EBELN — primary key for this STO
+sto_item | string | 00010 | SAP EBELP — line item number
+material_number | string | 0000002649 | SAP MATNR — SKU identifier
+source_plant | string | GB01 | Move From plant code
+destination_plant | string | GB67 | Move To plant code (can be plant or DC)
+source_country | string | GB | NEW: denormalized from T001W.LAND1 for fast country KPI aggregation
+production_type | string | SINGLE | SINGLE or DUAL — from SKU sourcing master
+quantity_hl | decimal | 36.0 | NEW: volume in hectolitres — required for x% productive volume KPI
+quantity_cases | integer | 805 | Quantity in cases (PC)
+delivery_number | string | 1303917140 | SAP delivery document number
+planned_delivery_date | date | 2023-08-01 | Planned goods issue date
+movement_type | string | 641 | NEW: SAP BWART — 641=STO goods issue, 301=plant-to-plant
+is_pre_goods_issue | boolean | true | NEW: flag for pre-shipment intervention window
+um_flag | boolean | true | Unnecessary Movement flag — existing field
+optimal_flag | boolean | false | Is this an optimal source allocation?
+
+Table 27:
+Field | Type | Example | Notes
+so_number | string | 0045678901 | SAP VBELN — Sales Order number
+so_item | string | 000010 | SAP POSNR — line item
+customer_number | string | CUST001 | SAP KUNNR — customer ID
+material_number | string | 0000002649 | SAP MATNR — SKU ordered
+assigned_plant | string | GB02 | Currently assigned delivering plant (may not be optimal)
+optimal_plant | string | GB01 | Best plant per strategic matrix + capacity + freshness
+is_optimal_allocation | boolean | false | assigned_plant == optimal_plant → used for Allocation Efficiency %
+quantity_hl | decimal | 120.0 | Volume in HL — for productive volume calculation
+country_code | string | GB | Derived from VKORG — critical for country-level KPIs
+order_date | date | 2023-07-28 | SAP ERDAT
+planned_gi_date | date | 2023-08-05 | SAP WADAT — window for pre-shipment intervention
+allocation_efficiency_score | decimal | 0.72 | 0.0–1.0 agent-computed score — used in Allocation Efficiency Total KPI
+
+Table 28:
+Immediate Actions (Before Week 1) 1. Share your actual SAP column export    The schemas in Section 9 are based on standard SAP S/4HANA. Your actual field names may differ. Share a CSV or column header export from your STO and SO tables so the synthetic data generator can use exact field names from your system. 2. Confirm country list    Confirm which countries are in scope (UK, Belgium are confirmed from screenshots — what others?). Each country needs its own target benchmarks for the country KPI dashboard. 3. Define allocation efficiency benchmark per country    UK baseline is 68.53% with a benchmark of 72.48% (from screenshot). What are the baselines for other countries? These are needed for the Country KPI Monitor agent's anomaly detection thresholds.
+
+Table 29:
+P | Item | Why Critical | Effort Estimate
+P0 | Country dim in data model | Without COUNTRY_CODE + VOLUME_HL fields, no country KPI is computable. Foundation. | 1 day — add to synthetic data + schema
+P0 | SO synthetic data | Without customer_orders.json, Allocation Efficiency Agent has nothing to work on. | 2 days — create 50+ synthetic SOs
+P0 | Allocation Efficiency KPIs | The most visible gap vs the screenshots. Needed for all demo milestones. | 3 days — 2 new agents + 5 new KPI cards
+P0 | check_optimal_source_for_customer() | Core tool for Allocation Efficiency Agent. Optimizer Agent also depends on it. | 2 days — Python function + unit tests
+P1 | DELIVERY_CREATED trigger | Enables pre-shipment intervention. Without it, all fixes are post-event. | 1 day — new event type in LangGraph
+P1 | Country KPI dashboard tab | Required for 'x% productive by country' requirement. High stakeholder visibility. | 3 days — React charts + API endpoints
+P2 | Value sub-KPI tracking | Split between Deleted STO / SO optimized / STO unnecessary movements in value dashboard. | 1 day — extend value tracking table
+
+Table 30:
+SCNV Agent — Gap Analysis & Enhancement Plan  v1.0 · March 2026 · Supply Chain Network Visibility · Internal Restricted
+

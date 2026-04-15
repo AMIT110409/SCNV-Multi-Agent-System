@@ -64,7 +64,38 @@ async def classify_sto(sto: STOEvent):
 
 @app.get("/health", tags=["System Diagnostics"])
 async def health_check():
-    return {"status": "healthy"}
+    from sqlalchemy import text
+    from database import engine
+    import os
+
+    # 1. Check Database
+    db_status = "unconnected"
+    try:
+        with engine.connect() as conn:
+            conn.execute(text("SELECT 1"))
+            db_status = "connected"
+    except Exception as e:
+        db_status = f"error: {str(e)}"
+
+    # 2. Check Data Files
+    data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/synthetic/gap_extended"))
+    files_missing = []
+    required_files = ["incoming_stos_extended.json", "customer_orders.json", "plant_country_master.json"]
+    for f in required_files:
+        if not os.path.exists(os.path.join(data_dir, f)):
+            files_missing.append(f)
+
+    return {
+        "status": "healthy" if db_status == "connected" and not files_missing else "degraded",
+        "database": db_status,
+        "data_files": {
+            "path": data_dir,
+            "missing": files_missing,
+            "found_all": len(files_missing) == 0
+        },
+        "cwd": os.getcwd(),
+        "environment": os.getenv("ENVIRONMENT", "unknown")
+    }
 
 if __name__ == "__main__":
     import uvicorn

@@ -4,7 +4,9 @@ from sqlalchemy.orm import declarative_base
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+# Get the absolute path to the backend directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 # Get the Database URL from the environment, defaulting to a local SQLite file
 SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./scnv_agent.db")

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ============================================================ -->
+    <!-- TITLE -->
+    <!-- ============================================================ -->
+    <mxCell id="title" value="SCNV Agent — Production AWS Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="300" y="20" width="900" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- ============================================================ -->
+    <!-- TIER LABELS -->
+    <!-- ============================================================ -->
+    <mxCell id="lbl_users"  value="USERS"      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#888888;rotation=-90;" vertex="1" parent="1"><mxGeometry x="20" y="80"   width="50" height="60"  as="geometry"/></mxCell>
+    <mxCell id="lbl_edge"   value="EDGE"       style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#888888;rotation=-90;" vertex="1" parent="1"><mxGeometry x="20" y="170"  width="50" height="60"  as="geometry"/></mxCell>
+    <mxCell id="lbl_api"    value="API"        style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#888888;rotation=-90;" vertex="1" parent="1"><mxGeometry x="20" y="290"  width="50" height="80"  as="geometry"/></mxCell>
+    <mxCell id="lbl_agents" value="AGENTS"     style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#888888;rotation=-90;" vertex="1" parent="1"><mxGeometry x="20" y="420"  width="50" height="160" as="geometry"/></mxCell>
+    <mxCell id="lbl_data"   value="DATA"       style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#888888;rotation=-90;" vertex="1" parent="1"><mxGeometry x="20" y="650"  width="50" height="160" as="geometry"/></mxCell>
+    <mxCell id="lbl_kafka"  value="EVENTS"     style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#888888;rotation=-90;" vertex="1" parent="1"><mxGeometry x="20" y="870"  width="50" height="120" as="geometry"/></mxCell>
+    <mxCell id="lbl_int"    value="INTEGR."    style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#888888;rotation=-90;" vertex="1" parent="1"><mxGeometry x="20" y="1050" width="50" height="120" as="geometry"/></mxCell>
+    <mxCell id="lbl_obs"    value="OPS"        style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#888888;rotation=-90;" vertex="1" parent="1"><mxGeometry x="20" y="1220" width="50" height="100" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ROW 1 — USERS -->
+    <!-- ============================================================ -->
+    <mxCell id="u1" value="&lt;b&gt;Inventory Analyst&lt;/b&gt;&lt;br/&gt;Reviews alerts, acts in SAP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="80" width="220" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="u2" value="&lt;b&gt;Supply Chain Planner&lt;/b&gt;&lt;br/&gt;Plans stock replenishment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="370" y="80" width="220" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="u3" value="&lt;b&gt;Command Center Analyst&lt;/b&gt;&lt;br/&gt;Monitors KPIs &amp; cost" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="640" y="80" width="220" height="60" as="geometry" />
+    </mxCell>
+    <!-- arrows down -->
+    <mxCell id="e_u1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="u1" target="cloudfront" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_u2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="u2" target="alb"        parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_u3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="u3" target="alb"        parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ROW 2 — EDGE LAYER (AWS container) -->
+    <!-- ============================================================ -->
+    <mxCell id="edge_container" value="AWS Edge Layer  (eu-west-1)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=11;fontColor=#888888;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="160" width="900" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="cloudfront" value="&lt;b&gt;CloudFront CDN&lt;/b&gt;&lt;br/&gt;Static assets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="180" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="waf" value="&lt;b&gt;AWS WAFv2&lt;/b&gt;&lt;br/&gt;OWASP + rate limit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="290" y="180" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="alb" value="&lt;b&gt;ALB (HTTPS / TLS 1.3)&lt;/b&gt;&lt;br/&gt;Path-based routing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="480" y="180" width="200" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="route53" value="&lt;b&gt;Route 53&lt;/b&gt;&lt;br/&gt;DNS + health check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="710" y="180" width="160" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="e_cf_waf"  style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="cloudfront" target="waf" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_waf_alb" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="waf" target="alb" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_r53_alb" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="route53" target="alb" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ROW 3 — API LAYER (EKS api-workers) -->
+    <!-- ============================================================ -->
+    <mxCell id="api_container" value="EKS — api-workers (c6i.xlarge × 2–8, HPA 60% CPU)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_eks;strokeColor=#FF9900;fillColor=none;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=11;fontColor=#888888;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="280" width="900" height="120" as="geometry" />
+    </mxCell>
+    <mxCell id="fastapi" value="&lt;b&gt;FastAPI Backend&lt;/b&gt;&lt;br/&gt;REST /api/v1/* + WebSocket /chat&lt;br/&gt;JWT auth · CORS · slowapi rate limit&lt;br/&gt;4 Uvicorn workers per pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="305" width="280" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="react" value="&lt;b&gt;React Frontend (Nginx)&lt;/b&gt;&lt;br/&gt;Chat · KPI Dashboard · Alerts · Network Graph&lt;br/&gt;Vite SPA — served via CloudFront&lt;br/&gt;Replicas: 2–4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="430" y="305" width="280" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="e_alb_api"   style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="alb" target="fastapi" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_alb_react" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="alb" target="react"   parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ROW 4 — AGENT LAYER (EKS agent-workers) -->
+    <!-- ============================================================ -->
+    <mxCell id="agent_container" value="EKS — agent-workers (c6i.2xlarge × 2–10, taint: dedicated=agents)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_eks;strokeColor=#FF9900;fillColor=none;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=11;fontColor=#888888;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="420" width="900" height="220" as="geometry" />
+    </mxCell>
+    <!-- Orchestrator (full width) -->
+    <mxCell id="orchestrator" value="&lt;b&gt;Agent Orchestrator  (LangGraph state graph)&lt;/b&gt;&lt;br/&gt;Routes: STO_CREATED · SO_CREATED · DELIVERY_CREATED · user_query  |  A2A hub-and-spoke  |  confidence threshold 0.95&lt;br/&gt;Auto-execute ≥ 95% confidence  |  Escalate &lt; 95%  |  2hr timeout → manager escalation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="445" width="860" height="70" as="geometry" />
+    </mxCell>
+    <!-- 5 agents -->
+    <mxCell id="ag_scm" value="&lt;b&gt;SCM Analyst&lt;/b&gt;&lt;br/&gt;Rules 1–4 (Tier 1)&lt;br/&gt;LLM edge cases (Tier 2)&lt;br/&gt;80% auto classify&lt;br/&gt;trace_batch()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="535" width="150" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="ag_opt" value="&lt;b&gt;Optimizer&lt;/b&gt;&lt;br/&gt;Re-routing&lt;br/&gt;Cost calculator&lt;br/&gt;OR-Tools&lt;br/&gt;find_best_source()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="270" y="535" width="150" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="ag_alloc" value="&lt;b&gt;Allocation Efficiency&lt;/b&gt; (NEW)&lt;br/&gt;SO vs optimal plant&lt;br/&gt;Country KPIs&lt;br/&gt;Sub-optimal customer %&lt;br/&gt;daily cron + SO_CREATED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="440" y="535" width="160" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="ag_pm" value="&lt;b&gt;Process Mining&lt;/b&gt;&lt;br/&gt;Celonis PyCelonis&lt;br/&gt;Lane KPIs&lt;br/&gt;Conformance scoring&lt;br/&gt;PLUGGABLE (ON/OFF)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="620" y="535" width="150" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="ag_comm" value="&lt;b&gt;Communication Agent&lt;/b&gt;&lt;br/&gt;PUSH: Slack/Teams cards&lt;br/&gt;PULL: RAG chatbot&lt;br/&gt;rag_retrieve() + pgvector&lt;br/&gt;Dual-mode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="790" y="535" width="170" height="90" as="geometry" />
+    </mxCell>
+    <!-- orchestrator → agents -->
+    <mxCell id="e_orch_scm"   style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="orchestrator" target="ag_scm"   parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_orch_opt"   style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="orchestrator" target="ag_opt"   parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_orch_alloc" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="orchestrator" target="ag_alloc" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_orch_pm"    style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="orchestrator" target="ag_pm"    parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_orch_comm"  style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="orchestrator" target="ag_comm"  parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- fastapi → orchestrator -->
+    <mxCell id="e_api_orch" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="fastapi" target="orchestrator" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ROW 5 — DATA LAYER -->
+    <!-- ============================================================ -->
+    <mxCell id="data_container" value="Data layer — AWS eu-west-1  (private / database subnets)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_database;strokeColor=#3F8624;fillColor=none;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=11;fontColor=#888888;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="660" width="900" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="rds" value="&lt;b&gt;RDS PostgreSQL + pgvector&lt;/b&gt;&lt;br/&gt;db.r6g.xlarge Multi-AZ&lt;br/&gt;200GB gp3 → auto 1TB&lt;br/&gt;Tables: sto_events · sto_classifications&lt;br/&gt;sto_decisions · agent_decision_embeddings&lt;br/&gt;country_kpis · audit_events · human_overrides" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="680" width="230" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="rds_replica" value="&lt;b&gt;Read Replica&lt;/b&gt;&lt;br/&gt;db.r6g.large&lt;br/&gt;RAG query offload" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="350" y="680" width="160" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="redis" value="&lt;b&gt;ElastiCache Redis&lt;/b&gt;&lt;br/&gt;3× cache.r6g.large Multi-AZ&lt;br/&gt;Sessions · WS state&lt;br/&gt;API response cache (30s TTL)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="350" y="770" width="160" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="neo4j" value="&lt;b&gt;Neo4j Graph DB&lt;/b&gt;&lt;br/&gt;EC2 r6i.xlarge&lt;br/&gt;Plant → DC → Customer&lt;br/&gt;Sourcing matrix · Lane capacities&lt;br/&gt;Spatial reasoning for Optimizer&lt;br/&gt;Daily snapshot to S3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="540" y="680" width="180" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="s3" value="&lt;b&gt;S3&lt;/b&gt;&lt;br/&gt;TF state&lt;br/&gt;Artifacts&lt;br/&gt;Audit archive&lt;br/&gt;Logs&lt;br/&gt;Neo4j bkp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="750" y="680" width="120" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="e_rds_rep" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="rds" target="rds_replica" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- agents → data -->
+    <mxCell id="e_scm_rds"  style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="ag_scm"  target="rds"    parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_comm_rds" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="ag_comm" target="rds"    parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_opt_neo"  style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="ag_opt"  target="neo4j"  parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_api_redis" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="fastapi" target="redis" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ROW 6 — KAFKA (MSK) -->
+    <!-- ============================================================ -->
+    <mxCell id="kafka_container" value="Amazon MSK (Kafka 3.6) — 3× kafka.m5.large across 3 AZs  |  Replication: 3  |  min ISR: 2  |  TLS + SCRAM-SHA-512" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_messaging;strokeColor=#E7157B;fillColor=none;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=11;fontColor=#888888;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="870" width="900" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="k_sto" value="&lt;b&gt;sto-events&lt;/b&gt;&lt;br/&gt;STO_CREATED&lt;br/&gt;STO_MODIFIED&lt;br/&gt;STO_DELETED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="895" width="148" height="95" as="geometry" />
+    </mxCell>
+    <mxCell id="k_del" value="&lt;b&gt;delivery-events&lt;/b&gt;&lt;br/&gt;DELIVERY_CREATED&lt;br/&gt;Pre-shipment&lt;br/&gt;intervention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="268" y="895" width="148" height="95" as="geometry" />
+    </mxCell>
+    <mxCell id="k_so" value="&lt;b&gt;so-events&lt;/b&gt;&lt;br/&gt;SO_CREATED&lt;br/&gt;VBAK / VBAP&lt;br/&gt;Allocation check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="436" y="895" width="148" height="95" as="geometry" />
+    </mxCell>
+    <mxCell id="k_audit" value="&lt;b&gt;agent-audit-log&lt;/b&gt;&lt;br/&gt;All decisions&lt;br/&gt;Reasoning logs&lt;br/&gt;→ PostgreSQL / S3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="604" y="895" width="148" height="95" as="geometry" />
+    </mxCell>
+    <mxCell id="k_notif" value="&lt;b&gt;notifications-outbound&lt;/b&gt;&lt;br/&gt;Slack Block Kit cards&lt;br/&gt;Teams Adaptive Cards&lt;br/&gt;Webhook delivery + retry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="772" y="895" width="188" height="95" as="geometry" />
+    </mxCell>
+    <!-- kafka → orchestrator (consume) -->
+    <mxCell id="e_k_orch" value="consume" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="k_sto" target="orchestrator" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ROW 7 — EXTERNAL INTEGRATIONS -->
+    <!-- ============================================================ -->
+    <mxCell id="int_container" value="External integrations  (via VPN / SAP Cloud Connector / public APIs)" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_server_contents;strokeColor=#147EBA;fillColor=none;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=11;fontColor=#888888;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="1050" width="900" height="140" as="geometry" />
+    </mxCell>
+    <mxCell id="sap" value="&lt;b&gt;SAP S/4HANA&lt;/b&gt;&lt;br/&gt;Event Mesh (AMQP → Kafka)&lt;br/&gt;OData v4 reads (master data)&lt;br/&gt;BAPI write-back (delete/modify STO)&lt;br/&gt;Safety: 50 auto-del/day cap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="1075" width="200" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="o9" value="&lt;b&gt;o9 Solutions&lt;/b&gt;&lt;br/&gt;Daily SFTP → S3&lt;br/&gt;Distribution plans&lt;br/&gt;STRs · Forecasts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="320" y="1075" width="160" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="celonis" value="&lt;b&gt;Celonis&lt;/b&gt;&lt;br/&gt;PyCelonis REST API&lt;br/&gt;Lane KPIs&lt;br/&gt;Conformance scoring&lt;br/&gt;CELONIS_ENABLED flag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="500" y="1075" width="180" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="slack" value="&lt;b&gt;Slack / MS Teams&lt;/b&gt;&lt;br/&gt;Block Kit + Adaptive Cards&lt;br/&gt;Approve / Reject buttons&lt;br/&gt;2hr auto-escalation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="700" y="1075" width="180" height="100" as="geometry" />
+    </mxCell>
+    <!-- sap → kafka -->
+    <mxCell id="e_sap_k" value="AMQP events" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="sap" target="k_sto" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- comm agent → slack -->
+    <mxCell id="e_comm_slack" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="ag_comm" target="slack" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- celonis → process mining -->
+    <mxCell id="e_cel_pm" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="celonis" target="ag_pm" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- ROW 8 — OBSERVABILITY -->
+    <!-- ============================================================ -->
+    <mxCell id="obs_container" value="Observability &amp; ops" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_management_console;strokeColor=#E7157B;fillColor=none;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=11;fontColor=#888888;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="1220" width="900" height="130" as="geometry" />
+    </mxCell>
+    <mxCell id="prom" value="&lt;b&gt;Prometheus&lt;/b&gt;&lt;br/&gt;Agent latency p99&lt;br/&gt;Auto-execution rate&lt;br/&gt;Kafka consumer lag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="1245" width="180" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="grafana" value="&lt;b&gt;Grafana&lt;/b&gt;&lt;br/&gt;STO classification dashboard&lt;br/&gt;Country KPI scoreboards&lt;br/&gt;Infrastructure health" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="300" y="1245" width="190" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="cw" value="&lt;b&gt;CloudWatch + CloudTrail&lt;/b&gt;&lt;br/&gt;Alarms + dashboards&lt;br/&gt;Fluent Bit log shipping&lt;br/&gt;7yr CloudTrail retention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="510" y="1245" width="200" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="sns" value="&lt;b&gt;SNS + PagerDuty&lt;/b&gt;&lt;br/&gt;P1: classification errors&lt;br/&gt;P2: pod crash loops&lt;br/&gt;Slack ops alerts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="730" y="1245" width="190" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="e_prom_gr" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="prom" target="grafana" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e_cw_sns"  style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="cw" target="sns"     parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- ============================================================ -->
+    <!-- TERRAFORM / SECURITY BADGES -->
+    <!-- ============================================================ -->
+    <mxCell id="sec_badge" value="&lt;b&gt;Security Controls&lt;/b&gt;&lt;br/&gt;AWS Cognito JWT RS256 · RBAC 3 roles&lt;br/&gt;KMS CMK + AES-256 at rest everywhere&lt;br/&gt;TLS 1.3 in transit · WAF + Shield&lt;br/&gt;AWS Inspector + ECR scan on push" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="1375" width="350" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="tf_badge" value="&lt;b&gt;Terraform IaC&lt;/b&gt;&lt;br/&gt;S3 remote state + DynamoDB lock table&lt;br/&gt;terraform-aws-modules/vpc + eks&lt;br/&gt;Helm releases: fastapi · agents · consumer · frontend&lt;br/&gt;GitHub Actions CI/CD · prod + staging envs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="510" y="1375" width="420" height="90" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
